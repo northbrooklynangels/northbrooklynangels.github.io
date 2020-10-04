@@ -10,7 +10,7 @@ title: Angelmobile Meals
     }
 </style>
 
-North Brooklyn Angels aims to cook & serve 1,000 meals per week to the food insecure in our community. Each weekday, the Angelmobile currently serves around 100-225 meals depending on the site and the weather. Volunteers cook and serve all the food served in our community meals.
+North Brooklyn Angels aims to cook & serve 2,000 meals per week to the food insecure in our community. Each weekday, the Angelmobile currently serves around 100-225 meals depending on the site and the weather. Volunteers cook and serve all the food served in our community meals.
 
  
 * Monday’s Community Meal In Greenpoint  
