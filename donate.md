@@ -11,9 +11,9 @@ By donating money and sponsoring a meal, you embody our central mission of neigh
 
 To invest in a neighborhood without hunger, donate here or mail a check payable to:
 
-North Brooklyn Angels  
-42 West Street #202  
-Brooklyn, NY 11222
+> North Brooklyn Angels  
+> 42 West Street #202  
+> Brooklyn, NY 11222
 
 Recurring donations are the best way to give steady support.
 
