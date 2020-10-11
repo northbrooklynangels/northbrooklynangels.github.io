@@ -15,7 +15,7 @@ We run a mobile soup kitchen, called the Angelmobile, which serves hot lunch 6 d
 
 In order to address the meal gap which exists in our neighborhood, we have built a custom food truck complete with office space that operates as a mobile soup kitchen. Thanks to the generous donations and support of the Episcopal Diocese of Long Island and Norm & Elaine Brodsky, we built our Angelmobile and have the ability to bring healthy meals and community resources right to the places they are most needed. Since July 2017, we have been serving a hot lunch Monday through Friday at six sites around North Brooklyn. In addition to feeding people, our office area regularly hosts representatives from local city council offices, housing counselors, and healthcare advocates and our community table distributes information & flyers in addition to free clothes, books, toys, and personal hygiene products.
 
-## COOKING IT UP IN THE COMMUNITY KITCHEN
+## Cooking It Up in the Community Kitchen
 
 Thanks to the generous support from Elaine and Norm Brodsky, Msgr. Jamie Gigantiello, and local restaurateur Josh Cohen, the North Brooklyn Angels are preparing all of their meals in a brand new kitchen!
 

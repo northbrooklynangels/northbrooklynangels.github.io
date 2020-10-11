@@ -19,7 +19,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Follow us!
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-Instagram_username: northbrooklynangels
+instagram_username: northbrooklynangels
 
 # Collections
 collections: 
@@ -27,7 +27,7 @@ collections:
 
 # Build settings
 markdown: kramdown
-theme: minima
+# theme: minima
 plugins:
   - jekyll-feed
 
