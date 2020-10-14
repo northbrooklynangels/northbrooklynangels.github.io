@@ -9,7 +9,9 @@ title: Volunteer
 
 **In order to be accessible to all our neighbors,** we try to utilize all the ways to get people involved in our programs and signed up for volunteer shifts. We use our website, email, apps, social media messaging, text, phone, and in-person methods to get people linked into our program. 
 
-**IF YOU WANT TO VOLUNTEER THE MOST IMPORTANT THING IS TO PUT YOUR NAME ON THE VOLUNTEER EMAIL LIST BELOW.** If you are interested in becoming a regular weekly volunteer, we encourage you to stop by the kitchen or Angelmobile and get to work!! We send out bi-weekly emails with updates to our volunteer schedule. You can contact us with questions about volunteering through any medium - phone, email, messaging, etc. Follow us on [**Instagram**](https://www.instagram.com/northbrooklynangels/), like us on [**Facebook**](https://www.facebook.com/northbrooklynangels/), or follow us on [**Twitter**](https://twitter.com/nbrooklynangels). Besides fab photos, we use social media to post last minute & emergency volunteer needs. If you like to use apps, we use an app to schedule some shifts -- sign up with [**Deed**](http://godeed.today/) in order to sign up for shifts from your phone. (This app is not just for Angel stuff but we actively post volunteer opportunities, especially our weekend cooking shifts via this app) 
+**IF YOU WANT TO VOLUNTEER THE MOST IMPORTANT THING IS TO GET ON THE DEED APP!** We use an app to schedule some shifts -- sign up with [**Deed**](http://godeed.today/) in order to sign up for shifts from your phone. Once you have signed up, look up North Brooklyn Angels to see the few upcoming shifts!
+
+You can contact us with questions about volunteering through any medium - phone, email, messaging, etc. Follow us on [**Instagram**](https://www.instagram.com/northbrooklynangels/), like us on [**Facebook**](https://www.facebook.com/northbrooklynangels/), or follow us on [**Twitter**](https://twitter.com/nbrooklynangels). Besides fab photos, we use social media to post last minute & emergency volunteer needs!
 
 **TO SCHEDULE & ARRANGE GROUPS of 5** or more email northbrooklynangels@gmail.com
 
