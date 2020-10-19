@@ -1,33 +1,12 @@
-<footer class="site-footer h-card">
-  <data class="u-url" href="{{ "/" | relative_url }}"></data>
+<footer id="site-footer" class="mt-auto mt-3 py-3">
+    <data class="u-url" href="{{ "/" | relative_url }}"></data>
 
-  <div class="wrapper">
-
-    <h2 class="footer-heading">{{ site.title | escape }}</h2>
-
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li class="p-name">
-            {%- if site.author -%}
-              {{ site.author | escape }}
-            {%- endif -%}
-            </li>
-            {%- if site.email -%}
-            <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-            {%- endif -%}
-        </ul>
-      </div>
-
-      <div class="footer-col footer-col-2">
-        {%- include social.html -%}
-      </div>
-
-      <div class="footer-col footer-col-3">
-        <p>{{- site.description | escape -}}</p>
-      </div>
+    <div class="container d-flex justify-content-between">
+        <div class="">
+            <p class="my-0">© 2020 {{site.title}}<br>42 West St. #202, Brooklyn NY 11222<br><a href="mailto:northbrooklynangels@gmail.com">northbrooklynangels@gmail.com</a></p>
+        </div>
+        <div class="text-right">
+            <p class="my-0 align-middle">Site by Francis Sheehan<br>Built with Jekyll</p>
+        </div>
     </div>
-
-  </div>
-
 </footer>

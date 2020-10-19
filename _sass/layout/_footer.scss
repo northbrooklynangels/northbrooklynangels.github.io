@@ -1,0 +1,13 @@
+#site-footer {
+    background-color: #49C8DB;
+    color: $body-color;
+    font-family: "Bebas Neue";
+    text-transform: uppercase;
+    font-size: large;
+
+    div {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+}

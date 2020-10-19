@@ -29,16 +29,20 @@ collections:
 # Build settings
 markdown: kramdown
 # theme: minima
-plugins:
-  - jekyll-feed
+
+# Stylesheet processing
+sass:
+  load_paths:
+    - _scss
+    - node_modules
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
-# exclude:
+exclude:
+  - node_modules
 #   - Gemfile
 #   - Gemfile.lock
-#   - node_modules
 #   - vendor/bundle/
 #   - vendor/cache/
 #   - vendor/gems/
