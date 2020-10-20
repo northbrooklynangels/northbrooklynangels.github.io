@@ -33,7 +33,7 @@ markdown: kramdown
 # Stylesheet processing
 sass:
   load_paths:
-    - _scss
+    - _sass
     - node_modules
 
 # Exclude from processing.
@@ -41,6 +41,7 @@ sass:
 # to override the default setting.
 exclude:
   - node_modules
+  - README.md
 #   - Gemfile
 #   - Gemfile.lock
 #   - vendor/bundle/
