@@ -1,0 +1,93 @@
+---
+layout: page
+title: Donate
+---
+
+<div class="row">
+    <section id="donate-container" class="container col-md">
+        <div class="row mt-3 mb-2">
+            <label class="col-lg-3 col-form-label" for="amount-quick-select">Quick Select</label>
+            <div id="amount-quick-select" class="btn-group col-lg-9" role="group" aria-label="Donation Amount Quick Select">
+                <button id="btn-qs-25" type="button" class="btn btn-outline-primary">$25</button>
+                <button id="btn-qs-50" type="button" class="btn btn-outline-primary">$50</button>
+                <button id="btn-qs-100" type="button" class="btn btn-outline-primary">$100</button>
+                <button id="btn-qs-250" type="button" class="btn btn-outline-primary">$250</button>
+                <button id="btn-qs-1000" type="button" class="btn btn-outline-primary">$1000</button>
+            </div>
+        </div>
+    
+        <div class="row my-2">
+            <label class="col-lg-3 col-form-label" for="amount-entry">Amount</label>
+            <div class="col-lg-9 input-group">
+                <div class="input-group-prepend">
+                    <span class="input-group-text">$</span>
+                </div>
+                <input id="input-amount-entry" type="number" class="form-control" aria-label="Donation Amount" required>
+            </div>
+        </div>
+
+        <div class="container mt-2 mb-3 text-center">
+            <div id="donate-buttons" class="btn-group" role="group" aria-label="Donate Buttons">
+                <button id="btn-donate-once" type="submit" class="btn btn-primary">Donate Once</button>
+                <button id="btn-donate-recurring" type="submit" class="btn btn-primary">Donate Monthly</button>
+            </div>
+        </div>
+
+        <!-- To anyone looking at this and wondering why this is here, it's a quick and dirty method to ensure the PayPal form is properly constructed. All that's happening is that I'm reflecting the content of the visible amount input in the hidden ones, then triggering the correct submit button when the visible one is pressed. -->
+        <div class="invisible">
+            <form action="https://www.paypal.com/cgi-bin/webscr" method="post" id="donate-once-form">
+                <!-- Target email to donate to -->
+                <input type="hidden" name="business" value="northbrooklynangels@gmail.com">
+                <!-- Donate button -->
+                <input type="hidden" name="cmd" value="_donations">
+                <!-- Donation details (do I need all of this?) -->
+                <input type="hidden" name="item_name" value="North Brooklyn Angels One-Time Donation">
+                <!-- Technical details -->
+                <input type="hidden" name="currency_code" value="USD">
+                <input type="hidden" name="charset" value="utf-8">
+                <input id="input-amount-once" type="number" name="amount">
+                <button id="btn-hidden-donate-once"></button>
+            </form>
+    
+            <form action="https://www.paypal.com/cgi-bin/webscr" method="post" id="form-donate-recurring">
+                <!-- Target email to donate to -->
+                <input type="hidden" name="business" value="northbrooklynangels@gmail.com">
+                <!-- Donate button -->
+                <input type="hidden" name="cmd" value="_xclick-subscriptions">
+                <!-- Donation details -->
+                <input type="hidden" name="item_name" value="North Brooklyn Angels Monthly Donation">
+                <!-- Technical details -->
+                <input type="hidden" name="lc" value="US">
+                <input type="hidden" name="no_note" value="1">
+                <input type="hidden" name="no_shipping" value="1">
+                <input type="hidden" name="src" value="1">
+                <input type="hidden" name="p3" value="1">
+                <input type="hidden" name="t3" value="M">
+                <input type="hidden" name="currency_code" value="USD">
+                <input type="hidden" name="no_shipping" value="2">
+                <input type="hidden" name="charset" value="utf-8">
+                <input id="input-amount-recurring" type="number" name="a3">
+                <button id="btn-hidden-donate-recurring"></button>
+            </form>
+        </div>
+    </section>
+    <section class="col">
+        <h3>BE AN ANGEL 2020: SPONSOR A MEAL & GIVE THE GIFT OF FOOD SECURITY</h3>
+        
+        <p>It is no surprise as the cost of food and rents continue to soar higher each year that hunger persists in every corner of our neighborhood. The problem of food insecurity isn't just found in our homeless community; it is seniors struggling with fixed incomes & rising medical costs, children from working families that can't put a healthy meal on the table every night, the students who skip multiple meals in order to afford transportation to class, working families that find it hard to feed themselves at the end of the month, your neighbor across the hall or down the street living paycheck to paycheck, and larger pockets of poverty where whole communities in our neighborhood encounter hungry days. The meal gap can be anywhere from a couple meals a month to a daily struggle to eat.</p>
+        
+        <p>By donating money and sponsoring a meal, you embody our central mission of neighbors helping neighbors. Our grassroots mission is to serve 1,000 meals a week. We are raising funds for 2020. For as little as $4, we can feed one person a healthy, hot meal. $20 feeds them hot meals all week. $80 provides a week of lunches for a family of 4. $800 provides lunch for 200, an entire meal service. $4,000 equals a week of meals. $16,000 provides a whole month of weekday meals. Give a meal in honor of a loved one, give to help a hungry neighbor, donate because North Brooklyn is a community that strives to take care of its own and together we can work on addressing this basic issue of inequality.</p>
+        
+        <p>To invest in a neighborhood without hunger, donate here or mail a check payable to:</p>
+        
+        <address>
+            North Brooklyn Angels<br>
+            42 West Street #202<br>
+            Brooklyn, NY 11222
+        </address>
+        
+        <p>Recurring donations are the best way to give steady support.</p>
+    </section>
+</div>
+
+<script src="/assets/js/donate.js" defer></script>

@@ -1,3 +1,7 @@
 #content img {
     @extend .img-fluid;
 }
+
+blockquote {
+    @extend .blockquote;
+}
