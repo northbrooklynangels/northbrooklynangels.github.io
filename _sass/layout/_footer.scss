@@ -5,9 +5,9 @@
     text-transform: uppercase;
     font-size: large;
 
-    div {
+    .centered {
         display: flex;
-        justify-content: flex-end;
+        justify-content: center;
         align-items: center;
     }
 }

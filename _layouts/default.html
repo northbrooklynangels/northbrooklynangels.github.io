@@ -2,11 +2,15 @@
 <html lang="{{ page.lang | default: site.lang | default: "en" }}" class="h-100">
 
     {%- include head.html -%}
-
+    
     <body class="d-flex flex-column h-100">
+        <a href="#maincontent" class="sr-only sr-only-focusable">Skip navigation</a>
+        
         {%- include header.html -%}
 
         <main role="main" class="flex-shrink-0" aria-label="Content">
+            <a name="maincontent" id="maincontent"></a>
+
             <div id="content" class="container">
                 {{content}}
             </div>

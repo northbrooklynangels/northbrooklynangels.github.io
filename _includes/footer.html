@@ -1,12 +1,32 @@
-<footer id="site-footer" class="mt-auto mt-3 py-3">
+<footer id="site-footer" class="">
     <data class="u-url" href="{{ "/" | relative_url }}"></data>
 
-    <div class="container d-flex justify-content-between">
-        <div class="">
-            <p class="my-0">© 2020 {{site.title}}<br>42 West St. #202, Brooklyn NY 11222<br><a href="mailto:northbrooklynangels@gmail.com">northbrooklynangels@gmail.com</a></p>
-        </div>
-        <div class="text-right">
-            <p class="my-0 align-middle">Site by Francis Sheehan<br>Built with Jekyll</p>
+    <div class="container">
+        <div class="row my-3 centered">
+            <div class="col-md-4 order-md-2">
+                <div class="row">
+                    <div class="col-6 text-right px-1"><i class="fab fa-facebook-square"></i></div>
+                    <div class="col px-1"><a href="https://facebook.com/northbrooklynangels">Facebook</a></div>
+                </div>
+                <div class="row">
+                    <div class="col-6 text-right px-1"><i class="fab fa-twitter"></i></div>
+                    <div class="col px-1"><a href="https://twitter.com/nbrooklynangels">Twitter</a></div>
+                </div>
+                <div class="row">
+                    <div class="col-6 text-right px-1"><i class="fab fa-instagram"></i></div>
+                    <div class="col px-1"><a href="https://instagram.com/northbrooklynangels">Instagram</a></div>
+                </div>
+                <div class="row">
+                    <div class="col-6 text-right px-1"><i class="fas fa-envelope"></i></div>
+                    <div class="col px-1"><a href="mailto:northbrooklynangels@gmail.com">Email</a></div>
+                </div>
+            </div>
+            <div class="col-md-4 order-md-1 text-center">
+                <p class="my-0">© 2020 {{site.title}}<br>42 West St. #202, Brooklyn NY 11222</p>
+            </div>
+            <div class="col-md-4 order-md-3 text-center">
+                <p class="my-0">Built with Jekyll</p>
+            </div>
         </div>
     </div>
 </footer>
