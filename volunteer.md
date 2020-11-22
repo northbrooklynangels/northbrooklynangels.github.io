@@ -17,16 +17,6 @@ You can contact us with questions about volunteering through any medium - phone,
 
 **CHILDREN & TEENAGERS WELCOME TO VOLUNTEER.** We attempt to make our workdays available to all. Children under 10 must be accompanied by an adult. Teens & youth may schedule shifts for school community service hours. 
 
-# Kitchen hours:
-_(In general, subject to change due to holidays or parish hall conflicts)_
-
-* **Saturdays**: 2-6PM
-* **Sundays**: 12-4PM
-* **Monday-Thursday**: 9-1PM
-* **Fridays**: 9-3PM
-
-Shift times can vary; we ask that volunteers commit to at least 2 hours. 
-
 # Angelmobile hours:
 
 Our meals are served daily, Monday - Friday, from approximately 12:30-1:30pm. Angelmobile shifts in general run from Noon to 2pm on site. Volunteers may meet the truck on location at 12pm OR at the kitchen at 11am. 
