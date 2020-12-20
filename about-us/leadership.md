@@ -9,9 +9,6 @@ title: Leadership
   
   Felice Kirby has been in Williamsburg for 4 decades. Originally hired as a professional community organizer to fight property & business abandonment, Felice eventually became co-owner of Teddy’s Bar & Grill, managing the popular community spot until its sale in 2015. Based on her community organizing experience in the South Bronx, Queens & North Brooklyn, Felice spent 15 years employed as a trainer & lecturer in collaborative problem-solving & community policing, training with the NYPD, Harvard Kennedy School Executive Sessions & 24 other municipal agencies. She is also involved locally, with cherished community organizations: NAG (Neighbors Allied for Good Growth), Greenpoint Chamber of Commerce, Brooklyn Allied Bars & Restaurants. Felice lives with her family on N. 8 St.
 
-* Tomás F. Gomez - Special Projects Coordinator
-  
-  Tomás brings a wealth of skills across varying disciplines to the Angels. Beginning his career in client facing roles at The Metropolitan Opera, Martha Stewart Omnimedia and Collegiate School, he transitioned to tech where he served as a consultant for Fox Global Inc., advising on branding, marketing and impact. His endeavors led him to join a startup, Craft, Inc., which followed with a move to Medellín, Colombia, where Tomás served as the founder’s right-hand, aiding in every imaginable aspect of starting a company. After Craft was sold, Tomas moved back to Brooklyn, and joined Blue Label Labs, where he worked as a Program Manager, UX Designer and QA Lead. The desire to have a direct measurable impact led him to volunteer with the North Brooklyn Angels, where he grew from volunteer to staff member. Tomás graduated from Rutgers University with a Major in Philosophy/Religion and Minors in Psychology and Latin.
 
 # BOARD
 
