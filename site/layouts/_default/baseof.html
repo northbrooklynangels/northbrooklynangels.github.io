@@ -10,7 +10,14 @@
         <link href="{{ relURL . }}" rel="stylesheet">
       {{ end }}
     {{ end }}
-
+    
+    <!-- If the page has the donate form, which uses Notyf -->
+    {{ if .HasShortcode "donate" }}
+      {{ with $webpack.donate.css }}
+        <link href="{{ relURL . }}" rel="stylesheet">
+      {{ end }}
+    {{ end }}
+    
     <!-- Put the main CSS below so CSS properties are overridden correctly -->
     {{ with $webpack.main.css }}
       <link href="{{ relURL . }}" rel="stylesheet">
@@ -41,22 +48,29 @@
 
     <script src="https://kit.fontawesome.com/bac65d808b.js" crossorigin="anonymous"></script>
     
-    <!-- Insert webpack stuff -->
+    <!-- Insert main JS -->
     {{ with $webpack.main.js }}
-      <script src="{{ relURL . }}"></script>
+      <script src="{{ relURL . }}" async></script>
     {{ end }}
 
     <!-- If a page uses a carousel, which requires Swiper -->
     {{ if .HasShortcode "carousel" }}
       {{ with $webpack.swiper.js }}
-        <script src="{{ relURL . }}"></script>
+        <script src="{{ relURL . }}" async></script>
       {{ end }}
     {{ end }}
 
     <!-- If a page uses Google Maps -->
     {{ if .HasShortcode "map" }}
       {{ with $webpack.map.js }}
-        <script src="{{ relURL . }}"></script>
+        <script src="{{ relURL . }}" async></script>
+      {{ end }}
+    {{ end }}
+
+    <!-- If a page has a donation form -->
+    {{ if .HasShortcode "donate" }}
+      {{ with $webpack.donate.js }}
+        <script src="{{ relURL . }}" async></script>
       {{ end }}
     {{ end }}
   </body>

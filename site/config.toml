@@ -11,6 +11,11 @@ timeout = 60000
 # https://gohugo.io/getting-started/configuration/#toml-configuration
 disableKinds = ["RSS", "taxonomy", "taxonomyTerm", "sitemap"]
 
+[markup]
+    [markup.goldmark]
+        [markup.goldmark.renderer]
+            unsafe = true
+
 [imaging]
 resampleFilter = "Lanczos"
 quality = 80

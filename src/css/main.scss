@@ -66,17 +66,24 @@ input:checked ~ .toggle-dot {
         @apply mb-4;
     }
 
-    ul li {
+    ul {
         @apply list-disc;
     }
 
-    ol li {
+    ol {
         @apply list-decimal;
     }
 
     // hr
     hr {
         @apply mb-4;
+    }
+}
+
+#donation-form {
+    button.active {
+        @apply bg-blue;
+        @apply text-black;
     }
 }
 

@@ -2,7 +2,7 @@ import "../css/main.scss";
 
 import docReady from "./docready";
 
-docReady(function() {
+docReady(() => {
     // Hamburger menu toggle
     document.getElementById("mobile-nav-toggle").addEventListener("click", () => {
         let nav = document.getElementById("mobile-nav");
@@ -89,7 +89,7 @@ docReady(function() {
 
         button.setAttribute("aria-expanded", expandedState);
     });
-    window.addEventListener("click", event => {
+    document.addEventListener("click", event => {
         // @ts-ignore This is valid JavaScript; the TS type definitions just don't support that, for some reason. Not sure why.
         if (!event.target.matches("#desktop-nav-about-us")) {
             let dropdown = document.getElementById("desktop-nav-about-us-dropdown");

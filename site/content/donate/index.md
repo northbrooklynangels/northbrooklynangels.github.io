@@ -3,10 +3,10 @@ title: Donate
 ---
 
 {{< grid >}}
-{{% grid-column span=3 desktopSpan=2 %}}
-**TODO:** Add the donation form here
+{{% grid-column span=full desktopSpan=3 %}}
+{{< donate >}}
 {{% /grid-column %}}
-{{% grid-column span=3 desktopSpan=1 %}}
+{{% grid-column span=full desktopSpan=2 %}}
 By donating money and sponsoring a meal, you embody our central mission of neighbors helping neighbors. Our grassroots mission is to sustain the ability to serve up to 2,000 meals a week. 
 
 * $4,000 provides a week of meals to neighbors in need

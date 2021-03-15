@@ -6,7 +6,9 @@ Felice Kirby has been in Williamsburg for 4 decades. Originally hired as a profe
 
 Sarah Herold  - Director of Food Services
 Sarah entered into food service and the hospitality industry through the window of a waffle. After completing her Master’s degree in Community Development and Planning, she decided to breathe life into her thesis on spatial theory, place-making and community building by starting a waffle restaurant / community space focused on bringing diverse demographics together around delicious breakfast foods. After a couple of jaunts around the country - organic farming, pouring libations, pontificating with locals - Sarah entered into NYC’s restaurant industry. After writing a notable cover letter she was hired as a cook at Pickle Shack and after being unable to keep her mouth closed began managing the restaurant. Since then Sarah has managed a handful of New York’s high profile, high volume restaurants including Robertas, Wildair and her latest stint as General Manager of Frenchette. After volunteering for a couple of months during quarantine Sarah came onboard to run North Brooklyn Angels in November and is excited about furthering NBA’s work in the community.
-BOARD
+
+
+## BOARD
 Isabel Gardocki
 Isabel currently works in tech and has a varied background as a journalist and attorney. She spent the first eleven years of her life living in Greenpoint and moved back to New York to attend law school in 2008. Since then, she has worked as a volunteer for local organizations like the New York Polish Film Festival and Greenpoint Open Studios, and has also taught ESL to adults. Isabel lives in Greenpoint, speaks Polish and French, and is also hoping to “earn her wings” with this project.
 
@@ -41,4 +43,5 @@ Evan is co-founder of Pythia Public Affairs, a New York-based communications, go
 
 Kevin Thompson
 Kevin Thompson studied Business at LSU, Baton Rouge, Louisiana and graduated from the Tulane University School of Law, New Orleans, Louisiana. Originally from New York City, Kevin has lived in many places across the US, as a result of working in the oil and gas industry. Kevin practiced law in New Orleans for 9 years, prior to moving into Public & Government Affairs. In this new capacity, Kevin represented ConocoPhillips as Public Affairs Manager and Tribal Liaison in Colorado, New Mexico, Utah and Arizona. He was responsible for maintaining positive relations with the Southern Ute and Ute Mountain Ute Tribes, as well as the Jicarilla Apache and Navajo Nations. Later, he represented Shell Oil and Motiva as Public Affairs Manager for Downstream Refining and Chemical assets at their New Orleans facilities. He then moved into the role of Communications and State Government Relations Manager for Sunoco, based in Philadelphia. Kevin is now responsible for Public & Government Affairs for ExxonMobil in New York and New Jersey. His responsibilities include public and government affairs, communications and media relations. A dedicated Brooklyn resident, Kevin serves on a number of boards in the community, including the North Brooklyn Chamber of Commerce and Brooklyn Chamber of Commerce.
-If you are interested in applying to be a member of our board of directors, please send a letter of interest and resume to northbrooklynangels@gmail.com.
+
+If you are interested in applying to be a member of our board of directors, please send a letter of interest and resume to [**northbrooklynangels@gmail.com**](mailto:northbrooklynangels@gmail.com)
