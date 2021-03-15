@@ -2,9 +2,9 @@ name: CI/CD
 
 on:
   push:
-    branches: "3.x"
+    branches: "v3"
   pull_request:
-    branches: "3.x"
+    branches: "v3"
 
 jobs:
   build:
