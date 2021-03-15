@@ -3,6 +3,9 @@ languageCode = "en-us"
 languageLang = "en"
 title = "North Brooklyn Angels"
 
+# Need to raise this because it times out on Github
+timeout = 60000
+
 # RSS, categories and tags disabled for an easy start
 # See configuration options for more details: 
 # https://gohugo.io/getting-started/configuration/#toml-configuration
