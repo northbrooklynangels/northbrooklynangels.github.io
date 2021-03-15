@@ -1,0 +1,61 @@
+<!-- Get the original image and split up the shortcode parameters accordingly -->
+{{ $original := .context.Page.Resources.GetMatch (printf "*%s*" .image) }}
+
+<!-- Because of using this as a partial, this is needed as a workaround for the lack of .Get -->
+{{ $altText := .altText | default "" }}
+{{ $command := .command | default "" }}
+{{ $options := .options | default "" }}
+
+<!-- Templates apparently don't have their own scratch context -->
+{{ $scratch := newScratch }}
+
+<!-- If requested, resize the original image as needed -->
+{{ if eq $command "Fit"}}
+    {{ $scratch.Set "originalProcessed" ($original.Fit $options) }}
+{{ else if eq $command "Resize"}}
+    {{ $scratch.Set "originalProcessed" ($original.Resize $options) }}
+{{ else if eq $command "Fill"}}
+    {{ $scratch.Set "originalProcessed" ($original.Fill $options) }}
+{{ else if eq $command "" }}
+    {{ $scratch.Set "originalProcessed" $original}}
+{{ else }}
+    {{ errorf "Invalid image processing command: Must be one of Fit, Fill, Resize, or empty."}}
+{{ end }}
+
+{{ $originalProcessed := $scratch.Get "originalProcessed" }}
+
+<!-- Generate compressed and resized copies of each image width if the image needs it -->
+{{ $resolutions := slice 240 360 480 542 672 864 1056 }}
+
+{{ range $res := (partial "utility/reverse-slice.html" $resolutions) }}
+    {{ if ge $originalProcessed.Width $res }}
+        {{ $image := $originalProcessed.Resize (print $res "x") }}
+        {{ $scratch.Add "srcset" (slice (print $image.RelPermalink " " $res "w")) }}
+        {{ $scratch.Add "sizes" (slice (print $res "px")) }}
+    {{ end }}
+{{ end }}
+
+<!-- Generate a fallback image, just in case the browser can't interpret the srcset -->
+{{ if gt $originalProcessed.Width 1024 }}
+    {{ $scratch.Set "fallback" ($originalProcessed.Resize "1024x") }}
+{{ else }} 
+    <!-- Run the image through the compressor just to shrink the image size as needed. Also add it to the srcset and sizes slices -->
+    {{ $compressedOriginal := $originalProcessed.Resize (print $originalProcessed.Width "x" $originalProcessed.Height)}}
+    {{ $scratch.Set "fallback" $compressedOriginal }}
+    {{ $scratch.Set "srcset" (slice (print $compressedOriginal.RelPermalink " " $compressedOriginal.Width "w") | append ($scratch.Get "srcset")) }}
+    {{ $scratch.Set "sizes" (slice (print $compressedOriginal.Width "px") | append ($scratch.Get "sizes")) }}
+{{ end }}
+
+<!-- Render the strings accordingly -->
+{{ $srcset := delimit ($scratch.Get "srcset") ", " }}
+{{ $sizes := delimit ($scratch.Get "sizes") ", " }}
+{{ $fallback := ($scratch.Get "fallback").RelPermalink }}
+{{ $fallbackWidth := ($scratch.Get "fallback").Width }}
+{{ $fallbackHeight := ($scratch.Get "fallback").Height }}
+
+<!-- Render the actual returned HTML -->
+<picture>
+    <source srcset="{{ $srcset }}"
+    sizes="{{ $sizes }}" />
+    <img src="{{ $fallback }}" width="{{ $fallbackWidth }}" height="{{ $fallbackHeight }}" alt="{{ $altText }}">
+</picture>

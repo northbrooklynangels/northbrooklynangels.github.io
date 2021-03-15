@@ -1,0 +1,6 @@
+<!-- It's ridiculous that I can't reuse shortcodes in other shortcodes, so into a partial it goes -->
+{{ if .IsNamedParams }}
+    {{ partial "utility/picture.html" (dict "context" . "image" (.Get "image") "altText" (.Get "altText") "command" (.Get "command") "options" (.Get "options")) }}
+{{ else }}
+    {{ partial "utility/picture.html" (dict "context" . "image" (.Get 0) "altText" (.Get 1) "command" (.Get 2) "options" (.Get 3)) }}
+{{ end }}

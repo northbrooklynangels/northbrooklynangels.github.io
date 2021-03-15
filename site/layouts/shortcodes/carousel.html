@@ -1,0 +1,71 @@
+<!-- Unevenly sized pictures will cause the carousel to look janky. To counter this, there's one option:.
+    If aspectRatio is set to a properly formatted aspect ratio string (16:9, 4:3, etc), it will crop and resize all images to that aspect ratio. 
+    -->
+
+{{ $scratch := newScratch }}
+
+{{ if .IsNamedParams }}
+    <!-- Determine what the aspect ratio actually is -->
+    {{ if ne (.Get "aspectRatio") "" }}
+        <!-- Determine if string is in a valid format -->
+        {{ $aspectRatioRaw := findRE "^?[\\d\\.]+?:[\\d\\.?]+?$" (.Get "aspectRatio") }}
+
+        {{ if eq (len $aspectRatioRaw) 1 }}
+            {{ $scratch.Set "ratio" (div (float (index (split (.Get "aspectRatio") ":") 0)) (float (index (split (.Get "aspectRatio") ":") 1))) }}
+        {{ else }}
+            {{ errorf "Invalid carousel shortcode: Aspect ratio %v is not in the format \"width:height\"" $aspectRatioRaw }}
+        {{ end }}
+    {{ end }}
+
+    <!-- Iterate over the images to get their dimensions -->
+    {{ range $imageName := (split (.Get "images") ",") }}
+        {{ if ne ($.Get "aspectRatio") "" }}
+            {{ $image := $.Page.Resources.GetMatch (printf "*%s*" $imageName) }}
+            {{ $imageRatio := (div (float $image.Width) (float $image.Height)) }}
+
+            {{ if gt $imageRatio ($scratch.Get "ratio") }}
+                <!-- Crop horizontally -->
+                {{ $newWidth := int (mul $image.Height ($scratch.Get "ratio")) }}
+
+                {{ $scratch.SetInMap "images" $imageName (print $newWidth "x" $image.Height) }}
+            {{ else if lt $imageRatio ($scratch.Get "ratio") }}
+                <!-- Crop vertically -->
+                {{ $newHeight := int (div $image.Width ($scratch.Get "ratio")) }}
+
+                {{ $scratch.SetInMap "images" $imageName (print $image.Width "x" $newHeight) }}
+            {{ else }}
+                <!-- Do nothing --> 
+                {{ $scratch.SetInMap "images" $imageName ""}}
+            {{ end }}
+        {{ else }}
+            {{ $scratch.SetInMap "images" $imageName "" }}
+        {{ end }}
+    {{ end }}
+{{ else }}
+    {{ if eq (len .Params) 0 }}
+        {{ errorf "Invalid carousel shortcode: You must have at least one image to create a carousel." }}
+    {{ end }}
+
+    {{ range $imageName := .Params }}
+        {{ $scratch.SetInMap "images" $imageName "" }}
+    {{ end }}
+{{ end }}
+
+<!-- Basically, for each image provided, render out a new picture for each -->
+<div class="swiper-container md:w-9/12 sm:w-11/12 mb-4">
+    <div class="swiper-wrapper">
+        {{ range $imageName, $imageDimensions := ($scratch.Get "images") }}
+            <div class="swiper-slide">
+                {{ if eq $imageDimensions "" }}
+                    {{ partial "utility/picture.html" (dict "context" $ "image" $imageName) }}
+                {{ else }}
+                    {{ partial "utility/picture.html" (dict "context" $ "image" $imageName "command" "Fill" "options" $imageDimensions) }}
+                {{ end }}
+            </div>
+        {{ end }}
+    </div>
+    <div class="swiper-pagination"></div>
+    
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+</div>

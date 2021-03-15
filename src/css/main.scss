@@ -1,0 +1,113 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.toggle-dot {
+    top: -.25rem;
+    left: -.25rem;
+    transition: all 0.05s ease-in-out;
+}
+
+input:checked ~ .toggle-dot {
+    transform: translateX(100%);
+}
+
+// @apply doesn't work properly with SCSS for some reason
+.markdown {
+    // Headings
+    h1 {
+        @apply text-5xl;
+        @apply mb-2;
+    }
+    h2 {
+        @apply text-4xl;
+        @apply mb-2;
+    }
+    h3 {
+        @apply text-2xl;
+        @apply mb-2;
+    }
+    h4 {
+        @apply text-xl;
+        @apply mb-2;
+    }
+    h5 {
+        @apply text-lg;
+        @apply mb-2;
+    }
+    h6 {
+        @apply text-base;
+        @apply mb-2;
+    }
+
+    // Body copy
+    p {
+        @apply mt-0;
+        @apply mb-4;
+    }
+
+    blockquote {
+        @apply mb-4;
+        @apply text-lg;
+        @apply px-4;
+        @apply italic;
+        @apply border-l-4;
+        @apply border-gray-300;
+        @apply dark:border-gray-600;
+    }
+
+    // Lists
+    ol, ul {
+        @apply pl-8;
+    }
+
+    dl, ol, ul {
+        @apply mt-0;
+        @apply mb-4;
+    }
+
+    ul li {
+        @apply list-disc;
+    }
+
+    ol li {
+        @apply list-decimal;
+    }
+
+    // hr
+    hr {
+        @apply mb-4;
+    }
+}
+
+:root {
+    --swiper-navigation-color: theme("colors.white");
+    --swiper-theme-color: theme("colors.white");
+}
+.swiper-slide {
+    img {
+        width: 100%;
+    }
+}
+
+// Carousel tweaks
+.swiper-button-next, .swiper-button-prev {
+    text-shadow: 0 0 2px theme("colors.black");
+}
+
+@supports (-webkit-text-stroke: 1px theme("colors.black")) {
+    .swiper-button-next, .swiper-button-prev {
+        -webkit-text-stroke: 1px theme("colors.black");
+        -webkit-text-fill-color: theme("colors.white");
+        text-shadow: unset;
+    }
+}
+
+// Google Maps
+#map {
+    height: 400px;
+    width: 100%;
+    
+    // Needed to correct text color issues in night mode
+    @apply dark:text-black;
+}

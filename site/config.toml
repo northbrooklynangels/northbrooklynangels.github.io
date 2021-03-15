@@ -1,0 +1,19 @@
+baseurl = "/"
+languageCode = "en-us"
+languageLang = "en"
+title = "North Brooklyn Angels"
+
+# RSS, categories and tags disabled for an easy start
+# See configuration options for more details: 
+# https://gohugo.io/getting-started/configuration/#toml-configuration
+disableKinds = ["RSS", "taxonomy", "taxonomyTerm", "sitemap"]
+
+[imaging]
+resampleFilter = "Lanczos"
+quality = 80
+anchor = "smart"
+bgColor = "#ffffff"
+
+[params]
+# Meta description
+Description = "test test 1 2 3"

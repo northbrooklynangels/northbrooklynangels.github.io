@@ -1,0 +1,8 @@
+<div class="mb-4 text-gray-600 dark:text-gray-400 text-sm">
+    <a href="/">Home</a>
+    {{ range (split .RelPermalink "/") }}
+        {{ if gt (len . ) 0 }}
+            <i class="fas fa-chevron-right"></i> <a href="/{{ . }}">{{ humanize (replace . "posts" "News") | title }}</a>
+        {{ end }}
+    {{ end }}
+</div>
