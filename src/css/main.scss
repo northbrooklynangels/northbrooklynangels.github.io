@@ -46,6 +46,17 @@ input:checked ~ .toggle-dot {
         @apply mb-4;
     }
 
+    // The "not" is specifically to unbreak the breadcrumbs
+    :not(nav)>a {
+        @apply underline;
+        @apply font-medium;
+
+        &:visited {
+            @apply text-darkblue;
+            @apply dark:text-blue;
+        }
+    }
+
     blockquote {
         @apply mb-4;
         @apply text-lg;
@@ -117,4 +128,20 @@ input:checked ~ .toggle-dot {
     
     // Needed to correct text color issues in night mode
     @apply dark:text-black;
+}
+
+// Luminous lightbox tweaks
+.lum-lightbox-position-helper {
+    img {
+        @apply mx-auto;
+
+        max-width: 100%;
+    }
+}
+.lum-lightbox-caption {
+    @apply font-bold;
+    @apply py-1;
+}
+.lum-lightbox {
+    background: rgba(0, 0, 0, 0.85);
 }

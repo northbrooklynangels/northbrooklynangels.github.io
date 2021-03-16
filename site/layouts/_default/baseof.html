@@ -18,6 +18,13 @@
       {{ end }}
     {{ end }}
     
+    <!-- If the page uses the profile shortcode, which uses Photoswipe -->
+    {{ if .HasShortcode "profile-entry" }}
+      {{ with $webpack.lightbox.css }}
+        <link href="{{ relURL . }}" rel="stylesheet">
+      {{ end }}
+    {{ end }}
+    
     <!-- Put the main CSS below so CSS properties are overridden correctly -->
     {{ with $webpack.main.css }}
       <link href="{{ relURL . }}" rel="stylesheet">
@@ -70,6 +77,13 @@
     <!-- If a page has a donation form -->
     {{ if .HasShortcode "donate" }}
       {{ with $webpack.donate.js }}
+        <script src="{{ relURL . }}" async></script>
+      {{ end }}
+    {{ end }}
+
+    <!-- If a page uses a lightbox -->
+    {{ if .HasShortcode "profile-entry" }}
+      {{ with $webpack.lightbox.js }}
         <script src="{{ relURL . }}" async></script>
       {{ end }}
     {{ end }}

@@ -1,0 +1,25 @@
+{{ $name := .Get "name" | default "" }}
+{{ $description := .Get "description" | default "" }}
+{{ $image := .Get "image" | default "" }}
+
+{{ if eq $name "" }}
+    {{ errorf "Profile entry processing error: Must supply name!" }}
+{{ end }}
+
+<div class="grid grid-cols-3 md:grid-cols-12 gap-x-2 my-2">
+    {{ if ne $image "" }}
+        <figure class="md:col-span-2 md:row-span-2 p-2 pl-0">
+            {{ partial "utility/picture-lightbox.html" (dict "context" . "image" $image "altText" $name "command" "fill" "options" "200x200" "rounded" true "caption" $name) }}
+        </figure>
+    {{ end }}
+    <div class="col-span-2 md:col-span-10 flex items-center md:items-start">
+        {{ if ne $description "" }}
+            <h4 class="align-middle md:align-top"><strong>{{- $name -}}</strong> - {{ $description }}</h4>
+        {{ else }}
+            <h4 class="align-middle md:align-top"><strong>{{- $name -}}</strong></h4>
+        {{ end }}
+    </div>
+    <section class="col-span-full md:col-span-9 min-h-full">
+        {{ .Inner }}
+    </section>
+</div>
