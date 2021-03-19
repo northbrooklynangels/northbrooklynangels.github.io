@@ -16,7 +16,7 @@
         <span class="absolute inset-y-0 left-0 pl-3 py-3">
             <i class="icon-dollar"></i>
         </span>
-        <input id="input-amount-entry" class="py-3 pl-8 pr-3 rounded-md w-full border border-gray-300 dark:bg-gray-900 dark:border-gray-700" type="number" min="0" step="0.01" aria-label="Donation Amount" required>
+        <input id="input-amount-entry" class="py-3 pl-8 pr-3 rounded-md w-full border border-gray-300 dark:bg-gray-900 dark:border-gray-700" inputmode="numeric" pattern="[0-9]*" type="number" min="0" step="0.01" aria-label="Donation Amount" required>
     </div>
     <div class="grid grid-cols-4 gap-4 auto-cols-auto col-span-full">
         <button id="btn-donate-once" type="submit" class="col-start-2 w-full py-2 bg-blue hover:bg-darkblue active:bg-darkblue text-black hover:text-white active:text-white rounded-md transition">Donate Once</button>
