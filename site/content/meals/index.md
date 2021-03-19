@@ -28,7 +28,7 @@ North Brooklyn Angels aims to cook & serve 3,000 meals per week to combat the fo
   1. Cooper Park Houses: The truck is parked in front of the playground at the intersection of Jackson Street and Debevoise Avenue.
   2. 862 Manhattan Avenue: The truck is parked in front of the steps of the St. Anthony of Padua - St. Alphonsus church at the intersection of Manhattan Avenue and Milton Street.
 
-* Friday in Bushwick & the Northside  
+* Friday in Bushwick and the Northside  
   **12:30-1:30 PM**
   1. 138 Montrose Ave: The truck is parked outside of the church.
   2. 1 Havemeyer Street: A meal is served from our community kitchen.
