@@ -1,0 +1,11 @@
+<nav class="mb-4 text-gray-600 dark:text-gray-400 text-sm">
+    <a href="/">Home</a>
+    {{ $path := "" }}
+    {{ range (split .RelPermalink "/") }}
+        {{ if gt (len . ) 0 }}
+            {{ $path = (print $path "/" .) }}
+            &#160;<i class="icon-chevron-right"></i>
+            &#160;<a href="{{ $path }}">{{ humanize (replace . "posts" "News") | title }}</a>
+        {{ end }}
+    {{ end }}
+</nav>

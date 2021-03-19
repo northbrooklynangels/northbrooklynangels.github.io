@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="{{ $.Site.Language.Lang }}">
+  <head>
+    <title>{{ $.Site.Title }}</title>
+    
+    {{ $webpack := .Site.Data.webpack }}
+    <!-- If a page uses a carousel, which requires Swiper -->
+    {{ if or (.HasShortcode "carousel") (.HasShortcode "rich-carousel") }}
+      {{ with $webpack.swiper.css }}
+        <link href="{{ relURL . }}" rel="stylesheet">
+      {{ end }}
+    {{ end }}
+    
+    <!-- If the page has the donate form, which uses Notyf -->
+    {{ if .HasShortcode "donate" }}
+      {{ with $webpack.donate.css }}
+        <link href="{{ relURL . }}" rel="stylesheet">
+      {{ end }}
+    {{ end }}
+    
+    <!-- If the page uses the profile shortcode, which uses Photoswipe -->
+    {{ if .HasShortcode "profile-entry" }}
+      {{ with $webpack.lightbox.css }}
+        <link href="{{ relURL . }}" rel="stylesheet">
+      {{ end }}
+    {{ end }}
+    
+    <!-- Put the main CSS below so CSS properties are overridden correctly -->
+    {{ with $webpack.main.css }}
+      <link href="{{ relURL . }}" rel="stylesheet">
+    {{ end }}
+
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="alternate icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="alternate icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="alternate icon" href="/favicon.ico">
+    <link rel="manifest" href="/site.webmanifest">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="description" content="{{ $.Site.Params.Description | default "" }}">
+    <meta name="keywords" content="{{ $.Site.Params.Keywords | default "" }}">
+    <meta name="robots" content="index,follow">
+
+    <script>
+      // On page load or when changing themes, best to add inline in `head` to avoid FOUC      
+      if (localStorage.darkMode === "true" || (!('darkMode' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+        document.querySelector('html').classList.add('dark');
+      } else {
+        document.querySelector('html').classList.remove('dark');
+      }
+    </script>
+  </head>
+
+  <body class="dark:bg-gray-900 dark:text-gray-200 flex flex-col min-h-screen">
+    {{ partialCached "header.html" . }}
+    <main class="flex-grow">
+      {{ block "main" . }}{{ end }}
+    </main>
+    {{ partialCached "footer.html" . }}
+    
+    <!-- Insert main JS -->
+    {{ with $webpack.main.js }}
+      <script src="{{ relURL . }}" async></script>
+    {{ end }}
+
+    <!-- If a page uses a carousel, which requires Swiper -->
+    {{ if or (.HasShortcode "carousel") (.HasShortcode "rich-carousel") }}
+      {{ with $webpack.swiper.js }}
+        <script src="{{ relURL . }}" async></script>
+      {{ end }}
+    {{ end }}
+
+    <!-- If a page uses Google Maps -->
+    {{ if .HasShortcode "map" }}
+      {{ with $webpack.map.js }}
+        <script src="{{ relURL . }}" async></script>
+      {{ end }}
+    {{ end }}
+
+    <!-- If a page has a donation form -->
+    {{ if .HasShortcode "donate" }}
+      {{ with $webpack.donate.js }}
+        <script src="{{ relURL . }}" async></script>
+      {{ end }}
+    {{ end }}
+
+    <!-- If a page uses a lightbox -->
+    {{ if .HasShortcode "profile-entry" }}
+      {{ with $webpack.lightbox.js }}
+        <script src="{{ relURL . }}" async></script>
+      {{ end }}
+    {{ end }}
+  </body>
+</html>

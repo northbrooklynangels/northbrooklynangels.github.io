@@ -1,0 +1,9 @@
+{{ $original := .context.Page.Resources.GetMatch (printf "*%s*" .image) }}
+
+{{ if not $original }}
+    {{ errorf (print "Invalid image error! Image \"" .image "\" not found") }}
+{{ end }}
+
+<a href="{{ $original.RelPermalink }}" class="gallery-image" data-caption="{{ .caption }}">
+    {{ partial "utility/picture.html" (dict "context" .context "image" .image "altText" .altText "command" .command "options" .options "float" .float "rounded" .rounded) }}
+</a>

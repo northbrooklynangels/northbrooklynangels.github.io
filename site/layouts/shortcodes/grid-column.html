@@ -1,0 +1,38 @@
+{{ $span := string (.Get "span") | default "" }}
+{{ $start := string (.Get "start") | default "" }}
+{{ $end := string (.Get "end") | default "" }}
+
+{{ $desktopSpan := string (.Get "desktopSpan") | default "" }}
+{{ $desktopStart := string (.Get "desktopStart") | default "" }}
+{{ $desktopEnd := string (.Get "desktopEnd") | default "" }}
+
+{{ $classes := slice }}
+
+<!-- Span classes -->
+{{ if ne $span "" }}
+    {{ $classes = $classes | append (print "col-span-" $span) }}
+{{ end }}
+{{ if ne $desktopSpan "" }}
+    {{ $classes = $classes | append (print "md:col-span-" $desktopSpan) }}
+{{ end }}
+
+<!-- Start classes -->
+{{ if ne $start "" }}
+    {{ $classes = $classes | append (print "col-start-" $start) }}
+{{ end }}
+{{ if ne $desktopStart "" }}
+    {{ $classes = $classes | append (print "md:col-start-" $desktopStart) }}
+{{ end }}
+
+<!-- End classes -->
+{{ if ne $end "" }}
+    {{ $classes = $classes | append (print "col-end-" $end) }}
+{{ end }}
+{{ if ne $desktopEnd "" }}
+    {{ $classes = $classes | append (print "md:col-end-" $desktopEnd) }}
+{{ end }}
+
+<!-- Make no mistake, I hate this code. I have no idea why delimit won't work, but I'm trapped in this hell and I'm gonna make the most out of it. -->
+<div class="{{ (strings.TrimSuffix "]" (strings.TrimPrefix "[" (printf "%s" $classes))) }}">
+    {{- .Inner -}}
+</div>

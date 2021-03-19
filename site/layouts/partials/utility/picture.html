@@ -1,0 +1,84 @@
+<!-- Get the original image and split up the shortcode parameters accordingly -->
+{{ $original := .context.Page.Resources.GetMatch (printf "*%s*" .image) }}
+
+{{ if not $original }}
+    {{ errorf (print "Invalid image error! Image \"" .image "\" not found") }}
+{{ end }}
+
+<!-- Because of using this as a partial, this is needed as a workaround for the lack of .Get -->
+{{ $altText := .altText | default "" }}
+{{ $command := .command | default "" | lower }}
+{{ $options := .options | default "" | lower }}
+{{ $float := .float | default "" | lower }}
+{{ $rounded := .rounded | default "" }}
+
+<!-- Templates apparently don't have their own scratch context -->
+{{ $scratch := newScratch }}
+
+<!-- If requested, resize the original image as needed -->
+{{ if eq $command "fit"}}
+    {{ $scratch.Set "originalProcessed" ($original.Fit $options) }}
+{{ else if eq $command "resize"}}
+    {{ $scratch.Set "originalProcessed" ($original.Resize $options) }}
+{{ else if eq $command "fill"}}
+    {{ $scratch.Set "originalProcessed" ($original.Fill $options) }}
+{{ else if eq $command "" }}
+    {{ $scratch.Set "originalProcessed" $original}}
+{{ else }}
+    {{ errorf "Invalid image processing command: Must be one of \"fit\", \"fill\", \"resize\", or empty."}}
+{{ end }}
+
+{{ $originalProcessed := $scratch.Get "originalProcessed" }}
+
+<!-- Generate compressed and resized copies of each image width if the image needs it -->
+{{ $resolutions := slice 240 360 480 542 672 864 1056 }}
+
+{{ range $res := (partial "utility/reverse-slice.html" $resolutions) }}
+    {{ if ge $originalProcessed.Width $res }}
+        {{ $image := $originalProcessed.Resize (print $res "x") }}
+        {{ $scratch.Add "srcset" (slice (print $image.RelPermalink " " $res "w")) }}
+        {{ $scratch.Add "sizes" (slice (print $res "px")) }}
+    {{ end }}
+{{ end }}
+
+<!-- Generate a fallback image, just in case the browser can't interpret the srcset -->
+{{ if gt $originalProcessed.Width 1024 }}
+    {{ $scratch.Set "fallback" ($originalProcessed.Resize "1024x") }}
+{{ else }} 
+    <!-- Run the image through the compressor just to shrink the image size as needed. Also add it to the srcset and sizes slices -->
+    {{ $compressedOriginal := $originalProcessed.Resize (print $originalProcessed.Width "x" $originalProcessed.Height)}}
+    {{ $scratch.Set "fallback" $compressedOriginal }}
+    {{ $scratch.Set "srcset" (slice (print $compressedOriginal.RelPermalink " " $compressedOriginal.Width "w") | append ($scratch.Get "srcset" | default slice)) }}
+    {{ $scratch.Set "sizes" (slice (print $compressedOriginal.Width "px") | append ($scratch.Get "sizes" | default slice)) }}
+{{ end }}
+
+<!-- Figure out the float position -->
+{{ $classes := "" }}
+{{ if eq $float "left" }}
+    {{ $classes = "p-2 float-left" }}
+{{ else if eq $float "right" }}
+    {{ $classes = "p-2 float-right" }}
+{{ else if ne $float "" }}
+    {{ errorf (print "Invalid image processing command: Invalid float value " $float " supplied, must be one of \"left\", \"right\", or empty.") }}
+{{ end }}
+
+<!-- Render the strings accordingly -->
+{{ $srcset := delimit ($scratch.Get "srcset") ", " }}
+{{ $sizes := delimit ($scratch.Get "sizes") ", " }}
+{{ $fallback := ($scratch.Get "fallback").RelPermalink }}
+{{ $fallbackWidth := ($scratch.Get "fallback").Width }}
+{{ $fallbackHeight := ($scratch.Get "fallback").Height }}
+
+{{ if ne $classes "" }}
+<picture class="{{ $classes }}">
+{{ else }}
+<picture>
+{{ end }}
+    <source srcset="{{ $srcset }}"
+    sizes="{{ $sizes }}" />
+    {{ if $rounded }}
+        <img src="{{ $fallback }}" width="{{ $fallbackWidth }}" height="{{ $fallbackHeight }}" alt="{{ $altText }}" class="rounded-md">
+    {{ else }}
+        <img src="{{ $fallback }}" width="{{ $fallbackWidth }}" height="{{ $fallbackHeight }}" alt="{{ $altText }}">
+    {{ end }}
+</picture>

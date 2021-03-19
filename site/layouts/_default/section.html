@@ -1,0 +1,11 @@
+{{ define "main" }}
+<div class="container mx-auto md:px-16 px-6 markdown">
+  <header>
+    <h1>{{ .Title }}</h1>
+    {{ partial "utility/breadcrumbs.html" . }}
+  </header>
+  <article>
+    {{ .Content }}
+  </article>
+</div>
+{{ end }}

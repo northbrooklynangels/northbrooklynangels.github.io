@@ -1,0 +1,258 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+// Import NBA font
+@import "~@fontsource/bebas-neue/scss/mixins";
+@include fontFace();
+
+// Set up icons from Font Awesome
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../fonts/icomoon.eot?rfqh4o');
+    src:  url('../fonts/icomoon.eot?rfqh4o#iefix') format('embedded-opentype'),
+      url('../fonts/icomoon.ttf?rfqh4o') format('truetype'),
+      url('../fonts/icomoon.woff?rfqh4o') format('woff'),
+      url('../fonts/icomoon.svg?rfqh4o#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-chevron-right:before {
+    content: "\f054";
+}
+.icon-chevron-down:before {
+    content: "\f078";
+}
+.icon-twitter:before {
+    content: "\f099";
+}
+.icon-facebook:before {
+    content: "\f09a";
+}
+.icon-facebook-f:before {
+    content: "\f09a";
+}
+.icon-envelope:before {
+    content: "\f0e0";
+}
+.icon-dollar:before {
+    content: "\f155";
+}
+.icon-usd:before {
+    content: "\f155";
+}
+.icon-instagram:before {
+    content: "\f16d";
+}
+.icon-sun-o:before {
+    content: "\f185";
+}
+.icon-moon-o:before {
+    content: "\f186";
+}
+.icon-copyright:before {
+    content: "\f1f9";
+}
+.icon-at:before {
+    content: "\f1fa";
+}
+.icon-map:before {
+    content: "\f279";
+}
+
+
+.toggle-dot {
+    top: -.25rem;
+    left: -.25rem;
+    transition: all 0.05s ease-in-out;
+}
+
+input:checked ~ .toggle-dot {
+    transform: translateX(100%);
+}
+
+// @apply doesn't work properly with SCSS for some reason
+.markdown {
+    // Headings
+    h1, h2, h3, h4, h5, h6 {
+        @apply font-headers;
+        @apply mb-2;
+    }
+    h1 {
+        @apply text-5xl;
+    }
+    h2 {
+        @apply text-4xl;
+    }
+    h3 {
+        @apply text-3xl;
+    }
+    h4 {
+        @apply text-2xl;
+    }
+    h5 {
+        @apply text-xl;
+    }
+    h6 {
+        @apply text-lg;
+    }
+
+    // Heading size adjustment for rich carousel captions on mobile devices and very small screens
+    // Figure we don't need more than h1, h2, and p
+    .caption {
+        *:last-child {
+            @apply mb-4;
+        }
+
+        h1 {
+            @apply text-3xl;
+            @apply sm:text-4xl;
+            @apply md:text-5xl;
+        }
+        h2 {
+            @apply text-2xl;
+            @apply sm:text-3xl;
+            @apply md:text-4xl;
+        }
+        p {
+            @apply md:text-xl;
+
+            &:last-child {
+                @apply mb-0;
+            }
+        }
+        a {
+            @apply underline;
+            @apply font-medium;
+
+            color: theme("colors.blue");
+        }
+    }
+
+
+    // Body copy
+    p {
+        @apply mt-0;
+        @apply mb-4;
+    }
+
+    // The specificity is to unbreak breadcrumbs
+    article a {
+        @apply underline;
+        @apply font-medium;
+
+        color: theme("colors.darkblue");
+
+        .dark & {
+            color: theme("colors.blue");
+        }
+    }
+
+    blockquote {
+        @apply mb-4;
+        @apply text-lg;
+        @apply px-4;
+        @apply italic;
+        @apply border-l-4;
+        @apply border-gray-300;
+        @apply dark:border-gray-600;
+    }
+
+    // Lists
+    ol, ul {
+        @apply pl-8;
+    }
+
+    dl, ol, ul {
+        @apply mt-0;
+        @apply mb-4;
+    }
+
+    ul {
+        @apply list-disc;
+    }
+
+    ol {
+        @apply list-decimal;
+    }
+
+    // hr
+    hr {
+        @apply mb-4;
+    }
+}
+
+#donation-form {
+    button.active {
+        @apply bg-blue;
+        @apply text-black;
+    }
+}
+
+.profile .grid {
+    grid-template-rows: auto 1fr;
+}
+
+
+// Carousel tweaks
+:root {
+    --swiper-navigation-color: theme("colors.white");
+    --swiper-theme-color: theme("colors.white");
+}
+.swiper-slide {
+    img {
+        width: 100%;
+    }
+}
+.swiper-button-next, .swiper-button-prev {
+    text-shadow: 0 0 2px theme("colors.black");
+}
+
+@supports (-webkit-text-stroke: 1px theme("colors.black")) {
+    .swiper-button-next, .swiper-button-prev {
+        -webkit-text-stroke: 1px theme("colors.black");
+        -webkit-text-fill-color: theme("colors.white");
+        text-shadow: unset;
+    }
+}
+
+// Google Maps
+#map {
+    height: 400px;
+    width: 100%;
+    
+    // Needed to correct text color issues in night mode
+    @apply dark:text-black;
+}
+
+// Luminous lightbox tweaks
+.lum-lightbox-position-helper {
+    img {
+        @apply mx-auto;
+
+        max-width: 100%;
+    }
+}
+.lum-lightbox-caption {
+    @apply font-bold;
+    @apply py-1;
+}
+.lum-lightbox {
+    background: rgba(0, 0, 0, 0.85);
+}

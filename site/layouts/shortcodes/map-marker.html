@@ -1,0 +1,35 @@
+<!-- The more I think about this, the stupider it becomes. God help whoever has to maintain this code (likely me). -->
+<!-- Bring everything into variables so we don't have to worry abouut them later -->
+{{- $lat := .Get "lat" | default "" -}}
+{{- $long := .Get "long" | default "" -}}
+{{- $address := .Get "address" | default "" -}}
+{{- $title := .Get "title" | markdownify | default "" -}}
+
+<!-- Next, evaluate what we're searching for. Lat/long takes priority over address, since we need to geocode those -->
+{{ $latLongRegex := `^-?\d+(\.\d+)?$` }}
+{{ $location := "" }}
+{{ if and $lat $long }}
+    {{ if and (eq (len (findRE $latLongRegex $lat)) 0) (eq (len (findRE $latLongRegex $long)) 0) }}
+        {{ errorf (print "Invalid map marker command: Lat " $lat " and long " $long " are malformed") }}
+    {{ end }}
+{{ else if $address }}
+    {{ warnf "Please consider changing this address to a latitude/longitude pair instead, as addresses will need to be looked up in Google Maps (and count against usage quotas)." }}
+{{ end }}
+
+<!-- Now for the stupid bit -->
+<!-- Pass these values into a JS script, then once the document is ready, fire off events in the document namespace so the map script can add them appropriately -->
+<script>
+    document.addEventListener("mapReady", () => {
+        let markerAddEvent = new CustomEvent("markerAdd", {
+            detail: {
+                lat: Number({{- $lat -}}),
+                long: Number({{- $long -}}),
+                address: {{- $address -}},
+                title: {{- $title | markdownify -}},
+                description: {{- .Inner | markdownify -}}
+            }
+        });
+
+        document.dispatchEvent(markerAddEvent);
+    });
+</script>
