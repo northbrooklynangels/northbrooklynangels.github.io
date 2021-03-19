@@ -1,0 +1,44 @@
+{{ $image := .Page.Resources.GetMatch (printf "*%s*" (.Get "image")) }}
+{{ $ratio := "" }}
+{{ $imageDimensions := "" }}
+
+{{ if ne (.Parent.Get "aspectRatio") "" }}
+    <!-- Determine what the aspect ratio actually is -->
+    {{ if ne (.Parent.Get "aspectRatio") "" }}
+        <!-- Determine if string is in a valid format -->
+        {{ $aspectRatioRaw := findRE "^?[\\d\\.]+?:[\\d\\.?]+?$" (.Parent.Get "aspectRatio") }}
+
+        {{ if eq (len $aspectRatioRaw) 1 }}
+            {{ $ratio = (div (float (index (split (.Parent.Get "aspectRatio") ":") 0)) (float (index (split (.Parent.Get "aspectRatio") ":") 1))) }}
+        {{ else }}
+            {{ errorf "Invalid rich carousel slide shortcode: Aspect ratio %v is not in the format \"width:height\"" $aspectRatioRaw }}
+        {{ end }}
+    {{ end }}
+
+    {{ $imageRatio := (div (float $image.Width) (float $image.Height)) }}
+
+    {{ if gt $imageRatio $ratio }}
+        <!-- Crop horizontally -->
+        {{ $newWidth := int (mul $image.Height $ratio) }}
+
+        {{ $imageDimensions = print $newWidth "x" $image.Height }}
+    {{ else if lt $imageRatio $ratio }}
+        <!-- Crop vertically -->
+        {{ $newHeight := int (div $image.Width $ratio) }}
+
+        {{ $imageDimensions = print $image.Width "x" $newHeight }}
+    {{ end }}
+{{ end }}
+
+<div class="swiper-slide relative">
+    {{ if eq $imageDimensions "" }}
+        {{ partial "utility/picture.html" (dict "context" . "image" (.Get "image") "altText" (.Get "altText" | default "")) }}
+    {{ else }}
+        {{ partial "utility/picture.html" (dict "context" . "image" (.Get "image") "altText" (.Get "altText" | default "") "command" "Fill" "options" $imageDimensions) }}
+    {{ end }}
+    {{ if ne .Inner "" }}
+        <div class="sm:bottom-0 sm:absolute sm:bg-black sm:bg-opacity-70 w-full z-10 p-4 pb-6 sm:pb-8 caption">
+            {{ .Inner }}
+        </div>
+    {{ end }}
+</div>

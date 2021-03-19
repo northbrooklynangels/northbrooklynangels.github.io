@@ -2,33 +2,38 @@
 title: Meals
 ---
 
-{{< carousel images="handing-to-patron,handing-to-volunteer" aspectRatio="16:9" >}}
+{{< rich-carousel aspectRatio="16:9" >}}
+  {{% rich-carousel-slide image="handing-to-volunteer" %}}{{% /rich-carousel-slide %}}
+  {{% rich-carousel-slide image="handing-to-patron" %}}{{% /rich-carousel-slide %}}
+{{< /rich-carousel >}}
 
-North Brooklyn Angels aims to cook & serve 2,000 meals per week to the food insecure in our community. Each weekday, the Angelmobile currently serves, on average, 300 meals depending on the site and the weather. Volunteers cook and serve all the food served in our community meals.
+North Brooklyn Angels aims to cook & serve 3,000 meals per week to combat the food insecure in our community. Volunteers cook and serve all the food served in our community meals. 
 
-* Monday’s Community Meal In Greenpoint  
+* Monday In Greenpoint and Williamsburg  
   **12:30-1:30 PM**
   1. 862 Manhattan Avenue: The truck is parked in front of the steps of the St. Anthony of Padua - St. Alphonsus church at the intersection of Manhattan Avenue and Milton Street.
   2. 195 Maujer Street: The truck is parked in front of St. John the Evangelist Lutheran Church, across the street from the Williamsburg Houses.
 
-* Tuesday’s Community Meal on the Southside  
+* Tuesday on the Southside  
   **12:30-1:30 PM**
   1. 240 Division Avenue: The truck is parked across the street from the Williamsburgh Library on the Division Avenue Overpass, between Marcy Avenue & Rodney Street.
   2. 1 Havemeyer Street: A meal is served right outside our community kitchen.
 
-* Wednesday’s Community Meal In East Williamsburg/Bushwick  
+* Wednesday in East Williamsburg and Bushwick  
   **12:30-1:30 PM**
   1. 195 Maujer Street: The truck is parked in front of St. John the Evangelist Lutheran Church, across the street from the Williamsburg Houses.
 
-* Thursday’s Community Meal in East Williamsburg  
+* Thursday in East Williamsburg and Greenpoint  
   **12:30-1:30 PM**
   1. Cooper Park Houses: The truck is parked in front of the playground at the intersection of Jackson Street and Debevoise Avenue.
   2. 862 Manhattan Avenue: The truck is parked in front of the steps of the St. Anthony of Padua - St. Alphonsus church at the intersection of Manhattan Avenue and Milton Street.
 
-* Friday’s Community Meal in Bushwick & the Northside  
+* Friday in Bushwick & the Northside  
   **12:30-1:30 PM**
-  1. 138 Montrose Ave, Brooklyn, NY 11206: The truck is parked outside of the church.
+  1. 138 Montrose Ave: The truck is parked outside of the church.
   2. 1 Havemeyer Street: A meal is served from our community kitchen.
+
+In addition to the meals listed above, we also deliver meals to seniors at home on Mondays, Wednesdays, and Fridays. 
 
 {{< map >}}
 

@@ -1,4 +1,5 @@
 const colors = require("tailwindcss/colors");
+const defaultTheme = require("tailwindcss/defaultTheme");
 
 module.exports = {
   darkMode: "class",
@@ -15,6 +16,12 @@ module.exports = {
       black: colors.black,
       white: colors.white
     },
+    fontFamily: {
+      sans: defaultTheme.fontFamily.sans,
+      serif: defaultTheme.fontFamily.serif,
+      mono: defaultTheme.fontFamily.mono,
+      headers: ['"Bebas Neue"', ...defaultTheme.fontFamily.sans]
+    }
   },
   variants: {
     extend: {
@@ -22,6 +29,7 @@ module.exports = {
       fontWeight: ["active", "hover"],
       textColor: ["active"]
     },
+    textOpacity: false
   },
   plugins: [],
 };

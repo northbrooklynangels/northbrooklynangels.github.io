@@ -5,7 +5,7 @@
     
     {{ $webpack := .Site.Data.webpack }}
     <!-- If a page uses a carousel, which requires Swiper -->
-    {{ if .HasShortcode "carousel" }}
+    {{ if or (.HasShortcode "carousel") (.HasShortcode "rich-carousel") }}
       {{ with $webpack.swiper.css }}
         <link href="{{ relURL . }}" rel="stylesheet">
       {{ end }}
@@ -29,11 +29,18 @@
     {{ with $webpack.main.css }}
       <link href="{{ relURL . }}" rel="stylesheet">
     {{ end }}
+
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="alternate icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="alternate icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="alternate icon" href="/favicon.ico">
+    <link rel="manifest" href="/site.webmanifest">
     
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="utf-8">
     <meta name="description" content="{{ $.Site.Params.Description | default "" }}">
-    <meta name="keywords" content="soup kitchen,mobile soup kitchen,north brooklyn angels, nba, charity">
+    <meta name="keywords" content="{{ $.Site.Params.Keywords | default "" }}">
     <meta name="robots" content="index,follow">
 
     <script>
@@ -52,8 +59,6 @@
       {{ block "main" . }}{{ end }}
     </main>
     {{ partialCached "footer.html" . }}
-
-    <script src="https://kit.fontawesome.com/bac65d808b.js" crossorigin="anonymous"></script>
     
     <!-- Insert main JS -->
     {{ with $webpack.main.js }}
@@ -61,7 +66,7 @@
     {{ end }}
 
     <!-- If a page uses a carousel, which requires Swiper -->
-    {{ if .HasShortcode "carousel" }}
+    {{ if or (.HasShortcode "carousel") (.HasShortcode "rich-carousel") }}
       {{ with $webpack.swiper.js }}
         <script src="{{ relURL . }}" async></script>
       {{ end }}

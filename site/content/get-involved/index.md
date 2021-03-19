@@ -2,7 +2,7 @@
 title: Get Involved
 ---
 
-{{< carousel images="hero1,hero2,hero3,hero4" aspectRatio="16:9" >}}
+{{< carousel images="hero1,hero2cropped,hero3,hero4" aspectRatio="16:9" >}}
 
 Our goal is to be the place where newer & long term residents come together in support of feeding insecure neighbors in volunteer projects which aid members of our community struggling with economic change. Serving meals is only the beginning…
 

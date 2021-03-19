@@ -32,8 +32,8 @@ Mail a check payable to:
 
 ### Venmo
 
-We’re on Venmo! Our account is [**@northbrooklynangels**](https://venmo.com/northbrooklynangels)
+We’re on Venmo! Our account is [@northbrooklynangels](https://venmo.com/northbrooklynangels)
 
 ### Gofundme
 
-Interested in setting up a Gofundme on our behalf? Look up the Angels with our EIN: 81-4576973​ to link your campaign to our account! Please email us at [**northbrooklynangels@gmail.com**](mailto:northbrooklynangels@gmail.com) for any questions, and we can also help you promote your campaign!
+Interested in setting up a Gofundme on our behalf? Look up the Angels with our EIN: 81-4576973​ to link your campaign to our account! Please email us at [northbrooklynangels@gmail.com](mailto:northbrooklynangels@gmail.com) for any questions, and we can also help you promote your campaign!

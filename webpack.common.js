@@ -70,10 +70,7 @@ module.exports = {
 
   plugins: [
     new webpack.ProvidePlugin({
-      fetch: "imports-loader?this=>global!exports-loader?global.fetch!whatwg-fetch",
-      "Holder": "holderjs",
-      "holder": "holderjs",
-      "window.Holder": "holderjs"
+      fetch: "imports-loader?this=>global!exports-loader?global.fetch!whatwg-fetch"
     }),
 
     new AssetsPlugin({

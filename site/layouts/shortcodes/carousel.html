@@ -1,8 +1,10 @@
-<!-- Unevenly sized pictures will cause the carousel to look janky. To counter this, there's one option:.
+<!-- Unevenly sized pictures will cause the carousel to look janky. To counter this, there's one option:
     If aspectRatio is set to a properly formatted aspect ratio string (16:9, 4:3, etc), it will crop and resize all images to that aspect ratio. 
     -->
 
 {{ $scratch := newScratch }}
+{{ $width := .Get "width" | default "11/12" }}
+{{ $desktopWidth := .Get "desktopWidth" | default "9/12" }}
 
 {{ if .IsNamedParams }}
     <!-- Determine what the aspect ratio actually is -->
@@ -15,6 +17,11 @@
         {{ else }}
             {{ errorf "Invalid carousel shortcode: Aspect ratio %v is not in the format \"width:height\"" $aspectRatioRaw }}
         {{ end }}
+    {{ end }}
+
+    <!-- Figure out width classes -->
+    {{ if or (eq (len (findRE "^(1/2|[12]/3|[1-3]/4|[1-4]/5|[1-6]/6|(?:\\d|1[0-2])/12|full|screen|min|max|auto)$" $width)) 0) (eq (len (findRE "^(1/2|[12]/3|[1-3]/4|[1-4]/5|[1-6]/6|(\\d|1[0-2])/12|full|screen|min|max|auto)$" $desktopWidth)) 0) }}
+        {{ errorf "Invalid carousel shortcode: width %v or desktopWidth %v are invalid! Must be in the format \"1/2\", \"1/3\", \"1/4\" \"1/5\" \"1/6\" \"1/12\", \"full\", \"screen\", \"min\", \"max\", or \"auto\"" $width $desktopWidth }}
     {{ end }}
 
     <!-- Iterate over the images to get their dimensions -->
@@ -52,7 +59,7 @@
 {{ end }}
 
 <!-- Basically, for each image provided, render out a new picture for each -->
-<div class="swiper-container md:w-9/12 sm:w-11/12 mb-4">
+<div class="swiper-container md:w-{{ $desktopWidth }} w-{{ $width }} mb-4">
     <div class="swiper-wrapper">
         {{ range $imageName, $imageDimensions := ($scratch.Get "images") }}
             <div class="swiper-slide">

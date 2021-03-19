@@ -4,7 +4,8 @@
     {{ range (split .RelPermalink "/") }}
         {{ if gt (len . ) 0 }}
             {{ $path = (print $path "/" .) }}
-            <i class="fas fa-chevron-right"></i> <a href="{{ $path }}">{{ humanize (replace . "posts" "News") | title }}</a>
+            &#160;<i class="icon-chevron-right"></i>
+            &#160;<a href="{{ $path }}">{{ humanize (replace . "posts" "News") | title }}</a>
         {{ end }}
     {{ end }}
 </nav>
