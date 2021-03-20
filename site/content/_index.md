@@ -7,15 +7,15 @@ title: Index
 # [Find Your Nearest Meal Site](/meals)
 {{% /rich-carousel-slide %}}
 {{% rich-carousel-slide image="hero1" %}}
-# [Volunteer To Help Out!](/get-involved)
+# [Volunteer To Help Out](/get-involved)
 {{% /rich-carousel-slide %}}
 {{% rich-carousel-slide image="hero5" %}}
 # [Find Your Nearest Meal Site](/meals)
 {{% /rich-carousel-slide %}}
 {{% rich-carousel-slide image="hero4" %}}
-# [Learn More About Us!](/about-us)
+# [Learn More About Us](/about-us)
 {{% /rich-carousel-slide %}}
 {{% rich-carousel-slide image="hero3" %}}
-# [Consider Donating Today!](/donate)
+# [Consider Donating Today](/donate)
 {{% /rich-carousel-slide %}}
 {{< /rich-carousel >}}

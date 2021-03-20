@@ -1,7 +1,11 @@
 <!doctype html>
 <html lang="{{ $.Site.Language.Lang }}">
   <head>
-    <title>{{ $.Site.Title }}</title>
+    <title>
+      {{ block "title" . }}
+        {{ $.Site.Title }}
+      {{ end }}
+    </title>
     
     {{ $webpack := .Site.Data.webpack }}
     <!-- If a page uses a carousel, which requires Swiper -->

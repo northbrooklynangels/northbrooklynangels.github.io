@@ -33,6 +33,9 @@
     -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-camera:before {
+    content: "\f030";
+}
 .icon-chevron-right:before {
     content: "\f054";
 }
