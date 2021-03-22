@@ -1,9 +1,9 @@
-<!-- The more I think about this, the stupider it becomes. God help whoever has to maintain this code (likely me). -->
 <!-- Bring everything into variables so we don't have to worry abouut them later -->
 {{- $lat := .Get "lat" | default "" -}}
 {{- $long := .Get "long" | default "" -}}
 {{- $address := .Get "address" | default "" -}}
 {{- $title := .Get "title" | markdownify | default "" -}}
+{{- $description := .Inner | markdownify | default "" -}}
 
 <!-- Next, evaluate what we're searching for. Lat/long takes priority over address, since we need to geocode those -->
 {{ $latLongRegex := `^-?\d+(\.\d+)?$` }}
@@ -16,20 +16,9 @@
     {{ warnf "Please consider changing this address to a latitude/longitude pair instead, as addresses will need to be looked up in Google Maps (and count against usage quotas)." }}
 {{ end }}
 
-<!-- Now for the stupid bit -->
-<!-- Pass these values into a JS script, then once the document is ready, fire off events in the document namespace so the map script can add them appropriately -->
-<script>
-    document.addEventListener("mapReady", () => {
-        let markerAddEvent = new CustomEvent("markerAdd", {
-            detail: {
-                lat: Number({{- $lat -}}),
-                long: Number({{- $long -}}),
-                address: {{- $address -}},
-                title: {{- $title | markdownify -}},
-                description: {{- .Inner | markdownify -}}
-            }
-        });
-
-        document.dispatchEvent(markerAddEvent);
-    });
-</script>
+<!-- Honestly I don't know how I didn't think of this before. I honestly feel quite stupid right now. -->
+<!-- Create a new, hidden HTML element  with a particular class that will be checked by the map script on page load. Include the requisite data in data-* tags. HTML content should be rendered into divs and fetched accordingly. -->
+<div class="map-marker-data hidden" data-lat={{- $lat -}} data-long={{- $long -}} data-address="{{- $address -}}">
+    <div class="title">{{ $title }}</div>
+    <div class="description">{{ $description }}</div>
+</div>

@@ -1,22 +1,30 @@
 import { Loader } from "@googlemaps/js-api-loader";
 
+import docReady from "./docReady.ts";
+
 const loader = new Loader({
     apiKey: "AIzaSyAZMLzHgOMLubSVx_IcPZy4ioquS0Xm_J8",
     version: "weekly"
 });
 
-let map: google.maps.Map;
-let geocode: (request: google.maps.GeocoderRequest) => Promise<google.maps.GeocoderResult[]>;
-const markers: google.maps.Marker[] = [];
-const infoWindows: google.maps.InfoWindow[] = [];
+// Create a simple semaphore that returns a Promise that only resolves once the document is ready
+const semaphore: {promise: Promise<void>, resolve: (value: any) => void} = {
+    promise: undefined,
+    resolve: undefined
+};
+semaphore.promise = new Promise((resolve, reject) => {semaphore.resolve = resolve});
+
+docReady(() => {
+    semaphore.resolve();
+});
 
 loader.load().then(async () => {
-    map = new google.maps.Map(document.getElementById("map") as HTMLElement, {
+    const map = new google.maps.Map(document.getElementById("map") as HTMLElement, {
         zoom: 13,
         center: new google.maps.LatLng(40.7224852, -73.9459952)
     });
     
-    geocode = (request: google.maps.GeocoderRequest): Promise<google.maps.GeocoderResult[]> => {
+    const geocode = (request: google.maps.GeocoderRequest): Promise<google.maps.GeocoderResult[]> => {
         return new Promise((resolve, reject) => {
             const geocoder = new google.maps.Geocoder();
     
@@ -29,10 +37,21 @@ loader.load().then(async () => {
             })
         })
     };
+    
+    // This will only resolve when document.ready fires
+    await semaphore.promise;
+    
+    const markers = document.querySelectorAll(".map-marker-data").map(async (element: HTMLElement) => {
+        if () {}
+    });
+});
 
+
+/*
     // Dispatch that the map option is ready to go, so the marker scripts can send their information as needed
 
     let mapReadyEvent = new CustomEvent("mapReady");
+
 
     document.dispatchEvent(mapReadyEvent);
 });
@@ -78,3 +97,4 @@ document.addEventListener("markerAdd", async (e: CustomEvent<{
     markers.push();
     infoWindows.push();
 });
+*/
