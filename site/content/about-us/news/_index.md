@@ -1,6 +1,6 @@
 ---
-kind: list
-draft: true
+layout: list
+title: News
 ---
 
-idk
+testgdflkfjshgdflkjshfg

@@ -79,7 +79,6 @@
     content: "\f279";
 }
 
-
 .toggle-dot {
     top: -.25rem;
     left: -.25rem;
@@ -156,7 +155,7 @@ input:checked ~ .toggle-dot {
     }
 
     // The specificity is to unbreak breadcrumbs
-    article a {
+    article a, .post-list a {
         @apply underline;
         @apply font-medium;
 
