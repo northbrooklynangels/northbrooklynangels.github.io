@@ -96,6 +96,12 @@ input:checked ~ .toggle-dot {
         @apply font-headers;
         @apply mb-2;
     }
+    .profile, .post-list {
+        h1, h2, h3, h4, h5, h6 {
+            @apply font-headers;
+            @apply mb-0;
+        }
+    }
     h1 {
         @apply text-5xl;
     }
@@ -207,7 +213,7 @@ input:checked ~ .toggle-dot {
     }
 }
 
-.profile .grid {
+.profile .grid, .post-list .grid {
     grid-template-rows: auto 1fr;
 }
 

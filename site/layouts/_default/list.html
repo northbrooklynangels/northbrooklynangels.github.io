@@ -9,14 +9,14 @@
 {{ define "main" }}
 <div class="container mx-auto md:px-16 px-6 markdown list">
   <header>
-    <h1>{{ .Title }} - List</h1>
+    <h1>{{ .Title }}</h1>
     {{ partial "utility/breadcrumbs.html" . }}
     <div>
       {{ .Content }}
     </div>
   </header>
   <main>
-    {{ partial "utility/post-list.html" . }}
+    {{ partial "layout/post-list.html" . }}
   </main>
 </div>
 {{ end }}

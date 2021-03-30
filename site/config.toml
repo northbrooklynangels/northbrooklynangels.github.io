@@ -2,7 +2,8 @@ baseurl = "/"
 languageCode = "en-us"
 languageLang = "en"
 title = "North Brooklyn Angels"
-paginate = 1
+paginate = 10
+enableGitInfo = true
 
 # Need to raise this because it times out when building on GitHub
 timeout = 60000
