@@ -1,11 +1,21 @@
+{{/* This is mainly for pages that follow a typical file layout format. Pages of the `news` or `post` types use a slightly different implementation that behaves differently */}}
+
 <nav class="mb-4 text-gray-600 dark:text-gray-400 text-sm">
     <a href="/">Home</a>
     {{ $path := "" }}
-    {{ range (split .RelPermalink "/") }}
+    {{ $pathSlice := split .RelPermalink "/" }}
+    {{ $index := 0 }}
+    {{ range $pathSlice }}
         {{ if gt (len . ) 0 }}
             {{ $path = (print $path "/" .) }}
             &#160;<i class="icon-chevron-right"></i>
-            &#160;<a href="{{ $path }}">{{ humanize (replace . "posts" "News") | title }}</a>
+            &#160;
+            {{ if eq (sub (len $pathSlice) 3) $index }}
+                <a href="{{ $path }}">{{ $.Title }}</a>
+            {{ else }}
+                <a href="{{ $path }}">{{ humanize (replace . "posts" "News") | title }}</a>
+            {{ end }}
+            {{ $index = add $index 1 }}
         {{ end }}
     {{ end }}
 </nav>

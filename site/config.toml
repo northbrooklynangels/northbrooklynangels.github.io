@@ -10,6 +10,11 @@ timeout = 60000
 
 # disableKinds = ["RSS", "taxonomy", "taxonomyTerm", "sitemap"]
 
+contentDir = "../content"
+
+[permalinks]
+    "in-the-news" = "/in-the-news/:year/:month/:slug/"
+
 [markup]
     [markup.goldmark]
         [markup.goldmark.renderer]
@@ -25,4 +30,4 @@ bgColor = "#ffffff"
 # Meta description
 Description = "We're North Brooklyn Angels, a volunteer-powered non-profit in Brooklyn that brings food to where the need is through our mobile soup kitchen (the Angelmobile). We now regularly serves over 3,000 hot, healthy meals a week at six locations in North Brooklyn."
 # Meta keywords
-Keywords = "soup kitchen,mobile soup kitchen,north brooklyn angels, nba, charity"
+Keywords = "soup kitchen, mobile soup kitchen, north brooklyn angels, nba, charity"

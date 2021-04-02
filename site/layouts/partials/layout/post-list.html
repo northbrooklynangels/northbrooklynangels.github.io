@@ -8,18 +8,18 @@
 //––––––––––––––––––––––––––––––––––––––––––––––––––
 -->
 
-{{ $paginator := .Paginate .Pages.ByDate }}
+{{ $paginator := .Paginate .Pages.ByDate.Reverse }}
 {{ if ge (len $paginator.Pages) 1 }}
     <div class="flex flex-col post-list">
         {{ range $paginator.Pages }}
             {{ if partial "utility/hasValues" .Params }}
                 <div class="grid grid-cols-12 gap-x-2 my-2">
-                    {{ if isset .Params "headerimage" }}
-                        <a href="{{ .RelPermalink }}" class="col-span-3 sm:col-span-2 md:row-span-2 p-2 pl-0">
-                            <figure>
-                                {{ partial "utility/picture.html" (dict "context" $ "image" .Params.headerimage "command" "fill" "options" "200x200" "rounded" true) }}
-                            </figure>
-                        </a>
+                    {{ if ne (.Params.headerimage | default "") "" }}
+                        <figure class="col-span-3 sm:col-span-2 md:row-span-2 p-2 pl-0">
+                            <a href="{{ .RelPermalink }}">
+                                {{ partial "utility/picture.html" (dict "context" $ "image" (print "img - " (.Date.Format "2006-01-02") " - " .Params.headerimage) "command" "fill" "options" "200x200" "rounded" true) }}
+                            </a>
+                        </figure>
                     {{ end }}
                     <div class="col-span-9 md:col-span-10 flex items-center md:items-start md:pt-0.5 md:mt-px">
                         {{ if ne (.Params.author | default "") "" }}
@@ -38,7 +38,7 @@
                                 {{- .Lastmod.Format "January 2, 2006" -}}
                             {{ end }}
                         </span>
-                        <p class="mb-0">{{- .Summary }} {{ if .Truncated }}<a href="{{ .RelPermalink }}">[ Read More ]</a>{{ end }}</p>
+                        <p class="mb-0">{{- .Summary }}<br><a href="{{ .RelPermalink }}">[ Read More ]</a></p>
                     </section>
                 </div>
             {{ end }}

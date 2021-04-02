@@ -1,0 +1,24 @@
+{{ define "title" }}
+    {{ if ne .Title "" }}
+        {{ .Title }} &ndash; {{ .Site.Title }}
+    {{ else }}
+        {{ .Site.Title }}
+    {{ end }}
+{{ end }}
+
+{{ define "main" }}
+<div class="container mx-auto md:px-16 px-6 markdown">
+    {{/*  {{ if ne (.Params.headerimage | default "") "" }}
+        <figure>
+            {{ partial "utility/picture.html" (dict "context" $ "image" (print "img - " (.Date.Format "2006-01-02") " - " .Params.headerimage)) }}
+        </figure>
+    {{ end }}  */}}
+    <header>
+        <h1>{{ .Title }}</h1>
+        {{ partial "utility/breadcrumbs-post.html" . }}
+    </header>
+    <article>
+        {{ .Content }}
+    </article>
+</div>
+{{ end }}
