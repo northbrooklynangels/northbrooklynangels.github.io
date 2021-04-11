@@ -11,6 +11,7 @@
 {{ $options := .options | default "" | lower }}
 {{ $float := .float | default "" | lower }}
 {{ $rounded := .rounded | default "" }}
+{{ $otherClasses := .otherClasses | default "" }}
 
 <!-- Templates apparently don't have their own scratch context -->
 {{ $scratch := newScratch }}
@@ -60,6 +61,15 @@
     {{ $classes = "p-2 float-right" }}
 {{ else if ne $float "" }}
     {{ errorf (print "Invalid image processing command: Invalid float value " $float " supplied, must be one of \"left\", \"right\", or empty.") }}
+{{ end }}
+
+<!-- Toss in any other user-defined classes -->
+{{ if ne $otherClasses "" }}
+    {{ if eq $classes "" }}
+        {{ $classes = $otherClasses }}
+    {{ else }}
+        {{ $classes = print $classes " " $otherClasses }}
+    {{ end }}
 {{ end }}
 
 <!-- Render the strings accordingly -->

@@ -5,7 +5,7 @@ author: Paul Frangipane
 date: 2020-04-13
 source:  Brooklyn Daily Eagle
 sourceUrl: https://brooklyneagle.com/articles/2020/04/13/north-brooklyn-mobile-soup-kitchen-adjusts-to-pandemic-grows-its-support/
-headerImage: BDE header
+headerImage: header
 headerCaption: "North Brooklyn Angels volunteers drop off meals of baked ziti to Woodhull Hospital employees on April 9. Photo: Paul Frangipane/Brooklyn Eagle"
 ---
 
