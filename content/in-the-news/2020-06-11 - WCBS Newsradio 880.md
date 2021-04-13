@@ -3,7 +3,7 @@ layout: news
 title: North Brooklyn Angels Partner With Restaurants To Feed Those In Need
 author: Mike Sugerman
 date: 2020-06-11
-source: WCBS Newsradio 880
+source: ["WCBS Newsradio 880"]
 sourceUrl: https://www.audacy.com/wcbs880/articles/news/north-brooklyn-angels-partner-with-restaurants-to-feed-needy
 ---
 

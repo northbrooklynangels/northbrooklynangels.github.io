@@ -8,12 +8,15 @@ enableGitInfo = true
 # Need to raise this because it times out when building on GitHub
 timeout = 60000
 
-# disableKinds = ["RSS", "taxonomy", "taxonomyTerm", "sitemap"]
+# disableKinds = ["RSS",  "sitemap"]
 
 contentDir = "../content"
 
 [permalinks]
     "in-the-news" = "/in-the-news/:year/:month/:slug/"
+
+[taxonomies]
+    source = "source"
 
 [markup]
     [markup.goldmark]

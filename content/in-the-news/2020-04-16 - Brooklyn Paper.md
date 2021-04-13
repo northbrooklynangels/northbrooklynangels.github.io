@@ -3,7 +3,7 @@ layout: news
 title: North Brooklyn Angels Feed The Front Lines While Keeping Local Business Alive
 author: Ben Verde
 date: 2020-04-16
-source: Brooklyn Paper
+source: ["Brooklyn Paper"]
 sourceUrl: https://www.brooklynpaper.com/north-brooklyn-angels-feed-the-front-lines-while-keeping-local-business-alive/
 ---
 

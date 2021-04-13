@@ -9,26 +9,70 @@
 {{ define "main" }}
 <div class="container mx-auto md:px-16 px-6 markdown">
     <header>
+    {{ partial "utility/breadcrumbs-post.html" . }}
+
+    {{ $author := .Params.author | default "" }}
+    {{ $source := index .Params.source 0 | default "" }}
+    {{ $sourceUrl := .Params.sourceUrl | default "" }}
+
     {{ if ne (.Params.headerimage | default "") "" }}
-        <!-- Figure out aspect ratio stuff -->
-        {{ $articleImage := .Page.Resources.GetMatch (printf "*%s*" .Params.headerimage) }}
-        {{ if not $articleImage }}
-            {{ errorf (print "Invalid image error! Image \"" .Params.headerimage "\" not found") }}
-        {{ end }}
+        {{ $dimensions :=  partial "utility/picture-ratio-compute.html" (dict "context" . "image" .Params.headerimage "aspectRatio" "21:9") }}
 
         <figure class="relative article-header">
-            {{ partial "utility/picture.html" (dict "context" . "image" .Params.headerimage) }}
-            <div class="sm:bottom-0 sm:absolute sm:bg-black sm:bg-opacity-70 w-full z-10 p-4 article-header">
-                <h1 class="mb-0">{{ .Title }}</h1>
+            {{ partial "utility/picture.html" (dict "context" . "image" .Params.headerimage "command" "fill" "options" $dimensions) }}
+            <div class="lg:bottom-0 lg:absolute lg:bg-black lg:bg-opacity-70 w-full z-10 lg:p-4 pt-4 article-header">
+                <h1 class="mb-0 lg:text-white">{{ .Title }}<br>
+                <span class="text-2xl italic lg:text-gray-400 text-gray-500 dark:text-gray-400">By {{ if ne $author "" }}{{ $author }}{{ end }}
+                    {{ if ne $sourceUrl "" }}{{ if and (ne $author "") (ne $sourceUrl "") }} - {{ end }}<a href="{{ $sourceUrl }}">{{ $source }}</a>{{ end }}
+                </span>
+                </h1>
+                <span class="text-gray-500 dark:text-gray-400 text-sm italic">
+                    {{ if .Date }}
+                        {{- .Date.Format "January 2, 2006" -}}
+                    {{ else }}
+                        {{- .Lastmod.Format "January 2, 2006" -}}
+                    {{ end }}
+                </span>
             </div>
         </figure>
     {{ else }}
-        <h1>{{ .Title }}</h1>
+    <div class="w-full z-10 pt-4 article-header">
+        <h1 class="mb-0">{{ .Title }}<br>
+        <span class="text-2xl italic text-gray-500 dark:text-gray-400">By {{ if ne $author "" }}{{ $author }}{{ end }}
+            {{ if ne ($sourceUrl | default "") "" }}{{ if and (ne $author "") (ne $sourceUrl "") }} - {{ end }}<a href="{{ $sourceUrl }}">{{ $source }}</a>{{ end }}
+        </span>
+        </h1>
+        <span class="text-gray-500 dark:text-gray-400 text-sm italic">
+            {{ if .Date }}
+                {{- .Date.Format "January 2, 2006" -}}
+            {{ else }}
+                {{- .Lastmod.Format "January 2, 2006" -}}
+            {{ end }}
+        </span>
+    </div>
     {{ end }}
-    {{ partial "utility/breadcrumbs-post.html" . }}
     </header>
-    <article>
-        {{ .Content }}
-    </article>
+
+    <div class="grid lg:grid-cols-12 my-4 gap-8">
+        <article class="lg:col-span-9 full-width-images">
+            {{ .Content }}
+        </article>
+        <aside class="lg:col-span-3">
+            <h4>Also from {{ $source }}:</h4>
+            <ul>
+                {{ range first 10 (index .Site.Taxonomies.source ($source | urlize)) }}
+                    <li><a href="{{ .RelPermalink }}">{{ .Title }}</a><br>
+                        <span class="text-gray-500 dark:text-gray-400 text-sm italic">
+                            {{ if .Date }}
+                                {{- .Date.Format "January 2, 2006" -}}
+                            {{ else }}
+                                {{- .Lastmod.Format "January 2, 2006" -}}
+                            {{ end }}
+                        </span>
+                    </li>
+                {{ end }}
+            </ul>
+        </aside>
+    </div>
 </div>
 {{ end }}

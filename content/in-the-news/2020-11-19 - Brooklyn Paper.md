@@ -3,7 +3,7 @@ layout: news
 title: How Community Groups Plan To Provide A "Dignified Thanksgiving" In North Brooklyn
 author: Ben Verde
 date: 2020-11-19
-source: Brooklyn Paper
+source: ["Brooklyn Paper"]
 sourceUrl: https://www.brooklynpaper.com/north-brooklyn-angels-thanksgiving-2020/
 --- 
 

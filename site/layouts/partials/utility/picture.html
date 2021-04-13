@@ -12,6 +12,7 @@
 {{ $float := .float | default "" | lower }}
 {{ $rounded := .rounded | default "" }}
 {{ $otherClasses := .otherClasses | default "" }}
+{{ $caption := .caption | default false }}
 
 <!-- Templates apparently don't have their own scratch context -->
 {{ $scratch := newScratch }}
@@ -79,16 +80,25 @@
 {{ $fallbackWidth := ($scratch.Get "fallback").Width }}
 {{ $fallbackHeight := ($scratch.Get "fallback").Height }}
 
-{{ if ne $classes "" }}
-<picture class="{{ $classes }}">
-{{ else }}
-<picture>
+{{ if $caption }}
+<figure class="py-4">
 {{ end }}
-    <source srcset="{{ $srcset }}"
-    sizes="{{ $sizes }}" />
-    {{ if $rounded }}
-        <img src="{{ $fallback }}" width="{{ $fallbackWidth }}" height="{{ $fallbackHeight }}" alt="{{ $altText }}" class="rounded-md">
+    {{ if ne $classes "" }}
+    <picture class="{{ $classes }}">
     {{ else }}
-        <img src="{{ $fallback }}" width="{{ $fallbackWidth }}" height="{{ $fallbackHeight }}" alt="{{ $altText }}">
+    <picture>
     {{ end }}
-</picture>
+        <source srcset="{{ $srcset }}"
+        sizes="{{ $sizes }}" />
+        {{ if $rounded }}
+            <img src="{{ $fallback }}" width="{{ $fallbackWidth }}" height="{{ $fallbackHeight }}" title="{{ $altText }}" class="rounded-md">
+        {{ else }}
+            <img src="{{ $fallback }}" width="{{ $fallbackWidth }}" height="{{ $fallbackHeight }}" title="{{ $altText }}">
+        {{ end }}
+    </picture>
+{{ if $caption }}
+    {{ if ne $altText "" }}
+        <figcaption class="text-sm text-gray-500 dark:text-gray-400">{{ $altText }}</figcaption>
+    {{ end }}
+</figure>
+{{ end }}

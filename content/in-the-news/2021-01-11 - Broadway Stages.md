@@ -2,7 +2,7 @@
 layout: news
 title: "Charity Spotlight: North Brooklyn Angels"
 date: 2021-01-11
-source: Broadway Stages
+source: ["Broadway Stages"]
 sourceUrl: https://www.broadway-stages.com/news/2021/1/11/charity-spotlight-the-north-brooklyn-angels
 ---
 
