@@ -6,7 +6,7 @@ paginate = 10
 enableGitInfo = true
 
 # Need to raise this because it times out when building on GitHub
-timeout = 60000
+timeout = 120000
 
 # disableKinds = ["RSS",  "sitemap"]
 
