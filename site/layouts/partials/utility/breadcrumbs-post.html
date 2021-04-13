@@ -1,0 +1,24 @@
+<nav class="mb-4 text-gray-600 dark:text-gray-400 text-sm">
+    <a href="/">Home</a>
+    {{ $path := "" }}
+    {{ $pathSlice := split .RelPermalink "/" }}
+    {{ $index := 0 }}
+    {{ range $pathSlice }}
+        {{ if gt (len . ) 0 }}
+            {{ $path = (print $path "/" .) }}
+            {{/* Don't match on any paths that are purely numbers, so the permalink slug format doesn't mess with the outputted slug.*/}}
+            {{/* Don't do this on the last entry in the URL, in case (for some reason) the title is entirely numeric.*/}}
+            {{/* I don't know why I need to subtract 3 from the path slice length, but 🤷‍♀️ */}}
+            {{ if or (eq (len (findRE "^\\d+$" .)) 0) (eq (sub (len $pathSlice) 3) $index) }}
+                &#160;<i class="icon-chevron-right"></i>
+                &#160;
+                {{ if eq (sub (len $pathSlice) 3) $index }}
+                    <a href="{{ $path }}">{{ $.Title }}</a>
+                {{ else }}
+                    <a href="{{ $path }}">{{ humanize (replace . "posts" "News") | title }}</a>
+                {{ end }}
+            {{ end }}
+            {{ $index = add $index 1 }}
+        {{ end }}
+    {{ end }}
+</nav>

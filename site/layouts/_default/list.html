@@ -1,11 +1,22 @@
+{{ define "title" }}
+  {{ if ne .Title "" }}
+    {{ .Title }} &ndash; {{ .Site.Title }}
+  {{ else }}
+    {{ .Site.Title }}
+  {{ end }}
+{{ end }}
+
 {{ define "main" }}
-<div class="container mx-auto md:px-16 px-6 markdown">
+<div class="container mx-auto md:px-16 px-6 markdown list">
   <header>
-    <h1>{{ .Title }} - This is a list</h1>
+    <h1>{{ .Title }}</h1>
     {{ partial "utility/breadcrumbs.html" . }}
+    <div>
+      {{ .Content }}
+    </div>
   </header>
-  <div>
-    {{ .Content }}
-  </div>
+  <main>
+    {{ partial "layout/post-list.html" . }}
+  </main>
 </div>
 {{ end }}

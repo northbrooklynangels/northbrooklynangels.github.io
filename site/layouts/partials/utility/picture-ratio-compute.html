@@ -1,0 +1,36 @@
+{{ $image := .context.Page.Resources.GetMatch (printf "*%s*" .image) }}
+
+{{ if not $image }}
+    {{ errorf (print "Invalid image error! Image \"" .image "\" not found") }}
+{{ end }}
+
+{{ $ratio := "" }}
+{{ $imageDimensions := "" }}
+
+{{ if ne (.aspectRatio | default "orig") "orig" }}
+    {{ $aspectRatioRaw := findRE "^?[\\d\\.]+?:[\\d\\.?]+?$" .aspectRatio }}
+
+    {{ if eq (len $aspectRatioRaw) 1 }}
+        {{ $ratio = (div (float (index (split .aspectRatio ":") 0)) (float (index (split .aspectRatio ":") 1))) }}
+    {{ else }}
+        {{ errorf "Invalid ratio compute partial: Aspect ratio %v is not in the format \"width:height\"" $aspectRatioRaw }}
+    {{ end }}
+
+    {{ $imageRatio := (div (float $image.Width) (float $image.Height)) }}
+
+    {{ if gt $imageRatio $ratio }}
+        <!-- Crop horizontally -->
+        {{ $newWidth := int (mul $image.Height $ratio) }}
+
+        {{ $imageDimensions = print $newWidth "x" $image.Height }}
+    {{ else if lt $imageRatio $ratio }}
+        <!-- Crop vertically -->
+        {{ $newHeight := int (div $image.Width $ratio) }}
+
+        {{ $imageDimensions = print $image.Width "x" $newHeight }}
+    {{ end }}
+{{ else }}
+    {{ $imageDimensions = print $image.Width "x" $image.height }}
+{{ end }}
+
+{{ return $imageDimensions }}

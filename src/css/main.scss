@@ -2,83 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-// Import NBA font
-@import "~@fontsource/bebas-neue/scss/mixins";
-@include fontFace();
-
-// Set up icons from Font Awesome
-@font-face {
-    font-family: 'icomoon';
-    src:  url('../fonts/icomoon.eot?rfqh4o');
-    src:  url('../fonts/icomoon.eot?rfqh4o#iefix') format('embedded-opentype'),
-      url('../fonts/icomoon.ttf?rfqh4o') format('truetype'),
-      url('../fonts/icomoon.woff?rfqh4o') format('woff'),
-      url('../fonts/icomoon.svg?rfqh4o#icomoon') format('svg');
-    font-weight: normal;
-    font-style: normal;
-    font-display: block;
-}
-
-[class^="icon-"], [class*=" icon-"] {
-    /* use !important to prevent issues with browser extensions that change fonts */
-    font-family: 'icomoon' !important;
-    font-style: normal;
-    font-weight: normal;
-    font-variant: normal;
-    text-transform: none;
-    line-height: 1;
-
-    /* Better Font Rendering =========== */
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-}
-
-.icon-camera:before {
-    content: "\f030";
-}
-.icon-chevron-right:before {
-    content: "\f054";
-}
-.icon-chevron-down:before {
-    content: "\f078";
-}
-.icon-twitter:before {
-    content: "\f099";
-}
-.icon-facebook:before {
-    content: "\f09a";
-}
-.icon-facebook-f:before {
-    content: "\f09a";
-}
-.icon-envelope:before {
-    content: "\f0e0";
-}
-.icon-dollar:before {
-    content: "\f155";
-}
-.icon-usd:before {
-    content: "\f155";
-}
-.icon-instagram:before {
-    content: "\f16d";
-}
-.icon-sun-o:before {
-    content: "\f185";
-}
-.icon-moon-o:before {
-    content: "\f186";
-}
-.icon-copyright:before {
-    content: "\f1f9";
-}
-.icon-at:before {
-    content: "\f1fa";
-}
-.icon-map:before {
-    content: "\f279";
-}
-
+@import "icons";
 
 .toggle-dot {
     top: -.25rem;
@@ -96,6 +20,12 @@ input:checked ~ .toggle-dot {
     h1, h2, h3, h4, h5, h6 {
         @apply font-headers;
         @apply mb-2;
+    }
+    .profile, .post-list {
+        h1, h2, h3, h4, h5, h6 {
+            @apply font-headers;
+            @apply mb-0;
+        }
     }
     h1 {
         @apply text-5xl;
@@ -122,7 +52,15 @@ input:checked ~ .toggle-dot {
         *:last-child {
             @apply mb-4;
         }
+    }
 
+    .article-header {
+        img {
+            width: 100%;
+        }
+    }
+
+    .caption, .article-header {
         h1 {
             @apply text-3xl;
             @apply sm:text-4xl;
@@ -148,6 +86,10 @@ input:checked ~ .toggle-dot {
         }
     }
 
+    .full-width-images img {
+        width: 100%;
+    }
+
 
     // Body copy
     p {
@@ -156,7 +98,7 @@ input:checked ~ .toggle-dot {
     }
 
     // The specificity is to unbreak breadcrumbs
-    article a {
+    article a, .post-list a, aside a {
         @apply underline;
         @apply font-medium;
 
@@ -187,11 +129,11 @@ input:checked ~ .toggle-dot {
         @apply mb-4;
     }
 
-    ul {
+    ul:not(.list-none) {
         @apply list-disc;
     }
 
-    ol {
+    ol:not(.list-none) {
         @apply list-decimal;
     }
 
@@ -208,7 +150,7 @@ input:checked ~ .toggle-dot {
     }
 }
 
-.profile .grid {
+.profile .grid, .post-list .grid {
     grid-template-rows: auto 1fr;
 }
 
