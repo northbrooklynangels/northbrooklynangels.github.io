@@ -7,11 +7,14 @@
 {{ end }}
 
 <div class="grid grid-cols-12 gap-x-2 my-2">
-    {{ if ne $image "" }}
-        <figure class="col-span-3 sm:col-span-2 md:row-span-2 p-2 pl-0">
+    <figure class="col-span-3 sm:col-span-2 md:row-span-2 p-2 pl-0">
+        {{ if ne $image "" }}
             {{ partial "utility/picture-lightbox.html" (dict "context" . "image" $image "altText" $name "command" "fill" "options" "200x200" "rounded" true "caption" $name) }}
-        </figure>
-    {{ end }}
+        {{ else }}
+            <!-- TODO: Replace this with a hosted placeholder instead -->
+            <picture><img src="https://via.placeholder.com/200?text=No+image+supplied" title="No image supplied" class="rounded-md"></picture>
+        {{ end }}
+    </figure>
     <div class="col-span-9 md:col-span-10 flex items-center md:items-start md:pt-0.5 md:mt-px">
         {{ if ne $description "" }}
             <!-- The size trickery is to get around how Bebas Neue renders -->

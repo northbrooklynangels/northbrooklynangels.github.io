@@ -37,7 +37,9 @@
 
 {{ range $res := (partial "utility/reverse-slice.html" $resolutions) }}
     {{ if ge $originalProcessed.Width $res }}
+        {{ $imageWebp := $originalProcessed.Resize (print $res "x webp q80") }}
         {{ $image := $originalProcessed.Resize (print $res "x") }}
+        {{ $scratch.Add "srcsetWebp" (slice (print $imageWebp.RelPermalink " " $res "w")) }}
         {{ $scratch.Add "srcset" (slice (print $image.RelPermalink " " $res "w")) }}
         {{ $scratch.Add "sizes" (slice (print $res "px")) }}
     {{ end }}
@@ -48,8 +50,10 @@
     {{ $scratch.Set "fallback" ($originalProcessed.Resize "1024x") }}
 {{ else }} 
     <!-- Run the image through the compressor just to shrink the image size as needed. Also add it to the srcset and sizes slices -->
+    {{ $compressedOriginalWebp := $originalProcessed.Resize (print $originalProcessed.Width "x" $originalProcessed.Height " webp q80")}}
     {{ $compressedOriginal := $originalProcessed.Resize (print $originalProcessed.Width "x" $originalProcessed.Height)}}
     {{ $scratch.Set "fallback" $compressedOriginal }}
+    {{ $scratch.Set "srcsetWebp" (slice (print $compressedOriginalWebp.RelPermalink " " $compressedOriginalWebp.Width "w") | append ($scratch.Get "srcsetWebp" | default slice)) }}
     {{ $scratch.Set "srcset" (slice (print $compressedOriginal.RelPermalink " " $compressedOriginal.Width "w") | append ($scratch.Get "srcset" | default slice)) }}
     {{ $scratch.Set "sizes" (slice (print $compressedOriginal.Width "px") | append ($scratch.Get "sizes" | default slice)) }}
 {{ end }}
@@ -74,6 +78,7 @@
 {{ end }}
 
 <!-- Render the strings accordingly -->
+{{ $srcsetWebp := delimit ($scratch.Get "srcsetWebp") ", " }}
 {{ $srcset := delimit ($scratch.Get "srcset") ", " }}
 {{ $sizes := delimit ($scratch.Get "sizes") ", " }}
 {{ $fallback := ($scratch.Get "fallback").RelPermalink }}
@@ -88,8 +93,8 @@
     {{ else }}
     <picture>
     {{ end }}
-        <source srcset="{{ $srcset }}"
-        sizes="{{ $sizes }}" />
+        <source srcset="{{ $srcsetWebp }}" sizes="{{ $sizes }}" type="image/webp" />
+        <source srcset="{{ $srcset }}" sizes="{{ $sizes }}" type="{{ $original.MediaType }}" />
         {{ if $rounded }}
             <img src="{{ $fallback }}" width="{{ $fallbackWidth }}" height="{{ $fallbackHeight }}" title="{{ $altText }}" class="rounded-md">
         {{ else }}
