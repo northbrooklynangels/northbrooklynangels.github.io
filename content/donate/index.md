@@ -27,8 +27,10 @@ It is no surprise as the cost of food and rents continue to soar higher each yea
 Mail a check payable to:
 
 > North Brooklyn Angels  
-> 42 West Street #202  
+> 127 Kent St.  
 > Brooklyn, NY 11222
+
+We've moved! Please update your address books as needed.
 
 ### Venmo
 
