@@ -46,6 +46,19 @@ input:checked ~ .toggle-dot {
         @apply text-lg;
     }
 
+    // Is there a reason why we weren't doing this before for the main .markdown class?
+    // I'm not sure, so at least until something breaks in it goes
+    a {
+        @apply underline;
+        @apply font-medium;
+
+        color: theme("colors.darkblue");
+
+        .dark & {
+            color: theme("colors.blue");
+        }
+    }
+
     // Heading size adjustment for rich carousel captions on mobile devices and very small screens
     // Figure we don't need more than h1, h2, and p
     .caption {
@@ -78,14 +91,8 @@ input:checked ~ .toggle-dot {
                 @apply mb-0;
             }
         }
-        a {
-            @apply underline;
-            @apply font-medium;
-
-            color: theme("colors.blue");
-        }
     }
-
+    
     .full-width-images img {
         width: 100%;
     }
