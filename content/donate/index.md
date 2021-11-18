@@ -4,7 +4,7 @@ title: Donate
 
 ### [**New!** The Angels are organizing an important Thanksgiving Project and need your help! Please consider supporting us this holiday season. Click here for more information](https://www.gofundme.com/f/neighbors-giving-thanks-2021)
 
-### Interested in volunteering? Email us at [thanksgiving@northbrooklynangels.org](mailto:thansgiving@northbrooklynangels.org)!
+### Interested in volunteering? Email us at [thanksgiving@northbrooklynangels.org](mailto:thanksgiving@northbrooklynangels.org)!
 
 {{< img image="thanksgiving" altText="The Angels are organizing an important Thanksgiving Project and need your help! Please consider supporting us this holiday season." caption=false >}}
 
