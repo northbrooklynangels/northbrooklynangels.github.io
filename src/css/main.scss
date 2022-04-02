@@ -208,3 +208,76 @@ input:checked ~ .toggle-dot {
 .lum-lightbox {
     background: rgba(0, 0, 0, 0.85);
 }
+
+// Mailchimp signup form
+#mc_embed_signup {
+    @apply max-w-xl;
+
+    form {
+        padding: 0 !important;
+    }
+
+    input {
+        @apply dark:bg-gray-900;
+        @apply border;
+        @apply border-gray-300;
+        @apply dark:border-gray-700;
+    }
+
+    .mc-field-group {
+        @apply grid;
+        @apply grid-cols-12;
+        @apply w-full;
+
+        label {
+            @apply col-span-full;
+            @apply sm:col-span-3;
+            @apply py-2;
+            @apply font-bold;
+        }
+
+        input {
+            @apply col-span-full;
+            @apply sm:col-span-9;
+            @apply p-2;
+            text-indent: 0;
+        }
+    }
+
+    // This is for specificity overridding
+    #mc-embedded-subscribe-form {
+        div.mce_inline_error {
+            @apply col-span-full;
+            @apply sm:col-span-9;
+            @apply sm:col-start-4;
+            @apply text-red-900;
+            @apply dark:text-red-100;
+            @apply border;
+            @apply border-red-300;
+            @apply dark:border-red-900;
+            @apply bg-white;
+            @apply dark:bg-gray-900;
+            @apply p-2;
+        }
+    }
+
+    // Why is this an input instead of a link or button?
+    // Why do I have to nest the IDs to get the styles overridden?
+    // I don't get this
+    #mc-embedded-subscribe {
+        @apply h-10;
+        @apply inline-block;
+        @apply bg-blue;
+        @apply hover:bg-darkblue;
+        @apply active:bg-darkblue;
+        @apply text-black;
+        @apply hover:text-white;
+        @apply active:text-white;
+        @apply block;
+        @apply px-3;
+        @apply py-2;
+        @apply rounded-md;
+        @apply text-base;
+        @apply font-medium;
+    }
+}

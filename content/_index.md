@@ -1,6 +1,7 @@
 --- 
 title: Index
 ---
+
 {{< rich-carousel aspectRatio="16:9" width="full" desktopWidth="full" >}}
 {{% rich-carousel-slide image="hero2" %}}
 # [Find Your Nearest Meal Site](/meals)
@@ -15,3 +16,9 @@ title: Index
 # [Consider Donating Today](/donate)
 {{% /rich-carousel-slide %}}
 {{< /rich-carousel >}}
+
+## Subscribe to our newsletter!
+
+Subscribe here for email communications from the Angels! 
+
+{{< newsletter >}}
