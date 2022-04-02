@@ -2,7 +2,7 @@
 title: About Us
 ---
 
-Hey there! We’re North Brooklyn Angels, a volunteer-powered non-profit in Brooklyn that has been feeding meals to the community since 2017. The Angels bring food to where the need is, through our mobile soup kitchen (the Angelmobile), which now regularly serves over **3,000** hot, healthy meals a week at **six locations** in North Brooklyn.
+Hey there! We’re North Brooklyn Angels, a volunteer-powered non-profit in Brooklyn that has been feeding meals to the community since 2017. The Angels bring food to where the need is, through our mobile soup kitchen (the Angelmobile), which now regularly serves over **1,500** hot, healthy meals a week at **eight locations** in North Brooklyn.
 
 **North Brooklyn Angels (legal name: North Brooklyn Coalition of Neighbors Helping Neighbors, Inc.) is a 501(c)(3) and all donations are tax deductible. EIN 81-4576973​**
 
@@ -16,7 +16,7 @@ The organization’s **vision** is based on the idea that North Brooklyn neighbo
 
 North Brooklyn Angels’ vision of “neighbors helping neighbors” addresses the needs of the area through multiple approaches. Recognizing the immediate hunger needs of North Brooklyn, the Mobile Soup Kitchen (popularly known as the **Angelmobile**) was developed and introduced to directly serve those experiencing food insecurity. We create a “bus load” of hope, love, and nutrition to serve our needy North Brooklyn neighbors at strategic locations where they can congregate easily. 
 
-With an initial schedule of 3 days a week, the mobile soup kitchen now provides over 3,000 hot meals, 5 days a week, at 7 locations that have demonstrated high need. Presently, food is sourced through a combination of local sources, including donations from the green market and food pantries, the Food Bank, and other food justice nonprofits. Beyond food prep and service, the Angelmobile also has fully-equipped office space that we will eventually offer for Coalition members to provide social support services (ie. legal, housing, healthcare).
+With an initial schedule of 3 days a week, the mobile soup kitchen now provides over 1,500 hot meals, 5 days a week, at 8 locations that have demonstrated high need. Presently, food is sourced through a combination of local sources, including donations from the green market and food pantries, the Food Bank, and other food justice nonprofits. Beyond food prep and service, the Angelmobile also has fully-equipped office space that we will eventually offer for Coalition members to provide social support services (ie. legal, housing, healthcare).
 
 The organization’s intermediate **goals** are to:
 1. Raise awareness about food insecurity in North Brooklyn neighborhoods

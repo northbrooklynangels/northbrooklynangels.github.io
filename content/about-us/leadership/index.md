@@ -29,9 +29,6 @@ Currently serving as the Pastor of Justice and Mercy at Oaks Church Brooklyn, he
 
 Having worn a number of different hats throughout the years, Carlos is fluent in multidisciplinary collaborations as well as multi-cultural environments.
 {{% /profile-entry%}}
-{{% profile-entry name="Isabel Gardocki" image="isabel-gardocki" %}}
-Isabel currently works in tech and has a varied background as a journalist and attorney. She spent the first eleven years of her life living in Greenpoint and moved back to New York to attend law school in 2008. Since then, she has worked as a volunteer for local organizations like the New York Polish Film Festival and Greenpoint Open Studios, and has also taught ESL to adults. Isabel lives in Greenpoint, speaks Polish and French, and is also hoping to “earn her wings” with this project.
-{{% /profile-entry %}}
 {{% profile-entry name="Fang Han" image="fang-han" %}}
 Fang has been living in Williamsburg for over ten years. Having witnessed how the neighborhood drastically changed right in front of her eyes, she is looking for opportunities to support her beloved community and the local residents. Fang is a numbers person; she started her career as an Enterprise Risk Consultant at one of the big four accounting firms, and then a major US financial institution before she found her calling in the nonprofit sector. In the past ten years, she worked as the finance lead for two large nonprofit organizations supporting millions of charitable distributions and met amazing individuals that had inspired her along the way.   
 
