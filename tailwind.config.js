@@ -21,6 +21,13 @@ module.exports = {
       serif: defaultTheme.fontFamily.serif,
       mono: defaultTheme.fontFamily.mono,
       headers: ['"Bebas Neue"', ...defaultTheme.fontFamily.sans]
+    },
+    screens: {
+      "sm": "700px",
+      "md": "768px",
+      "lg": "1024px",
+      "xl": "1280px",
+      "2xl": "1536px"
     }
   },
   variants: {

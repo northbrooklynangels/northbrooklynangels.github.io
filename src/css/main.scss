@@ -50,9 +50,9 @@ input:checked ~ .toggle-dot {
     // I'm not sure, so at least until something breaks in it goes
     a {
         @apply underline;
-        @apply font-medium;
+        @apply font-semibold;
 
-        color: theme("colors.darkblue");
+        color: theme("colors.black");
 
         .dark & {
             color: theme("colors.blue");
@@ -107,9 +107,9 @@ input:checked ~ .toggle-dot {
     // The specificity is to unbreak breadcrumbs
     article a, .post-list a, aside a {
         @apply underline;
-        @apply font-medium;
+        @apply font-semibold;
 
-        color: theme("colors.darkblue");
+        color: theme("colors.black");
 
         .dark & {
             color: theme("colors.blue");
@@ -161,6 +161,46 @@ input:checked ~ .toggle-dot {
     grid-template-rows: auto 1fr;
 }
 
+// Newsletter modal
+.modal {
+    @apply hidden;
+
+    h2 {
+        @apply font-headers;
+        @apply mb-2;
+        @apply text-4xl;
+    }
+
+    &.is-open {
+        @apply block;
+    }
+
+    .overlay {
+        @apply fixed;
+        @apply inset-0;
+        @apply flex;
+        @apply items-center;
+        @apply justify-center;
+        @apply z-50;
+
+        background: rgba(0,0,0,0.6);
+    }
+
+    .container {
+        @apply p-6;
+        @apply max-w-lg;
+        @apply max-h-screen;
+        @apply bg-white;
+        @apply dark:bg-gray-900;
+    }
+
+    .modal-close {
+        @apply font-bold;
+        @apply float-right;
+        @apply text-2xl;
+        @apply mb-2;
+    }
+}
 
 // Carousel tweaks
 :root {
@@ -170,6 +210,11 @@ input:checked ~ .toggle-dot {
 .swiper-slide {
     img {
         width: 100%;
+    }
+    
+    a {
+        @apply font-medium;
+        color: theme("colors.blue");
     }
 }
 .swiper-button-next, .swiper-button-prev {
