@@ -18,12 +18,18 @@ input:checked ~ .toggle-dot {
 .markdown {
     // Headings
     h1, h2, h3, h4, h5, h6 {
-        @apply font-headers;
         @apply mb-2;
+        
+        font-family: theme("fontFamily.header");
+    }
+    &.font-header-alt {
+        h1, h2, h3, h4, h5, h6 {
+            font-family: theme("fontFamily.headerAlt");
+            font-weight: bold;
+        }
     }
     .profile, .post-list {
         h1, h2, h3, h4, h5, h6 {
-            @apply font-headers;
             @apply mb-0;
         }
     }
@@ -166,7 +172,7 @@ input:checked ~ .toggle-dot {
     @apply hidden;
 
     h2 {
-        @apply font-headers;
+        @apply font-header;
         @apply mb-2;
         @apply text-4xl;
     }

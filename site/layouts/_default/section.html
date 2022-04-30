@@ -7,7 +7,11 @@
 {{ end }}
 
 {{ define "main" }}
+{{ if eq .Params.HeaderFontFamily "alt" }}
+<div class="container mx-auto md:px-16 px-6 markdown font-header-alt">
+{{ else }}
 <div class="container mx-auto md:px-16 px-6 markdown">
+{{ end }}
   <header>
     <h1>{{ .Title }}</h1>
     {{ partial "utility/breadcrumbs.html" . }}

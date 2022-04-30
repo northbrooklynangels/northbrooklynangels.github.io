@@ -20,10 +20,11 @@ module.exports = {
       sans: defaultTheme.fontFamily.sans,
       serif: defaultTheme.fontFamily.serif,
       mono: defaultTheme.fontFamily.mono,
-      headers: ['"Bebas Neue"', ...defaultTheme.fontFamily.sans]
+      header: ['"Bebas Neue"', ...defaultTheme.fontFamily.sans],
+      headerAlt: ["Montserrat", ...defaultTheme.fontFamily.sans]
     },
     screens: {
-      "sm": "700px",
+      "sm": "720px",
       "md": "768px",
       "lg": "1024px",
       "xl": "1280px",
