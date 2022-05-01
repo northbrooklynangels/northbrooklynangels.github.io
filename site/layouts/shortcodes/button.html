@@ -1,0 +1,5 @@
+{{ $label := string (.Get "label") | default "" }}
+{{ $href := string (.Get "href") | default "" }}
+
+<a href="{{ $href }}" class="button">{{ $label }}</a>
+

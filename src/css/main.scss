@@ -154,6 +154,26 @@ input:checked ~ .toggle-dot {
     hr {
         @apply mb-4;
     }
+
+    // Buttons
+    // This selector chain is to deal with selector priority
+    &, .dark & {
+        a.button {
+            &, article & {
+                @apply w-full;
+                @apply py-2;
+                @apply bg-blue;
+                @apply hover:bg-darkblue;
+                @apply active:bg-darkblue;
+                @apply text-black;
+                @apply hover:text-white;
+                @apply active:text-white;
+                @apply rounded-md;
+                @apply text-center;
+                @apply no-underline;
+            }
+        }
+    }
 }
 
 #donation-form {
