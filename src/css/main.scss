@@ -171,6 +171,7 @@ input:checked ~ .toggle-dot {
                 @apply rounded-md;
                 @apply text-center;
                 @apply no-underline;
+                @apply transition;
             }
         }
     }
