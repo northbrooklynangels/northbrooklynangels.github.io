@@ -36,10 +36,12 @@ Individual tickets are $300, with corporate sponsorship and underwriter packages
 {{< button label="Donate" href="/donate" >}}
 {{< /grid >}}
 
-* Donate and pay online by making your purchase on [Eventbrite](https://www.eventbrite.com/e/neighbors-helping-neighbors-luncheon-tickets-321829670207)
+* Donate and pay online by making your purchase on [Eventbrite](https://www.eventbrite.com/e/neighbors-helping-neighbors-luncheon-tickets-321829670207)\*
 * Download our [event brochure](/luncheon/brochure.pdf), complete it with donation and payment (checks are welcome) or payment information, and email it to [fundraising@northbrooklynangels.org](mailto:fundraising@northbrooklynangels.org) or mail it to 127 Kent Street, Brooklyn, NY 11222 for processing.
 * Donate through our [general Donate page](/donate) and email [fundraising@northbrooklynangels.org](mailto:fundraising@northbrooklynangels.org) to ensure we know the donation is towards the luncheon.
 * Donate through Venmo (@northbrooklynangels) with a comment on level of purchase, and email details to [fundraising@northbrooklynangels.org](mailto:fundraising@northbrooklynangels.org) 
+
+\* Online contributions through Eventbrite and Paypal incur a small processing fee, which we will absorb for individual tickets and tables. We encourage large donation amounts ($3,000 or greater) to be paid via checks mailed to us.  
 
 Warm thanks to our **Luncheon Chair, Elaine Brodsky**, and our Luncheon Committee:
 
