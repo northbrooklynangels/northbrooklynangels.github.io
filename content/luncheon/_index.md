@@ -14,7 +14,7 @@ We are thrilled to honor:
 * **John Ford**, President of IATSE Local 52 and its members
 * **Evan Thies**, Cofounder of Pythia Public Affairs
 
-Location: TBD
+**Location**: [Music Hall of Williamsburg at 66 N 6th St, Brooklyn, NY 11211](https://goo.gl/maps/WQxr9DUPBK39Vs2H7)
 
 ## You can make a difference! Join in helping your neighbors honor our neighbors of the year!
 
@@ -41,7 +41,10 @@ Individual tickets are $300, with corporate sponsorship and underwriter packages
 * Donate through our [general Donate page](/donate) and email [fundraising@northbrooklynangels.org](mailto:fundraising@northbrooklynangels.org) to ensure we know the donation is towards the luncheon.
 * Donate through Venmo (@northbrooklynangels) with a comment on level of purchase, and email details to [fundraising@northbrooklynangels.org](mailto:fundraising@northbrooklynangels.org) 
 
-Warm thanks to our Luncheon Committee:  
-Tony Argento, Norm Brodsky, Kendra Chiu, Monica Holowacz, Tony Kim*, Felice Kirby, Jillian Kumor, David Lombino, Philip Mauro*, Jonathan McKenna*, Fr. John Merz*, Briar Rossell, Paul Samulski*, Lewis Schiff, Anjali Suneja, Kevin Thompson*, Neil Sheehan*
+Warm thanks to our **Luncheon Chair, Elaine Brodsky**, and our Luncheon Committee:
+
+Tony Argento, Norm Brodsky, Kendra Chiu, Carlos Feitoza\*, Fang Han\*, Molly Giliotti\*, Monica Holowacz, Tony Kim\*, Felice Kirby, David Lombino, Philip Mauro\*, Jonathan McKenna\*, Fr. John Merz\*, Briar Rossell, Paul Samulski\*, Lewis Schiff, Allyson Stone, Anjali Suneja, Kevin Thompson\*, Neil Sheehan\*
+
+\* Member of North Brooklyn Angels' Board of Directors
 
 For more information about the luncheon, please email [fundraising@northbrooklynangels.org](mailto:fundraising@northbrooklynangels.org)
