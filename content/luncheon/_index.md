@@ -7,7 +7,7 @@ Join us on Tuesday, June 14th in honoring three, among many, extraordinary neigh
 We are thrilled to honor:
 
 <div class="py-2 w-full flex justify-center">
-{{< img image="honorees" altText="Graphic featuring the three nominees: Jed Walentas, John Ford, and Evan Thies" command="resize" options="x300" >}}
+{{< img image="honorees" altText="Graphic featuring the three nominees: Jed Walentas, John Ford, and Evan Thies" command="resize" options="x250" >}}
 </div>
 
 * **Jed Walentas**, CEO of Two Trees Company
@@ -19,7 +19,7 @@ Location: TBD
 ## You can make a difference! Join in helping your neighbors honor our neighbors of the year!
 
 <div class="py-2 w-full flex justify-center">
-{{< img image="midpage" altText="Midpage image of volunteers" command="resize" options="x300" >}}
+{{< img image="midpage" altText="Midpage image of volunteers" command="resize" options="x250" >}}
 </div>
 
 Support North Brooklyn Angels’ 2nd Annual “Neighbors Helping Neighbors” luncheon benefit by selecting a donor opportunity that you feel will make the greatest impact. You can help by purchasing a table/tickets, a sponsorship package, or by making a tax-deductible contribution.  
