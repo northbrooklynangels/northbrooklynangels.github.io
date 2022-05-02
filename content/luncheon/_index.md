@@ -6,7 +6,9 @@ Join us on Tuesday, June 14th in honoring three, among many, extraordinary neigh
 
 We are thrilled to honor:
 
-{{< img image="honorees" altText="Graphic featuring the three nominees: Jed Walentas, John Ford, and Evan Thies" >}}
+<div class="py-2 w-full flex justify-center">
+{{< img image="honorees" altText="Graphic featuring the three nominees: Jed Walentas, John Ford, and Evan Thies" command="resize" options="x300" >}}
+</div>
 
 * **Jed Walentas**, CEO of Two Trees Company
 * **John Ford**, President of IATSE Local 52 and its members
@@ -16,7 +18,9 @@ Location: TBD
 
 ## You can make a difference! Join in helping your neighbors honor our neighbors of the year!
 
-{{< img image="midpage" altText="Midpage image of volunteers" >}}
+<div class="py-2 w-full flex justify-center">
+{{< img image="midpage" altText="Midpage image of volunteers" command="resize" options="x300" >}}
+</div>
 
 Support North Brooklyn Angels’ 2nd Annual “Neighbors Helping Neighbors” luncheon benefit by selecting a donor opportunity that you feel will make the greatest impact. You can help by purchasing a table/tickets, a sponsorship package, or by making a tax-deductible contribution.  
 
@@ -26,7 +30,7 @@ Individual tickets are $300, with corporate sponsorship and underwriter packages
 
 ## How to Purchase Tickets or Donate towards this event
 
-{{< grid cols=3 >}}
+{{< grid cols=1 desktopCols=3 >}}
 {{< button label="Eventbrite" href="https://www.eventbrite.com/e/neighbors-helping-neighbors-luncheon-tickets-321829670207" >}}
 {{< button label="Brochure" href="/luncheon/brochure.pdf" >}}
 {{< button label="Donate" href="/donate" >}}
