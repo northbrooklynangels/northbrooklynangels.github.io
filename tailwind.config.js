@@ -20,7 +20,20 @@ module.exports = {
       sans: defaultTheme.fontFamily.sans,
       serif: defaultTheme.fontFamily.serif,
       mono: defaultTheme.fontFamily.mono,
-      headers: ['"Bebas Neue"', ...defaultTheme.fontFamily.sans]
+      header: ['"Bebas Neue"', ...defaultTheme.fontFamily.sans],
+      headerAlt: ["Montserrat", ...defaultTheme.fontFamily.sans]
+    },
+    screens: {
+      "sm": "720px",
+      "md": "768px",
+      "lg": "1024px",
+      "xl": "1280px",
+      "2xl": "1536px"
+    },
+    extend: {
+      gridTemplateColumns: {
+        "auto": "repeat(auto-fit, minmax(100px, 1fr))"
+      }
     }
   },
   variants: {

@@ -5,11 +5,11 @@
 // Set up icons from Font Awesome
 @font-face {
     font-family: 'icomoon';
-    src:  url('../fonts/icomoon.eot?rfqh4o');
-    src:  url('../fonts/icomoon.eot?rfqh4o#iefix') format('embedded-opentype'),
-      url('../fonts/icomoon.ttf?rfqh4o') format('truetype'),
-      url('../fonts/icomoon.woff?rfqh4o') format('woff'),
-      url('../fonts/icomoon.svg?rfqh4o#icomoon') format('svg');
+    src:  url('../fonts/icomoon.eot?ss20zm');
+    src:  url('../fonts/icomoon.eot?ss20zm#iefix') format('embedded-opentype'),
+      url('../fonts/icomoon.ttf?ss20zm') format('truetype'),
+      url('../fonts/icomoon.woff?ss20zm') format('woff'),
+      url('../fonts/icomoon.svg?ss20zm#icomoon') format('svg');
     font-weight: normal;
     font-style: normal;
     font-display: block;
@@ -64,6 +64,9 @@
 }
 .icon-moon-o:before {
     content: "\f186";
+}
+.icon-newspaper-o:before {
+    content: "\f1ea";
 }
 .icon-copyright:before {
     content: "\f1f9";

@@ -5,10 +5,15 @@
     {{ .Site.Title }}
   {{ end }}
 {{ end }}
+
 {{ define "main" }}
 <div class="container mx-auto md:px-16 px-6 markdown">
   <header>
-    <h1>{{ .Title }}</h1>
+    {{ if eq .Params.HeaderFontFamily "alt" }}
+      <h1 class="font-header-alt">{{ .Title }}</h1>
+    {{ else }}
+      <h1>{{ .Title }}</h1>
+    {{ end }}
     {{ partial "utility/breadcrumbs.html" . }}
   </header>
   <article>

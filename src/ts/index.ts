@@ -1,8 +1,12 @@
-import "../css/main.scss";
+import MicroModal from "micromodal";
 
 import docReady from "./docready";
 
+import "../css/main.scss";
+
 docReady(() => {
+    MicroModal.init();
+
     // Hamburger menu toggle
     document.getElementById("mobile-nav-toggle").addEventListener("click", () => {
         let nav = document.getElementById("mobile-nav");

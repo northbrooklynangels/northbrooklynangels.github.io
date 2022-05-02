@@ -33,11 +33,11 @@
 {{ $originalProcessed := $scratch.Get "originalProcessed" }}
 
 <!-- Generate compressed and resized copies of each image width if the image needs it -->
-{{ $resolutions := slice 240 360 480 542 672 864 1056 }}
+{{ $resolutions := slice 240 360 480 542 672 864 1056 1280 1536 }}
 
 {{ range $res := (partial "utility/reverse-slice.html" $resolutions) }}
     {{ if ge $originalProcessed.Width $res }}
-        {{ $imageWebp := $originalProcessed.Resize (print $res "x webp q80") }}
+        {{ $imageWebp := $originalProcessed.Resize (print $res "x webp q85") }}
         {{ $image := $originalProcessed.Resize (print $res "x") }}
         {{ $scratch.Add "srcsetWebp" (slice (print $imageWebp.RelPermalink " " $res "w")) }}
         {{ $scratch.Add "srcset" (slice (print $image.RelPermalink " " $res "w")) }}
@@ -46,11 +46,11 @@
 {{ end }}
 
 <!-- Generate a fallback image, just in case the browser can't interpret the srcset -->
-{{ if gt $originalProcessed.Width 1024 }}
-    {{ $scratch.Set "fallback" ($originalProcessed.Resize "1024x") }}
+{{ if gt $originalProcessed.Width 1536 }}
+    {{ $scratch.Set "fallback" ($originalProcessed.Resize "1536x") }}
 {{ else }} 
     <!-- Run the image through the compressor just to shrink the image size as needed. Also add it to the srcset and sizes slices -->
-    {{ $compressedOriginalWebp := $originalProcessed.Resize (print $originalProcessed.Width "x" $originalProcessed.Height " webp q80")}}
+    {{ $compressedOriginalWebp := $originalProcessed.Resize (print $originalProcessed.Width "x" $originalProcessed.Height " webp q85")}}
     {{ $compressedOriginal := $originalProcessed.Resize (print $originalProcessed.Width "x" $originalProcessed.Height)}}
     {{ $scratch.Set "fallback" $compressedOriginal }}
     {{ $scratch.Set "srcsetWebp" (slice (print $compressedOriginalWebp.RelPermalink " " $compressedOriginalWebp.Width "w") | append ($scratch.Get "srcsetWebp" | default slice)) }}

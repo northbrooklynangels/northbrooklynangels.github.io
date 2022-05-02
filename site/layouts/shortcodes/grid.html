@@ -1,3 +1,21 @@
-<div class="grid grid-flow-row grid-cols-5 gap-8 mb-4">
+{{ $cols := string (.Get "cols") | default "auto" }}
+{{ $desktopCols := string (.Get "desktopCols") | default "" }}
+
+{{ $validCols := (seq 12) | append (print "none") | append (print "auto") }}
+{{ $validCols = apply $validCols "string" "." }}
+
+{{ if not (in $validCols $cols) }}
+    {{ $cols = "auto"}}
+{{ end }}
+
+{{ if and (ne $desktopCols "") (not (in $validCols $desktopCols)) }}
+    {{ $desktopCols = "auto"}}
+{{ end }}
+
+{{ if ne $desktopCols "" }}
+<div class="grid grid-flow-row grid-cols-{{ $cols }} md:grid-cols-{{ $desktopCols }} gap-8 mb-4">
+{{ else }}
+<div class="grid grid-flow-row grid-cols-{{ $cols }} gap-8 mb-4">
+{{ end }}
     {{ .Inner }}
 </div>
