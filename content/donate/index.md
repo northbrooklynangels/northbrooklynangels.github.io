@@ -2,7 +2,7 @@
 title: Donate
 ---
 
-{{< grid mdCols=5 otherClasses="gap-8" >}}
+{{< grid otherClasses="gap-8" >}}
 {{% grid-column span=full desktopSpan=3 %}}
 {{< donate >}}
 {{% /grid-column %}}
