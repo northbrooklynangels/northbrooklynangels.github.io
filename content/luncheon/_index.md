@@ -30,7 +30,7 @@ Individual tickets are $300, with corporate sponsorship and underwriter packages
 
 ## How to Purchase Tickets or Donate towards this event
 
-{{< grid cols=1 desktopCols=3 >}}
+{{< grid cols=1 smCols=3 otherClasses="gap-8" >}}
 {{< button label="Eventbrite" href="https://www.eventbrite.com/e/neighbors-helping-neighbors-luncheon-tickets-321829670207" >}}
 {{< button label="Brochure" href="/luncheon/brochure.pdf" >}}
 {{< button label="Donate" href="/donate" >}}

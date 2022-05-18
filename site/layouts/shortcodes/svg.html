@@ -1,0 +1,6 @@
+<!-- It's ridiculous that I can't reuse shortcodes in other shortcodes, so into a partial it goes -->
+{{ if .IsNamedParams }}
+    {{ partial "utility/vector.html" (dict "context" . "src" (.Get "src") "width" (.Get "width") "height" (.Get "height") "altText" (.Get "altText") "float" (.Get "float") "caption" (.Get "caption") "otherClasses" (.Get "otherClasses")) }}
+{{ else }}
+    {{ partial "utility/vector.html" (dict "context" . "src" (.Get 0) "width" (.Get 1) "height" (.Get 2) "altText" (.Get 3) "float" (.Get 4) "caption" (.Get 5) "otherClasses" (.Get 6)) }}
+{{ end }}

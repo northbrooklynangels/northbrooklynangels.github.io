@@ -26,3 +26,7 @@ The organization’s intermediate **goals** are to:
 ## Leadership
 
 To see profiles of all of the board members and staff, [please check out the Leadership page.](/about-us/leadership)
+
+## Heavenly Partners
+
+To see all of those who have pledged their support to our cause, [please check out the Heavenly Partners page.](/donate#heavenly-partners-cause-marketing-champions)
