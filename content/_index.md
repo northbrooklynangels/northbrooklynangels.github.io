@@ -21,4 +21,4 @@ title: Index
 
 Subscribe here for email communications from the Angels! 
 
-{{< newsletter >}}
+{{< newsletter >}} 

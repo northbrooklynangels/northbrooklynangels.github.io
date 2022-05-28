@@ -1,0 +1,61 @@
+<!-- Get the vector(s) and split up the shortcode parameters accordingly -->
+{{ $src := .context.Page.Resources.GetMatch (printf "*%s*" .src ) }}
+
+{{ if not $src }}
+    {{ errorf (print "Invalid vector error! src \"" .src "\" not found") }}
+{{ end }}
+
+<!-- Because of using this as a partial, this is needed as a workaround for the lack of .Get -->
+{{ $width := .width | default "" }}
+{{ $height := .height | default "" }}
+{{ $altText := .altText | default "" }}
+{{ $float := .float | default "" | lower }}
+{{ $otherClasses := .otherClasses | default "" }}
+{{ $caption := .caption | default false }}
+
+<!-- Set defaults for the width and height if they haven't been manually set -->
+{{ if and (ne $width "") (eq $height "") }}
+    {{ $height = "auto" }}
+{{ else if and (eq $width "") (ne $height "") }}
+    {{ $width = "auto" }}
+{{ else if and (eq $width "") (eq $height "") }}
+    {{ $width = "100%" }}
+    {{ $height = "auto" }}
+{{ end }}
+
+<!-- Templates apparently don't have their own scratch context -->
+{{ $scratch := newScratch }}
+
+<!-- Figure out the float position -->
+{{ $classes := "" }}
+{{ if eq $float "left" }}
+    {{ $classes = "p-2 float-left" }}
+{{ else if eq $float "right" }}
+    {{ $classes = "p-2 float-right" }}
+{{ else if ne $float "" }}
+    {{ errorf (print "Invalid vector processing command: Invalid float value " $float " supplied, must be one of \"left\", \"right\", or empty.") }}
+{{ end }}
+
+<!-- Toss in any other user-defined classes -->
+{{ if ne $otherClasses "" }}
+    {{ if eq $classes "" }}
+        {{ $classes = $otherClasses }}
+    {{ else }}
+        {{ $classes = print $classes " " $otherClasses }}
+    {{ end }}
+{{ end }}
+
+{{ if $caption }}
+<figure class="py-4">
+{{ end }}
+    {{ if ne $classes "" }}
+    <img class="{{ $classes }}" src="{{ $src.RelPermalink }}" width="{{ $width }}" height="{{ $height }}" {{if ne $altText "" }} title="{{ $altText }}" alt="{{ $altText }}" {{end}}>
+    {{ else }}
+    <img src="{{ $src.RelPermalink }}" width="{{ $width }}" height="{{ $height }}" {{if ne $altText "" }} title="{{ $altText }}" alt="{{ $altText }}" {{end}}>
+    {{ end }}
+{{ if $caption }}
+    {{ if ne $altText "" }}
+        <figcaption class="text-sm text-gray-500 dark:text-gray-400 text-center py-4">{{ $altText }}</figcaption>
+    {{ end }}
+</figure>
+{{ end }}

@@ -1,5 +1,11 @@
 {{ $cols := string (.Get "cols") | default "auto" }}
-{{ $desktopCols := string (.Get "desktopCols") | default "" }}
+{{ $smCols := string (.Get "smCols") | default "" }}
+{{ $mdCols := string (.Get "mdCols") | default "" }}
+{{ $lgCols := string (.Get "lgCols") | default "" }}
+{{ $xlCols := string (.Get "xlCols") | default "" }}
+{{ $xxlCols := string (.Get "xxlCols") | default "" }}
+
+{{ $otherClasses := .Get "otherClasses" | default "" }}
 
 {{ $validCols := (seq 12) | append (print "none") | append (print "auto") }}
 {{ $validCols = apply $validCols "string" "." }}
@@ -8,14 +14,40 @@
     {{ $cols = "auto"}}
 {{ end }}
 
-{{ if and (ne $desktopCols "") (not (in $validCols $desktopCols)) }}
-    {{ $desktopCols = "auto"}}
+{{ if and (ne $smCols "") (not (in $validCols $smCols)) }}
+    {{ $smCols = "auto"}}
+{{ end }}
+{{ if and (ne $mdCols "") (not (in $validCols $mdCols)) }}
+    {{ $mdCols = "auto"}}
+{{ end }}
+{{ if and (ne $lgCols "") (not (in $validCols $lgCols)) }}
+    {{ $lgCols = "auto"}}
+{{ end }}
+{{ if and (ne $xlCols "") (not (in $validCols $xlCols)) }}
+    {{ $xlCols = "auto"}}
+{{ end }}
+{{ if and (ne $xxlCols "") (not (in $validCols $xxlCols)) }}
+    {{ $xxlCols = "auto"}}
 {{ end }}
 
-{{ if ne $desktopCols "" }}
-<div class="grid grid-flow-row grid-cols-{{ $cols }} md:grid-cols-{{ $desktopCols }} gap-8 mb-4">
-{{ else }}
-<div class="grid grid-flow-row grid-cols-{{ $cols }} gap-8 mb-4">
+<!-- Assemble the classes -->
+{{ $classes := print "grid-cols-" $cols }}
+{{ if ne $smCols "" }}
+    {{ $classes = print $classes " sm:grid-cols-" $smCols }}
 {{ end }}
+{{ if ne $mdCols "" }}
+    {{ $classes = print $classes " md:grid-cols-" $mdCols }}
+{{ end }}
+{{ if ne $lgCols "" }}
+    {{ $classes = print $classes " lg:grid-cols-" $lgCols }}
+{{ end }}
+{{ if ne $xlCols "" }}
+    {{ $classes = print $classes " xl:grid-cols-" $xlCols }}
+{{ end }}
+{{ if ne $xxlCols "" }}
+    {{ $classes = print $classes " 2xl:grid-cols-" $xxlCols }}
+{{ end }}
+
+<div class="grid grid-flow-row {{ $classes }} mb-4 {{ $otherClasses }}">
     {{ .Inner }}
 </div>

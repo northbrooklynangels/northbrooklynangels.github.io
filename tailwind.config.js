@@ -39,6 +39,7 @@ module.exports = {
   variants: {
     extend: {
       backgroundColor: ["active"],
+      display: ["dark"],
       fontWeight: ["active", "hover"],
       textColor: ["active"]
     },
