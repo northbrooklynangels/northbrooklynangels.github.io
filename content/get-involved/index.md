@@ -14,4 +14,6 @@ Volunteer for a shift (or two!): sign up with [Deed](https://web.godeed.today/or
 
 * Follow us for the latest opportunities! Contact us with questions about volunteering through any medium - phone, email, messaging, etc. Follow us on [Instagram](https://instagram.com/northbrooklynangels), like us on [Facebook](https://facebook.com/northbrooklynangels), or follow us on [Twitter](https://twitter.com/nbrooklynangels). Besides fab photos, we use social media to post last minute & emergency volunteer needs!
 
+We are always in need of support with admin tasks, fundraising, and outreach for volunteers and to promote the meals. If you’re interested, please reach out to [kendra@northbrooklynangels.org](mailto:kendra@northbrooklynangels.org)
+
 TO SCHEDULE & ARRANGE GROUPS of 5 or more email [volunteer@northbrooklynangels.org](mailto:volunteer@northbrooklynangels.org)
