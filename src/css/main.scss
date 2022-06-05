@@ -177,10 +177,20 @@ input:checked ~ .toggle-dot {
     }
 }
 
+// Donation page tweaks
+
 #donation-form {
     button.active {
         @apply bg-blue;
         @apply text-black;
+    }
+}
+
+.markdown article a > svg {
+    color: theme("colors.black");
+    
+    .dark & {
+        color: theme("colors.white");
     }
 }
 
