@@ -9,7 +9,7 @@ title: Meals
 
 North Brooklyn Angels aims to cook & serve 1,500 meals per week to combat the food insecure in our community. Each day, our Angelmobile fleet (so far, two vehicles!) currently serves, on average, 300 meals, depending on the site and the weather. Volunteers prep and serve all the food served in our community meals. 
 
-Meals are available on a first come, first served basis and may all be distributed within 15/20 (give or take) minutes upon arrival, depending on the weather, holiday season, and other variables.
+Meals are available on a first come, first served basis and may all be distributed within 15-20 minutes (give or take) upon arrival, depending on the weather, holiday season, and other variables.
 
 * Monday In Greenpoint and Williamsburg  
   **12:30 PM**
@@ -103,7 +103,7 @@ Meals will be served at Iglesia de la Santa Cruz + Bushwick Abbey.
 {{< /map-marker >}}
 
 {{< map-marker lat="40.7295506" long="-73.9552642" title="155 Milton Street">}}
-Meals will be served at Iglesia de la Santa Cruz + Bushwick Abbey.
+A meal is served by our partners at Greenpoint Community Kitchen.
 
 #### Schedule
 * **Saturday** at **11:00 AM**
