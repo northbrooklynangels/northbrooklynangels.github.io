@@ -2,7 +2,7 @@
 title: "June 6th: 3rd Annual Neighbors Helping Neighbors Luncheon"
 HeaderFontFamily: alt
 ---
-Join us on Tuesday, June 3rd in honoring three, among many, extraordinary neighbors helping neighbors!
+Join us on Tuesday, June 6th in honoring three, among many, extraordinary neighbors helping neighbors!
 
 We are thrilled to honor:
 
