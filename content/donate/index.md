@@ -2,19 +2,14 @@
 title: Donate
 ---
 
-{{< grid otherClasses="gap-8" >}}
-{{% grid-column span=full desktopSpan=3 %}}
-{{< donate >}}
-{{% /grid-column %}}
-{{% grid-column span=full desktopSpan=2 %}}
 By donating money and sponsoring a meal, you embody our central mission of neighbors helping neighbors. Our grassroots mission is to sustain the ability to serve up to 3,000 meals a week. 
 
 * $4,000 provides a week of meals to neighbors in need
 * $800 provides a healthy and nutritious lunch for 200
 * $80 provides a week of lunches for a family of four
 * $4 provides a hot and healthy lunch for a neighbor
-{{% /grid-column %}}
-{{< /grid >}}
+
+{{< donate >}}
 
 **Support the North Brooklyn Angels. North Brooklyn Angels (legal name: North Brooklyn Coalition of Neighbors Helping Neighbors, Inc.) is a 501(c)(3) and all donations are tax deductible. EIN 81-4576973​**
 

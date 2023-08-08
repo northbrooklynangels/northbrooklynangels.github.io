@@ -95,13 +95,6 @@
       {{ end }}
     {{ end }}
 
-    <!-- If a page has a donation form -->
-    {{ if .HasShortcode "donate" }}
-      {{ with $webpack.donate.js }}
-        <script src="{{ relURL . }}" async></script>
-      {{ end }}
-    {{ end }}
-
     <!-- If a page uses a lightbox -->
     {{ if .HasShortcode "profile-entry" }}
       {{ with $webpack.lightbox.js }}

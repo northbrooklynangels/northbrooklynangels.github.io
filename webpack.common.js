@@ -8,7 +8,6 @@ module.exports = {
   entry: {
     main: path.join(__dirname, "src", "ts", "index.ts"),
     swiper: path.join(__dirname, "src", "ts", "swiper.ts"),
-    donate: path.join(__dirname, "src", "ts", "donate.ts"),
     map: path.join(__dirname, "src", "ts", "map.ts"),
     lightbox: path.join(__dirname, "src", "ts", "lightbox.ts")
   },
@@ -30,7 +29,7 @@ module.exports = {
         test: /\.((eot)|(woff)|(woff2)|(ttf))(\?v=\d+\.\d+\.\d+)?$/,
         loader: "file-loader?name=/[hash].[ext]"
       },
-      
+
       {
         test: /\.(gif|png|jpe?g|svg)/i,
         use: [

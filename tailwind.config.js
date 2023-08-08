@@ -24,8 +24,8 @@ module.exports = {
       headerAlt: ["Montserrat", ...defaultTheme.fontFamily.sans]
     },
     screens: {
-      "sm": "720px",
-      "md": "768px",
+      "sm": "740px",
+      "md": "820px",
       "lg": "1024px",
       "xl": "1280px",
       "2xl": "1536px"

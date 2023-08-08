@@ -186,6 +186,19 @@ input:checked ~ .toggle-dot {
     }
 }
 
+#donate-button {
+    @apply text-black;
+    @apply no-underline;
+
+    &:hover {
+        @apply text-white;
+    }
+
+    &:active {
+        @apply text-white;
+    }
+}
+
 .markdown article a > svg {
     color: theme("colors.black");
     

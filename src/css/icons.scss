@@ -5,18 +5,17 @@
 // Set up icons from Font Awesome
 @font-face {
     font-family: 'icomoon';
-    src: url('../fonts/icomoon.eot?c4a4w8');
-    src: url('../fonts/icomoon.eot?c4a4w8#iefix') format('embedded-opentype'),
-        url('../fonts/icomoon.ttf?c4a4w8') format('truetype'),
-        url('../fonts/icomoon.woff?c4a4w8') format('woff'),
-        url('../fonts/icomoon.svg?c4a4w8#icomoon') format('svg');
+    src: url('../fonts/icomoon.eot');
+    src: url('../fonts/icomoon.eot#iefix') format('embedded-opentype'),
+        url('../fonts/icomoon.ttf') format('truetype'),
+        url('../fonts/icomoon.woff') format('woff'),
+        url('../fonts/icomoon.svg#icomoon') format('svg');
     font-weight: normal;
     font-style: normal;
     font-display: block;
 }
 
-[class^="icon-"],
-[class*=" icon-"] {
+i {
     /* use !important to prevent issues with browser extensions that change fonts */
     font-family: 'icomoon' !important;
     speak: never;
@@ -29,10 +28,6 @@
     /* Better Font Rendering =========== */
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-}
-
-.icon-camera:before {
-    content: "\f030";
 }
 
 .icon-chevron-right:before {
@@ -105,4 +100,12 @@
 
 .icon-user-circle-o:before {
     content: "\f2be";
+}
+
+.icon-camera:before {
+    content: "\e900";
+}
+
+.icon-paypal:before {
+    content: "\ead8";
 }
