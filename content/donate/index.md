@@ -2,7 +2,7 @@
 title: Donate
 ---
 
-By donating money and sponsoring a meal, you embody our central mission of neighbors helping neighbors. Our grassroots mission is to sustain the ability to serve up to 3,000 meals a week. 
+By donating money and sponsoring a meal, you embody our central mission of neighbors helping neighbors. Our grassroots mission is to sustain the ability to serve up to 2,000 meals a week. 
 
 * $4,000 provides a week of meals to neighbors in need
 * $800 provides a healthy and nutritious lunch for 200
