@@ -109,4 +109,50 @@ docReady(() => {
             }
         }
     });
+
+    // Get Involved dropdowns
+    document.getElementById("desktop-nav-get-involved").addEventListener("click", () => {
+        let button = document.getElementById("desktop-nav-get-involved");
+        let dropdown = document.getElementById("desktop-nav-get-involved-dropdown");
+        let chevron = document.getElementById("desktop-nav-get-involved-chevron");
+
+        chevron.classList.toggle("fa-chevron-down");
+        chevron.classList.toggle("fa-chevron-up");
+        dropdown.classList.toggle("hidden");
+
+        let hiddenState = button.getAttribute("aria-expanded");
+        let expandedState = hiddenState === "false" ? "true" : "false";
+
+        button.setAttribute("aria-expanded", expandedState);
+    });
+    document.getElementById("mobile-nav-get-involved").addEventListener("click", () => {
+        let button = document.getElementById("mobile-nav-get-involved");
+        let dropdown = document.getElementById("mobile-nav-get-involved-dropdown");
+        let chevron = document.getElementById("mobile-nav-get-involved-chevron");
+
+        chevron.classList.toggle("fa-chevron-down");
+        chevron.classList.toggle("fa-chevron-up");
+        dropdown.classList.toggle("hidden");
+
+        let hiddenState = button.getAttribute("aria-expanded");
+        let expandedState = hiddenState === "false" ? "true" : "false";
+
+        button.setAttribute("aria-expanded", expandedState);
+    });
+    document.addEventListener("click", event => {
+        // @ts-ignore This is valid JavaScript; the TS type definitions just don't support that, for some reason. Not sure why.
+        if (!event.target.matches("#desktop-nav-get-involved")) {
+            let dropdown = document.getElementById("desktop-nav-get-involved-dropdown");
+        
+            if (!dropdown.classList.contains("hidden")) {
+                let button = document.getElementById("desktop-nav-get-involved");
+                let chevron = document.getElementById("desktop-nav-get-involved-chevron");
+
+                button.setAttribute("aria-expanded", "false");
+                chevron.classList.remove("fa-chevron-up");
+                chevron.classList.add("fa-chevron-down");
+                dropdown.classList.add("hidden");
+            }
+        }
+    });
 });
