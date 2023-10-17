@@ -2,7 +2,7 @@
 title: Neighbors Giving Thanks
 ---
 
-{{< carousel images="hero1,hero2,hero3,hero4cropped,hero5cropped" aspectRatio="16:9" >}}
+{{< carousel images="hero5cropped,hero4cropped,hero3,hero2,hero1" aspectRatio="16:9" >}}
 
 Every holiday season, North Brooklyn Angels hosts a multi-day event called Neighbors Giving Thanks. The goal is to bring a joyous and dignified Thanksgiving experience to our neighbors in Greenpoint/Williamsburg who may not have a place, or the means, to celebrate. 
 
@@ -15,7 +15,7 @@ This project, orchestrated by many of our wonderful volunteers and community par
 * Coordinating **four** locations in North Brooklyn to serve over 500 sit-down Thanksgiving Day meals to our neighbors (with a pick-up option available for freshly packaged meals)
   * This will take place at Ascension Church in Greenpoint, Church of Our Lady of Mt. Carmel in Williamsburg, Most Holy Trinity Church in East Williamsburg and Bushwick Abbey Iglesia de la Santa Cruz in Bushwick
 
-Your support in sponsoring this meaningful project will help us provide a memorable holiday experience for our many neighbors in need. Donate today via PayPal below and select “Neighbors Giving Thanks!”
+Your support in sponsoring this meaningful project will help us provide a memorable holiday experience for our many neighbors in need. Donate today via PayPal below and select "Neighbors Giving Thanks," via Venmo ([@northbrooklynangels](https://venmo.com/northbrooklynangels)), or by check addressed to 127 Kent Street, Brooklyn, NY. 
 
 {{< donate >}}
 
