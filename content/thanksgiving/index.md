@@ -2,7 +2,7 @@
 title: Neighbors Giving Thanks
 ---
 
-{{< carousel images="hero5cropped,hero4cropped,hero3,hero2,hero1" aspectRatio="16:9" >}}
+{{< carousel images="carousel1,carousel2,carousel3,carousel4,carousel5" aspectRatio="16:9" >}}
 
 Every holiday season, North Brooklyn Angels hosts a multi-day event called Neighbors Giving Thanks. The goal is to bring a joyous and dignified Thanksgiving experience to our neighbors in Greenpoint/Williamsburg who may not have a place, or the means, to celebrate. 
 
