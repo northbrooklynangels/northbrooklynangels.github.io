@@ -13,10 +13,12 @@ This project, orchestrated by many of our wonderful volunteers and community par
 * Distribution of ~1,000 frozen turkeys to families in need
 * Preparation and distribution of over 1,000 delicious holiday meals at our regular community outposts Monday - Wednesday before Thanksgiving
 * Coordinating **four** locations in North Brooklyn to serve over 500 sit-down Thanksgiving Day meals to our neighbors (with a pick-up option available for freshly packaged meals)
-  * This will take place at Ascension Church in Greenpoint, Church of Our Lady of Mt. Carmel in Williamsburg, Most Holy Trinity Church in East Williamsburg and Bushwick Abbey Iglesia de la Santa Cruz in Bushwick
+  * This will take place at sites in Greenpoint, Williamsburg, East Williamsburg and Bushwick.
 
 Your support in sponsoring this meaningful project will help us provide a memorable holiday experience for our many neighbors in need. Donate today via PayPal below and select "Neighbors Giving Thanks," via Venmo ([@northbrooklynangels](https://venmo.com/northbrooklynangels)), or by check addressed to 127 Kent Street, Brooklyn, NY. 
 
-{{< donate >}}
+<div class="grid grid-cols-5 lg:grid-cols-7 gap-y-6 mt-2 mb-4">
+    <a id="donate-button" href="https://www.gofundme.com/f/neighbors-giving-thanks-2023" class="col-span-3 col-start-2 lg:col-start-3 w-full bg-blue hover:bg-darkblue active:bg-darkblue text-lg text-center px-4 py-4 rounded-md font-bold transition">Donate via GoFundMe</a>
+</div>
 
 **For corporate/business sponsorships, please email us at fundraising@northbrooklynangels.org**
