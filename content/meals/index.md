@@ -113,7 +113,7 @@ A meal is served by our partners at Greenpoint Community Kitchen.
 * **Saturday** at **11:00 AM**
 {{< /map-marker >}}
 
-{{< map-marker lat="40.7287708" long="-73.9574816" title="81 Franklin Street">}}
+{{< map-marker lat="40.7285000" long="-73.9576667" title="81 Franklin Street">}}
 The truck is parked on the corner of Franklin and Noble Streets.
 
 #### Schedule
