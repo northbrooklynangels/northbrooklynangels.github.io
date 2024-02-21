@@ -3,9 +3,7 @@ title: "Save the Date! June 11th: 4th Annual Neighbors Helping Neighbors Luncheo
 HeaderFontFamily: alt
 ---
 
-<div class="py-2 w-full flex justify-center">
-{{< img image="midpage" altText="Midpage image of volunteers" >}}
-</div>
+{{< carousel images="1,2,3" aspectRatio="16:9" >}}
 
 We’re incredibly excited as we gear up for our upcoming signature luncheon event! Each year, we host our biggest fundraising event, a luncheon, honoring and celebrating local leaders who have supported North Brooklyn Angels. 
 
