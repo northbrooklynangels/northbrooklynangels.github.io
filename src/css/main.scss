@@ -294,6 +294,7 @@ input:checked ~ .toggle-dot {
         @apply mx-auto;
 
         max-width: 100%;
+        max-height: 100vh;
     }
 }
 .lum-lightbox-caption {

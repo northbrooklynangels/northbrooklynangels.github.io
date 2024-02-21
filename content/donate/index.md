@@ -31,13 +31,15 @@ We’re on Venmo! Our account is [@northbrooklynangels](https://venmo.com/northb
 
 ### Gofundme
 
-Interested in setting up a GoFundMe on our behalf? Look up the Angels with our EIN: 81-4576973​ to link your campaign to our account! Please email us at [northbrooklynangels@gmail.com](mailto:northbrooklynangels@gmail.com) for any questions, and we can also help you promote your campaign!
+Interested in setting up a GoFundMe on our behalf? Look up the Angels with our EIN: 81-4576973​ to link your campaign to our account! Please email us at [fundraising@northbrooklynangels.org](mailto:fundraising@northbrooklynangels.org) for any questions, and we can also help you promote your campaign!
 
 ### Workplace Giving
+
 Workplace giving is a way to make a donation to a charity through your paycheck. Check with your employer! Many employers either have an internal workplace giving program, or use an external service like **Benevity** or **YourCause** to manage employee donations to charities. If your company is part of this program, some donations you contribute to North Brooklyn Angels could be matched by your company. Check with your employee benefits program to find out if you can double your donation! 
- 
-### AmazonSmile 
-Anytime you shop on Amazon, you can make a small contribution to the Angels, at no cost to you! Visit [smile.amazon.com](https://smile.amazon.com) and select **North Brooklyn Coalition of Neighbors Helping Neighbors** as your preferred charitable organization to receive donations from eligible purchases before you begin shopping.
+
+### Tribute Gift 
+
+Make a donation to North Brooklyn Angels in honor or in memory of a loved one. If you choose to make this donation online through either Paypal or Venmo, please leave in the memo: details of the donation and address you’d like us to send a card to. You may also email [fundraising@northbrooklynangels.org](mailto:fundraising@northbrooklynangels.org).
 
 ---
 

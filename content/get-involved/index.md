@@ -2,16 +2,17 @@
 title: Get Involved
 ---
 
-{{< carousel images="hero1,hero2cropped,hero3,hero4" aspectRatio="16:9" >}}
+{{< carousel images="1,2,3,4,5" aspectRatio="16:9" >}}
 
 Our goal is to be the place where newer & long term residents come together in support of feeding insecure neighbors in volunteer projects which aid members of our community struggling with economic change. Serving meals is only the beginning…
 
 # Volunteer!
 
-North Brooklyn Angels is **95% volunteer-powered**! Everything from driving the truck to cooking the meals is done by amazing volunteers. We rely on people every day to help us cook & clean in the kitchen and to serve meals from the Angelmobile. 
+North Brooklyn Angels is **95% volunteer-powered**! Everything from driving the truck to cooking the meals is done by amazing volunteers. We rely on people every day to help us cook & clean in the kitchen and to serve meals from our fleet of mobile soup kitchen vehicles.
 
 Volunteer for a shift (or two!): sign up with [Deed](https://web.godeed.today/organization/5ba68de87e93fe6c785a6dcd) in order to sign up for shifts from your phone. Once you have signed up, look up North Brooklyn Angels to see the few upcoming shifts!
 
 * Follow us for the latest opportunities! Contact us with questions about volunteering through any medium - phone, email, messaging, etc. Follow us on [Instagram](https://instagram.com/northbrooklynangels), like us on [Facebook](https://facebook.com/northbrooklynangels), or follow us on [Twitter](https://twitter.com/nbrooklynangels). Besides fab photos, we use social media to post last minute & emergency volunteer needs!
-* TO SCHEDULE AND ARRANGE GROUPS of 5 or more, email [volunteer@northbrooklynangels.org](mailto:volunteer@northbrooklynangels.org)
+* TO SCHEDULE AND ARRANGE CORPORATE GROUPS of 5-7 (or more), email [volunteer@northbrooklynangels.org](mailto:volunteer@northbrooklynangels.org)
 * To stay in the know, we send a newsletter-type email every two weeks to volunteers who opt-in to receive updates on emerging needs, upcoming events, and opportunities in the near/distant future. Email [volunteer@northbrooklynangels.org](mailto:volunteer@northbrooklynangels.org) if you’d like to receive these emails!
+* **2024 small-but-crucial volunteer opportunities** - From time to time, we list our “extra mile” volunteer opportunities that require less time and are not posted to Deed. Check them out via this [Google Form](https://bit.ly/nba2024survey)!
