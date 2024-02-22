@@ -11,7 +11,7 @@ Meals are available on a first come, first served basis and may all be distribut
 * Monday In Greenpoint and Williamsburg  
   **12:30 PM**
   1. 862 Manhattan Avenue: The truck is parked in front of the steps of the St. Anthony of Padua - St. Alphonsus church at the intersection of Manhattan Avenue and Milton Street.
-  2. 195 Maujer Street: The can is parked in front of St. John the Evangelist Lutheran Church, across the street from the Williamsburg Houses.
+  2. 195 Maujer Street: The van is parked in front of St. John the Evangelist Lutheran Church, across the street from the Williamsburg Houses.
   3. 1 Havemeyer Street: A meal is served right outside our Community Kitchen at 11:45 AM.
 
 * Tuesday on the Southside and in Bushwick  

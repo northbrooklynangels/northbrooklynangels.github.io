@@ -46,9 +46,6 @@ Fang has been living in Williamsburg for over ten years. Having witnessed how th
 
 In her free time, Fang loves “patrolling” the neighborhood with her dog Max, and discovers the new, old and hidden gems in the neighborhood. 
 {{% /profile-entry %}}
-{{% profile-entry name="Tony Kim" image="tony-kim" %}}
-Prior to working in the real estate industry, Tony Kim worked in the restaurant industry since he was 16 years old where he gained deep knowledge of restaurant operations starting as a dishwasher, working as server, and eventually operating restaurants serving 6,000 customers a week as a General Manager. After participating in a company-sponsored volunteer event with the Angels in April 2019, Tony was inspired to get more involved with the North Brooklyn community. Tony now has the pleasure of “earning his wings” as a Board Member and active volunteer by providing his expertise, focusing on food safety and kitchen operations for the Angels. Tony currently works in Greenpoint Brooklyn as a Property Manager for the Domain Companies. He is also a licensed New York real estate broker, a New Jersey real estate sales agent, and a low income housing tax credit specialist.
-{{% /profile-entry %}}
 {{% profile-entry name="Phil Mauro" image="phil-mauro" %}}
 A Greenpoint native raised on Staten Island, Phil Mauro is a professional photographer and professor of photography at Wagner College. His diverse work has included clients ranging from Random House, to Apple Computer, to the Lenox Hill Neighborhood House, to name just a few! Returning to Brooklyn in 1987 and settling back in Greenpoint in 1995, Phil has also dedicated the past 25 years to causes supporting the Greenpoint community. As a board member and active volunteer, among many ways in which he helps, Phil can be seen taking snapshots of the Angels in action to help us tell and share the stories of our neighbors and volunteers!
 {{% /profile-entry %}}
