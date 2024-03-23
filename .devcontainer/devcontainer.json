@@ -1,34 +1,14 @@
-// For format details, see https://aka.ms/devcontainer.json. For config options, see the README at:
-// https://github.com/microsoft/vscode-dev-containers/tree/v0.231.2/containers/ubuntu
+// See https://containers.dev/implementors/json_reference/ for configuration reference
 {
-	"name": "Ubuntu",
+	"name": "North Brooklyn Angels",
 	"build": {
-		"dockerfile": "Dockerfile",
-		// Update 'VARIANT' to pick an Ubuntu version: hirsute, focal, bionic
-		// Use hirsute or bionic on local arm64/Apple Silicon.
-		"args": { "VARIANT": "focal" }
+		"dockerfile": "Dockerfile"
 	},
-
-	// Set *default* container specific settings.json values on container create.
-	"settings": {},
-
-
-	// Add the IDs of extensions you want installed when the container is created.
-	"extensions": [
-		"akmittal.hugofy",
-		"rusnasonov.vscode-hugo",
-		"budparr.language-hugo-vscode"
-	],
-
-	// Use 'forwardPorts' to make a list of ports inside the container available locally.
-	// "forwardPorts": [],
-
-	// Use 'postCreateCommand' to run commands after the container is created.
-	// "postCreateCommand": "uname -a",
-
-	// Comment out to connect as root instead. More info: https://aka.ms/vscode-remote/containers/non-root.
-	"remoteUser": "vscode",
+	"remoteUser": "node",
 	"features": {
-		"node": "lts"
-	}
+		"ghcr.io/devcontainers/features/common-utils:2": {},
+		"ghcr.io/devcontainers/features/node:1": {},
+		"ghcr.io/devcontainers-contrib/features/zsh-plugins:0": {}
+	},
+	"postCreateCommand": "bash -i -c 'sudo apt-get update && sudo apt-get install build-essential -y && nvm install && npm install -g npm rimraf'"
 }
