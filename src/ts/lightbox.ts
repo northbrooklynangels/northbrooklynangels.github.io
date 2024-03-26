@@ -1,5 +1,5 @@
 import { LuminousGallery } from "luminous-lightbox";
-import "luminous-lightbox/dist/luminous-basic.min.css";
+import "luminous-lightbox/dist/luminous-basic.css";
 
 import docReady from "./docready";
 
