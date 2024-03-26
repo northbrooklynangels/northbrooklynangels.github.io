@@ -4,6 +4,7 @@
 
 @import "icons";
 
+
 .toggle-dot {
     top: -.25rem;
     left: -.25rem;
@@ -12,6 +13,12 @@
 
 input:checked ~ .toggle-dot {
     transform: translateX(100%);
+}
+
+// No clue why this isn't working but for some reason fill-current isn't actually applying stuff
+// not sure if it's in the build or not, but...
+.fill-current {
+    fill: currentColor;
 }
 
 // @apply doesn't work properly with SCSS for some reason
@@ -255,7 +262,7 @@ input:checked ~ .toggle-dot {
 // Carousel tweaks
 :root {
     --swiper-navigation-color: theme("colors.white");
-    --swiper-theme-color: theme("colors.white");
+    --swiper-theme-color: theme("colors.blue");
 }
 .swiper-slide {
     img {

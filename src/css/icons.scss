@@ -1,6 +1,6 @@
 // Import NBA font
 @import "~@fontsource/bebas-neue/scss/mixins";
-// @include fontFace();
+@include faces();
 
 // Set up icons from Font Awesome
 @font-face {
