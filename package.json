@@ -5,6 +5,7 @@
   "repository": "https://github.com/northbrooklynangels/northbrooklynangels.github.io.git",
   "homepage": "https://northbrooklynangels.com",
   "scripts": {
+    "deploy": "gh-pages -d dist",
     "start": "run-p start:**",
     "start:hugo": "hugo -d ../dist -s site --logLevel info -w",
     "start:webpack": "webpack-dev-server --config webpack.dev.js --hot",
@@ -51,6 +52,7 @@
     "css-loader": "^6.10.0",
     "css-minimizer-webpack-plugin": "^6.0.0",
     "exports-loader": "^5.0.0",
+    "gh-pages": "^6.1.1",
     "hugo-bin": "^0.121.1",
     "imports-loader": "^5.0.0",
     "mini-css-extract-plugin": "^2.8.1",
