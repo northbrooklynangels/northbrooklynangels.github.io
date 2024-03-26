@@ -52,7 +52,12 @@ module.exports = {
             {
                 test: /\.(sa|sc|c)ss$/,
                 // exclude: /node_modules/,
-                use: ["style-loader", MiniCssExtractPlugin.loader, "css-loader", "postcss-loader", "sass-loader"]
+                use: ["style-loader", {
+                    loader: MiniCssExtractPlugin.loader,
+                    options: {
+                        esModule: false
+                    }
+                }, "css-loader", "postcss-loader", "sass-loader"]
             }
         ]
     },
@@ -61,14 +66,11 @@ module.exports = {
     },
 
     plugins: [
-        new webpack.ProvidePlugin({
-            fetch: "imports-loader?this=>global!exports-loader?global.fetch!whatwg-fetch"
-        }),
-
         new AssetsPlugin({
             filename: "webpack.json",
             path: path.join(process.cwd(), "site/data"),
-            prettyPrint: true
+            prettyPrint: true,
+            removeFullPathAutoPrefix: true
         }),
 
         new CopyWebpackPlugin({
