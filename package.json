@@ -5,7 +5,7 @@
   "repository": "https://github.com/northbrooklynangels/northbrooklynangels.github.io.git",
   "homepage": "https://northbrooklynangels.com",
   "scripts": {
-    "clean": "rimraf ../site/resources",
+    "clean": "rimraf site/resources && del-cli site/data/webpack.json && rimraf dist",
     "deploy": "gh-pages -d dist",
     "start": "run-p start:**",
     "start:hugo": "hugo -d ../dist -s site -w",
@@ -52,6 +52,7 @@
     "cross-env": "^7.0.3",
     "css-loader": "^6.10.0",
     "css-minimizer-webpack-plugin": "^6.0.0",
+    "del-cli": "^5.1.0",
     "exports-loader": "^5.0.0",
     "gh-pages": "^6.1.1",
     "hugo-bin": "^0.121.1",
