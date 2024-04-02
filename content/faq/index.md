@@ -27,7 +27,7 @@ That said, our board is working on building a monthly volunteer opportunity to i
 
 ## Are there opportunities to volunteer besides your weekly lunch shifts?
 
-Yes! Our bi-weekly newsletter will list these opportunities, or check in with us on social media for special opportunities including a Sunday Breakfast Shift, [our seasonal Angel Babies events](/angel-babies), as well as support for other special initiatives. C
+Yes! Our bi-weekly newsletter will list these opportunities, or check in with us on social media for special opportunities including a Sunday Breakfast Shift, [our seasonal Angel Babies events](/angel-babies), as well as support for other special initiatives. 
 
 ## Can I bring a group to volunteer?
 

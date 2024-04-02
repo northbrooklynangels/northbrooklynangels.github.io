@@ -5,6 +5,7 @@
   "repository": "https://github.com/northbrooklynangels/northbrooklynangels.github.io.git",
   "homepage": "https://northbrooklynangels.com",
   "scripts": {
+    "clean": "rimraf ../site/resources",
     "deploy": "gh-pages -d dist",
     "start": "run-p start:**",
     "start:hugo": "hugo -d ../dist -s site -w",

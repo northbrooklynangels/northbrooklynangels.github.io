@@ -22,6 +22,9 @@ For almost 20 years, Lauren has made her home in Greenpoint, Brooklyn. Before he
 ## BOARD
 
 {{< profile >}}
+{{% profile-entry name="Kendall Charter" image="kendall-charter" %}}
+Kendall Charter has made a career at New York City’s YMCA. He began working at the Y in 1993, and over the following six years, he held positions in Membership and the Youth and Family programs. Then, in 2000, he transferred to the Long Island City YMCA, where he served as Senior Program Director for eight years. In 2008, he was named Associate Executive Director at the Prospect Park YMCA and the Park Slope Armory—a position he held until assuming the role of Executive Director at the Flatbush Y. He then moved over as Executive Director at the Greenpoint YMCA in October 2015. Kendall holds a bachelor’s degree from York College, where he studied social work, and an MPA from the Metropolitan College of New York’s Graduate School of Public Service.
+{{% /profile-entry %}}
 {{% profile-entry name="Reverend John Merz" description="Vice Chairperson and Co-Founder" image="john-merz" %}}
 John is the Vicar of the Episcopal Church of the Ascension in Greenpoint Brooklyn where he has worked to focus the church toward the needs of the vulnerable. He has been involved in ministry and advocacy for those without housing, those living with AIDS, the LGBTQIA+ community, and others. Before becoming Vicar at Ascension John was the Episcopal Chaplain to NYU and surrounding campuses. He lives in Greenpoint with Tara Anderson where they are raising their two children, Phaedra and Vito.
 {{% /profile-entry %}}
