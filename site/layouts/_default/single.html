@@ -16,6 +16,12 @@
     {{ end }}
     {{ partial "utility/breadcrumbs.html" . }}
   </header>
+
+  {{ if isset .Params "toc" }}
+    <aside class="lg:float-right pt-2 mb-4 lg:ml-4 border rounded-xl border-gray-300 dark:border-gray-700 bg-gray-100 dark:bg-gray-800">
+      {{ .TableOfContents }}
+    </aside>
+  {{ end }}
   <article>
     {{ .Content }}
   </article>

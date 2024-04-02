@@ -1,3 +1,8 @@
+---
+title: FAQs
+toc: true
+---
+
 # For Volunteering
 
 ## Who can volunteer?
@@ -10,23 +15,23 @@ The best way to get involved is by signing up for one of our upcoming volunteer 
 
 Everything you'd need to know about available volunteer shifts and times can be found by visiting [our Deed page](https://web.godeed.today/organization/5ba68de87e93fe6c785a6dcd). Attending your shift is important since we often have a waitlist! If you can’t make it to your scheduled shift, just let us know so that we won’t be short staffed.
 
-To opt into our bi-weekly newsletter-type email and to have a greater sense of our emerging needs, [sign up to our mailing list here](#newsletter)! And of course, follow us on [Instagram](https://instagram.com/northbrooklynangels) if you're on it.
+To opt into our bi-weekly newsletter-type email and to have a greater sense of our emerging needs, write to us at [volunteer@northbrooklynangels.org](mailto:volunteer@northbrooklynangels.org) and we will add you to our mailing list! And of course, follow us on [Instagram (@northbrooklynangels)](https://instagram.com/northbrooklynangels) if you're on it.
 
-If you are interested in driving our truck, please reach out to us at [volunteers@northbrooklynangels.org](mailto:volunteers@northbrooklynangels.org) and let us know! We are always looking for drivers.
+If you are interested in driving our truck, please reach out to us at [volunteer@northbrooklynangels.org](mailto:volunteer@northbrooklynangels.org) and let us know! We are always looking for drivers.
 
 ## What opportunities are available to children?
 
 Our policy regarding minors volunteering with us is to have the interested parent volunteer with us a few times first so they have an idea of the layout of the shift and kitchen. With advanced notice, the parent can then volunteer with their children. Given the intensity of the pace at the kitchen and our need to have meals prepared for distribution in a tight timeframe, we have to balance newcomers and minors with veteran volunteers. 
 
-That said, our board is working on building a monthly volunteer opportunity to involve local families and younger children. To learn more, [opt into our bi-weekly newsletter](#newsletter)!
+That said, our board is working on building a monthly volunteer opportunity to involve local families and younger children. To learn more, opt into our bi-weekly newsletter by emailing [volunteer@northbrooklynangels.org](mailto:volunteer@northbrooklynangels.org)! We'll make sure you're put on it without a problem!
 
 ## Are there opportunities to volunteer besides your weekly lunch shifts?
 
-Yes! [Our bi-weekly newsletter](#newsletter) will list these opportunities, or check in with us on social media for special opportunities including a Sunday Breakfast Shift, [our seasonal Angel Babies events](/angel-babies), as well as support for other special initiatives. 
+Yes! Our bi-weekly newsletter will list these opportunities, or check in with us on social media for special opportunities including a Sunday Breakfast Shift, [our seasonal Angel Babies events](/angel-babies), as well as support for other special initiatives. C
 
 ## Can I bring a group to volunteer?
 
-We welcome local businesses and sponsors to schedule a group of 5 or more. Please contact us at [volunteers@northbrooklynangels.org](mailto:volunteers@northbrooklynangels.org). 
+We welcome local businesses and sponsors to schedule a group of 5 or more. Please contact us at [volunteer@northbrooklynangels.org](mailto:volunteer@northbrooklynangels.org). 
 
 ## Besides volunteering, what other ways can I be involved?
 
@@ -52,7 +57,7 @@ From time-to-time every few months, we do require signatures for our meals and g
 
 ## Do you offer any other services?
 
-Our Angel Babies project is a big volunteer driven giveaway event meant for local, new and expectant families in need of resources. You can get involved by volunteering, donating, hosting a drive or dropping off donations. We have more information here, and [our bi-weekly newsletter](#newsletter) will give you timely information regarding Angel Babies events. 
+Our Angel Babies project is a big volunteer driven giveaway event meant for local, new and expectant families in need of resources. You can get involved by volunteering, donating, hosting a drive or dropping off donations. We have more information here, and our bi-weekly newsletter (sign up by emailing us at [volunteer@northbrooklynangels.org](mailto:volunteer@northbrooklynangels.org)!) will give you timely information regarding Angel Babies events. 
 
 ---
 

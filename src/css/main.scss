@@ -28,6 +28,11 @@ input:checked ~ .toggle-dot {
         @apply mb-2;
         
         font-family: theme("fontFamily.header");
+        color: theme("colors.gray.800");
+
+        .dark & {
+            color: theme("colors.gray.100");
+        }
     }
     &.font-header-alt {
         h1, h2, h3, h4, h5, h6 {
