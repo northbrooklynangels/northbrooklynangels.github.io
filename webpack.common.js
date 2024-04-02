@@ -14,7 +14,7 @@ module.exports = {
 
     output: {
         path: path.join(__dirname, "dist"),
-        filename: "[name].[contenthash][ext]"
+        filename: "[name][ext]"
     },
 
     module: {
@@ -77,7 +77,7 @@ module.exports = {
             patterns: [
                 {
                     from: "./src/fonts/",
-                    to: "fonts/[name].[ext]"
+                    to: "fonts/[name][ext]"
                 }
             ]
         })
