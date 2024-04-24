@@ -18,15 +18,15 @@ Location: Ascension Hall at 127 Kent Street Brooklyn, NY 11222
 
 {{< img "midpage" >}}
 
-Support North Brooklyn Angels’ 4th Annual “Neighbors Helping Neighbors” luncheon benefit by selecting a donor opportunity that you feel will make the greatest impact. You can help by purchasing a table/tickets, a sponsorship package, or by making a tax-deductible contribution.  
+Support North Brooklyn Angels’ 4th Annual “Neighbors Helping Neighbors” luncheon benefit by selecting a donor opportunity that you feel will make the greatest impact. You can help by purchasing an eJournal ad, a sponsorship package, or by making a tax-deductible contribution.  
 
 Each sponsorship level carries our commitment to represent and promote your generous donation. Proceeds will support the Angels’ mission of neighbors helping neighbors.
 
-Individual tickets are $400, with corporate sponsorship and underwriter packages available starting at $5,000. For more information, [download our event brochure](./2024%20Luncheon%20Brochure.pdf).
+For more information, [download our event brochure](./2024%20Luncheon%20Brochure.pdf).
 
 **New!** We will be debuting an eJournal PDF that will be uploaded to this webpage and kept here for over a year. [Details in our downloadable luncheon brochure](./2024%20Luncheon%20Brochure.pdf). 
 
-How to Purchase Tickets or Donate towards this event
+How to donate towards this event:
 
 * [Download our event brochure](./2024%20Luncheon%20Brochure.pdf), complete it with donation and payment (checks are welcome) or payment information, and email it to [fundraising@northbrooklynangels.org](mailto:fundraising@northbrooklynangels.org) or mail it to 127 Kent Street, Brooklyn, NY 11222 for processing.
 * [Donate through our general Donate page](/donate), select “2024 Luncheon Event” and leave a note through the PayPal portal.
