@@ -22,13 +22,13 @@ Support North Brooklyn Angels’ 4th Annual “Neighbors Helping Neighbors” lu
 
 Each sponsorship level carries our commitment to represent and promote your generous donation. Proceeds will support the Angels’ mission of neighbors helping neighbors.
 
-For more information, [download our event brochure](./2024%20Luncheon%20Brochure%20Final%20Updated.pdf).
+For more information, [download our event brochure](./2024%20Luncheon%20Brochure%20v2.pdf).
 
-**New!** We will be debuting an eJournal PDF that will be uploaded to this webpage and kept here for over a year. [Details in our downloadable luncheon brochure](./2024%20Luncheon%20Brochure%20Final%20Updated.pdf). 
+**New!** We will be debuting an eJournal PDF that will be uploaded to this webpage and kept here for over a year. [Details in our downloadable luncheon brochure](./2024%20Luncheon%20Brochure%20v2.pdf). 
 
 How to donate towards this event:
 
-* [Download our event brochure](./2024%20Luncheon%20Brochure%20Final%20Updated.pdf), complete it with donation and payment (checks are welcome) or payment information, and email it to [fundraising@northbrooklynangels.org](mailto:fundraising@northbrooklynangels.org) or mail it to 127 Kent Street, Brooklyn, NY 11222 for processing.
+* [Download our event brochure](./2024%20Luncheon%20Brochure%20v2.pdf), complete it with donation and payment (checks are welcome) or payment information, and email it to [fundraising@northbrooklynangels.org](mailto:fundraising@northbrooklynangels.org) or mail it to 127 Kent Street, Brooklyn, NY 11222 for processing.
 * [Donate through our general Donate page](/donate), select “2024 Luncheon Event” and leave a note through the PayPal portal.
 * [Donate through Venmo (@northbrooklynangels)](https://venmo.com/northbrooklynangels) with a comment on level of purchase, and email details to [fundraising@northbrooklynangels.org](mailto:fundraising@northbrooklynangels.org).
 
