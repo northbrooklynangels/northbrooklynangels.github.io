@@ -12,6 +12,16 @@ We are thrilled to honor:
 * Kuba J. Brown, Business Manager & Financial Secretary, IUOE Local 94, 94A and 94B
 * Paul Samulski, President, North Brooklyn Chamber
 
+## North Brooklyn Angels' Inaugural Luncheon eJournal
+
+Thank you so much to all of the many donors who took a journal page! 
+
+<iframe class="w-full h-svh" src="https://www.canva.com/design/DAGGWsKtLPc/xZQPaqS7r5K2Z7jxYWXbbw/view?embed" allowfullscreen allow="fullscreen" loading="lazy" frameborder="0"></iframe>
+
+<div class="grid grid-cols-1 gap-y-2 mt-2 mb-4">
+    <a href="https://drive.google.com/file/d/1c54rHx-LbZ8eGpRJnMxXsNaNvywudfAi/view" class="col-span-1 w-full text-center text-sm">Download eJournal PDF</a>
+</div>
+
 Location: Ascension Hall at 127 Kent Street Brooklyn, NY 11222
 
 ## You can make a difference! Join in helping your neighbors honor our neighbors of the year!
