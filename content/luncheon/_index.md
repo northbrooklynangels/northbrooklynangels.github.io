@@ -3,14 +3,14 @@ title: "June 11th: 4th Annual Neighbors Helping Neighbors Luncheon"
 HeaderFontFamily: alt
 ---
 
-{{< carousel images="carousel1,carousel2,carousel3,carousel4" >}}
+{{< carousel images="carousel1,carousel2,carousel3,carousel4,carousel5" >}}
 
-Join us on Tuesday, June 11th in honoring two, among many, extraordinary neighbors helping neighbors!
+On Tuesday, June 11th, we honored two extraordinary neighbors helping neighbors!
 
-We are thrilled to honor:
+We have been thrilled to honor:
 
-* Kuba J. Brown, Business Manager & Financial Secretary, IUOE Local 94, 94A and 94B
-* Paul Samulski, President, North Brooklyn Chamber
+* Kuba J. Brown, Business Manager & Financial Secretary, IUOE Local 94, 94A and 94B, recipient of the Guardian Angel award
+* Paul Samulski, President, North Brooklyn Chamber, recipient of the Local Hero award
 
 ## North Brooklyn Angels' Inaugural Luncheon eJournal
 
@@ -19,22 +19,20 @@ Thank you so much to all of the many donors who took a journal page!
 <iframe class="w-full h-svh" src="https://www.canva.com/design/DAGGWsKtLPc/xZQPaqS7r5K2Z7jxYWXbbw/view?embed" allowfullscreen allow="fullscreen" loading="lazy" frameborder="0"></iframe>
 
 <div class="grid grid-cols-1 gap-y-2 mt-2 mb-4">
-    <a href="https://drive.google.com/file/d/1c54rHx-LbZ8eGpRJnMxXsNaNvywudfAi/view" class="col-span-1 w-full text-center text-sm">Download eJournal PDF via Google Drive (warning: over 200MB file!)</a>
+    <a href="https://drive.google.com/file/d/16QuQ3UaO7-esA8tVQ_dfrxo8yLQg8zEH/view" class="col-span-1 w-full text-center text-sm">Download eJournal PDF via Google Drive (warning: over 200MB file!)</a>
 </div>
 
-Location: Ascension Hall at 127 Kent Street Brooklyn, NY 11222
+## There's still time: you can still make a difference! Join in helping your neighbors honor our neighbors of the year!
 
-## You can make a difference! Join in helping your neighbors honor our neighbors of the year!
+<a href="https://bit.ly/nba2024auction">{{< img "midpage" >}}</a>
 
-{{< img "midpage" >}}
+**New & Limited Time Opportunity!** Thanks to the generosity of some of the finest North Brooklyn establishments and businesses, we are happy to host an online auction of some unforgettable local experiences. **[Click here or the image](https://bit.ly/nba2024auction)** to make a bid. The Auction ends on **Tuesday, June 18, 2024!**
 
 Support North Brooklyn Angels’ 4th Annual “Neighbors Helping Neighbors” luncheon benefit by selecting a donor opportunity that you feel will make the greatest impact. You can help by purchasing an eJournal ad, a sponsorship package, or by making a tax-deductible contribution.  
 
-Each sponsorship level carries our commitment to represent and promote your generous donation. Proceeds will support the Angels’ mission of neighbors helping neighbors.
+Each sponsorship level carries our commitment to represent and promote your generous donation. Proceeds will support the Angels’ mission of neighbors helping neighbors. There is still time to sponsor an ad placement on our eJournal!
 
 For more information, [download our event brochure](./2024%20Luncheon%20Brochure%20v2.pdf).
-
-**New!** We will be debuting an eJournal PDF that will be uploaded to this webpage and kept here for over a year. [Details in our downloadable luncheon brochure](./2024%20Luncheon%20Brochure%20v2.pdf). 
 
 How to donate towards this event:
 
