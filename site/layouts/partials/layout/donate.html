@@ -1,3 +1,5 @@
+{{ $id := string (.id) | default "EJGTLDMP9PCC2" }}
+
 <div class="grid grid-cols-5 lg:grid-cols-7 gap-y-6 mt-2 mb-4">
-    <a id="donate-button" href="https://www.paypal.com/donate?hosted_button_id=TSH2YADGALGF6" class="col-span-3 col-start-2 lg:col-start-3 w-full bg-blue hover:bg-darkblue active:bg-darkblue text-lg text-center px-4 py-4 rounded-md font-bold transition"><i class="icon-paypal"></i> Donate using PayPal</a>
+    <a id="donate-button" href="https://www.paypal.com/donate?hosted_button_id={{ $id }}" class="col-span-3 col-start-2 lg:col-start-3 w-full bg-blue hover:bg-darkblue active:bg-darkblue text-lg text-center px-4 py-4 rounded-md font-bold transition"><i class="icon-paypal"></i> Donate using PayPal</a>
 </div>

@@ -16,6 +16,6 @@ In November, we will:
 
 Your contribution will help us provide a warm, welcoming holiday to those who need it most. Donate online today via Paypal listed below, or by check addressed to 127 Kent Street, Brooklyn, NY. We also gladly accept donations via **Venmo** ([northbrooklynangels](https://venmo.com/northbrooklynangels)) and **Zelle** (fundraising@northbrooklynangels.org). 
 
-{{< donate >}}
+{{< donate id="TSH2YADGALGF6" >}}
 
 **For corporate/business sponsorships, please email us at [fundraising@northbrooklynangels.org](mailto:fundraising@northbrooklynangels.org)**

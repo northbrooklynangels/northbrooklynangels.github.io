@@ -1,1 +1,5 @@
-{{ partial "layout/donate.html" . }}
+{{ if .IsNamedParams }}
+    {{ partial "layout/donate.html" (dict "context" . "id" (.Get "id")) }}
+{{ else }}    
+    {{ partial "layout/donate.html" (dict "context" . "id" (.Get 0)) }}
+{{ end }}
