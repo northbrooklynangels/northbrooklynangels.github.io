@@ -8,6 +8,8 @@ Responding to community need and opportunities made possible by local partnershi
 
 Each time a campaign is ignited, for a few weeks, North Brooklyn businesses, schools, bars, cafes, and large apartment buildings sign on to host donation collections for this incredible giveaway event, netting thousands of Angel Babies donations!
 
+**We need your help to make this possible!** [Check out our presentation](https://bit.ly/2024abpresentation) and [sign up to learn more](https://bit.ly/nba2024ab)!
+
 ## Get Involved! Our next event is happening October 2024!
 
 * **Volunteer:** North Brooklyn Angels relies on hundreds of phenomenal local volunteers and corporate volunteer groups to make these giveaways as efficient as they are impactful. Weeks before a giveaway event, volunteers help sort thousands of donated items, transport them to a designated event space, and staff the event. For an idea, [check out a recent Instagram post here.](https://www.instagram.com/p/C589SO7ufN1/?img_index=1) Opt in to receive bi-weekly emails on upcoming dates and opportunities by emailing [volunteer@northbrooklynangels.org](mailto:volunteer@northbrooklynangels.org) and follow us on Instagram!
