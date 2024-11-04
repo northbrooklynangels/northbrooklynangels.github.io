@@ -296,8 +296,15 @@ input:checked ~ .toggle-dot {
     height: 400px;
     width: 100%;
     
-    // Needed to correct text color issues in night mode
+    // Needed to correct text color issues in dark mode
     @apply dark:text-black;
+
+    // Apparently the headers in the popups weren't correctly colored in dark mode? How long was this an issue for that I didn't know about?
+    div[role="dialog"] {
+        h1, h2, h3, h4, h5, h6 {
+            color: theme("colors.gray.800");
+        }
+    }
 }
 
 // Luminous lightbox tweaks
