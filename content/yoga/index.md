@@ -1,8 +1,10 @@
 ---
 title: Greenpoint Community Yoga
+hero: hero
+heroAltText: An overhead shot of a yoga class taking place within Ascension Church. Several people are sitting on yoga mats, facing the front of the church.
+heroCommand: fill
+heroOptions: 2400x800 Center
 ---
-
-{{< img image="hero" altText="An overhead shot of a yoga class taking place within Ascension Church. Several people are sitting on yoga mats, facing the front of the church." command="fill" options="2400x800 Center" >}}
 
 ## History & Mission of Greenpoint Community Yoga
 

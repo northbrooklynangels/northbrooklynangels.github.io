@@ -1,6 +1,6 @@
 --- 
 title: "June 11th: 4th Annual Neighbors Helping Neighbors Luncheon"
-HeaderFontFamily: alt
+headerFontFamily: alt
 ---
 
 {{< carousel images="carousel1,carousel2,carousel3,carousel4,carousel5" >}}

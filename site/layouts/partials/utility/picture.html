@@ -96,9 +96,9 @@
         <source srcset="{{ $srcsetWebp }}" sizes="{{ $sizes }}" type="image/webp" />
         <source srcset="{{ $srcset }}" sizes="{{ $sizes }}" type="{{ $original.MediaType }}" />
         {{ if $rounded }}
-            <img src="{{ $fallback }}" width="{{ $fallbackWidth }}" height="{{ $fallbackHeight }}" {{if ne $altText "" }} title="{{ $altText }}" alt="{{ $altText }}" {{end}} class="rounded-md">
+            <img srcset="{{ $srcset }}" sizes="{{ $sizes }}" src="{{ $fallback }}" width="{{ $fallbackWidth }}" height="{{ $fallbackHeight }}" {{if ne $altText "" }} title="{{ $altText }}" alt="{{ $altText }}" {{end}} class="rounded-md">
         {{ else }}
-            <img src="{{ $fallback }}" width="{{ $fallbackWidth }}" height="{{ $fallbackHeight }}" {{if ne $altText "" }} title="{{ $altText }}" alt="{{ $altText }}" {{end}}>
+            <img srcset="{{ $srcset }}" sizes="{{ $sizes }}" src="{{ $fallback }}" width="{{ $fallbackWidth }}" height="{{ $fallbackHeight }}" {{if ne $altText "" }} title="{{ $altText }}" alt="{{ $altText }}" {{end}}>
         {{ end }}
     </picture>
 {{ if $caption }}
