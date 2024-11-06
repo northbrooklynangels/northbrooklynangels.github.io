@@ -46,7 +46,7 @@ In addition to the meals listed above, we also deliver meals to seniors at home 
 {{< map-marker lat="40.7294095" long="-73.9539297" title="St. Anthony of Padua - St. Alphonsus Church">}}
 Parked right in front of the church.
 
-##### Schedule
+#### Schedule
 * **Mondays** at **12:15 PM**
 * **Thursdays** at **12:30 PM**
 {{< /map-marker >}}
@@ -54,7 +54,7 @@ Parked right in front of the church.
 {{< map-marker lat="40.7112735" long="-73.9427379" title="195 Maujer Street">}}
 The truck is parked in front of St. John the Evangelist Lutheran Church, across the street from the Williamsburg Houses.
 
-##### Schedule
+#### Schedule
 * **Mondays** at **12:30 PM**
 * **Wednesdays** at **12:30 PM**
 {{< /map-marker >}}
@@ -62,14 +62,14 @@ The truck is parked in front of St. John the Evangelist Lutheran Church, across 
 {{< map-marker lat="40.7068565" long="-73.9576727" title="240 Division Avenue">}}
 The truck is parked across the street from the Williamsburgh Library on the Division Avenue Overpass, between Marcy Avenue & Rodney Street.
 
-##### Schedule
+#### Schedule
 * **Tuesdays** at **12:30 PM**
 {{< /map-marker >}}
 
 {{< map-marker lat="40.7162696" long="-73.9529276" title="1 Havemeyer Street">}}
 A meal is served right outside our Community Kitchen.
 
-##### Schedule
+#### Schedule
 * **Mondays** at **11:45 AM**
 * **Tuesdays** at **11:45 AM**
 * **Wednesdays** at **11:45 AM**
@@ -80,14 +80,14 @@ A meal is served right outside our Community Kitchen.
 {{< map-marker lat="40.717852" long="-73.938431" title="Cooper Park Houses Residence Council">}}
 The truck is parked in front of the playground at the intersection of Jackson Street and Debevoise Avenue.
 
-##### Schedule
+#### Schedule
 * **Thursdays** at **12:30 PM**
 {{< /map-marker >}}
 
 {{< map-marker lat="40.707028" long="-73.9439957" title="138 Montrose Avenue">}}
 The truck is parked outside of the church.
 
-##### Schedule
+#### Schedule
 * **Fridays** at **12:30 PM**
 {{< /map-marker >}}
 

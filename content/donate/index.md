@@ -17,9 +17,9 @@ By donating money and sponsoring a meal, you embody our central mission of neigh
 
 It is no surprise as the cost of food and rents continue to soar higher each year that hunger persists in every corner of our neighborhood. The problem of food insecurity isn't just found in our homeless community; it is seniors struggling with fixed incomes & rising medical costs, children from working families that can't put a healthy meal on the table every night, the students who skip multiple meals in order to afford transportation to class, working families that find it hard to feed themselves at the end of the month, your neighbor across the hall or down the street living paycheck to paycheck, and larger pockets of poverty where whole communities in our neighborhood encounter hungry days. The meal gap can be anywhere from a couple meals a month to a daily struggle to eat.
 
-## Other ways to give
+# Other ways to give
  
-### Postal service
+## Postal service
 
 Mail a check payable to:
 
@@ -27,19 +27,19 @@ Mail a check payable to:
 > 127 Kent St.  
 > Brooklyn, NY 11222
 
-### Venmo
+## Venmo
 
 We’re on Venmo! Our account is [@northbrooklynangels](https://venmo.com/northbrooklynangels)
 
-### Gofundme
+## Gofundme
 
 Interested in setting up a GoFundMe on our behalf? Look up the Angels with our EIN: 81-4576973​ to link your campaign to our account! Please email us at [fundraising@northbrooklynangels.org](mailto:fundraising@northbrooklynangels.org) for any questions, and we can also help you promote your campaign!
 
-### Workplace Giving
+## Workplace Giving
 
 Workplace giving is a way to make a donation to a charity through your paycheck. Check with your employer! Many employers either have an internal workplace giving program, or use an external service like **Benevity** or **YourCause** to manage employee donations to charities. If your company is part of this program, some donations you contribute to North Brooklyn Angels could be matched by your company. Check with your employee benefits program to find out if you can double your donation! 
 
-### Tribute Gift 
+## Tribute Gift 
 
 Make a donation to North Brooklyn Angels in honor or in memory of a loved one. If you choose to make this donation online through either Paypal or Venmo, please leave in the memo: details of the donation and address you’d like us to send a card to. You may also email [fundraising@northbrooklynangels.org](mailto:fundraising@northbrooklynangels.org).
 

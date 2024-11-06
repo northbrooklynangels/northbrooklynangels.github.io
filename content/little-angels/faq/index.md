@@ -11,7 +11,7 @@ Our storefront is small with limited capacity. At this time we are only acceptin
 # How does Little Angels determine what families to enroll?
 We will begin with WIC-enrolled families and eventually extend to other community-based programs that provide services to local families in need. 
 
-We will err away from families who reach out directly (for the time being), as we see our program's offering as one component of coordinated care that we'd like the family to be plugged into
+We will err away from families who reach out directly (for the time being), as we see our program's offering as one component of coordinated care that we'd like the family to be plugged into.
 
 # What is WIC?
 Women, Infants and Children (WIC) provides nutritious foods, nutrition education, breastfeeding support and referrals to health care and social services for millions of low-income families and it plays a crucial role in improving lifetime health for women, their infants and young children. Part of the nation's nutrition safety net for over 45 years, WIC now serves over 6 million pregnant and postpartum women, infants and children through their fifth birthday.

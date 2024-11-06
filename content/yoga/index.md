@@ -6,7 +6,7 @@ heroCommand: fill
 heroOptions: 2400x800 Center
 ---
 
-## History & Mission of Greenpoint Community Yoga
+# History & Mission of Greenpoint Community Yoga
 
 Greenpoint Community Yoga was founded in February 2024 as a way to bring affordable and accessible yoga classes to the community while supporting North Brooklyn Angels.
 

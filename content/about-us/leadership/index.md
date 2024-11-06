@@ -2,7 +2,7 @@
 title: Leadership
 ---
 
-## STAFF 
+# STAFF 
 
 {{< profile >}}
 {{% profile-entry name="Kendra Chiu" description="Executive Director" image="kendra-chiu" %}}
@@ -19,7 +19,7 @@ For almost 20 years, Lauren has made her home in Greenpoint, Brooklyn. Before he
 {{% /profile-entry %}}
 {{< /profile >}}
 
-## BOARD
+# BOARD
 
 {{< profile >}}
 {{% profile-entry name="Reverend John Merz" description="Vice Chairperson and Co-Founder" image="john-merz" %}}

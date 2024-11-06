@@ -12,7 +12,7 @@ We have been thrilled to honor:
 * Kuba J. Brown, Business Manager & Financial Secretary, IUOE Local 94, 94A and 94B, recipient of the Guardian Angel award
 * Paul Samulski, President, North Brooklyn Chamber, recipient of the Local Hero award
 
-## North Brooklyn Angels' Inaugural Luncheon eJournal
+# North Brooklyn Angels' Inaugural Luncheon eJournal
 
 Thank you so much to all of the many donors who took a journal page! 
 
@@ -22,7 +22,7 @@ Thank you so much to all of the many donors who took a journal page!
     <a href="https://drive.google.com/file/d/1iBQL0WBFOLyffU0JUzAOt6gx2XeAb64D/view" class="col-span-1 w-full text-center text-sm">Download eJournal PDF via Google Drive (warning: over 200MB file!)</a>
 </div>
 
-## There's still time: you can still make a difference! Join in helping your neighbors honor our neighbors of the year!
+# There's still time: you can still make a difference! Join in helping your neighbors honor our neighbors of the year!
 
 <a href="https://bit.ly/nba2024auction">{{< img "midpage" >}}</a>
 
@@ -40,7 +40,7 @@ How to donate towards this event:
 * [Donate through our general Donate page](/donate), select “2024 Luncheon Event” and leave a note through the PayPal portal.
 * [Donate through Venmo (@northbrooklynangels)](https://venmo.com/northbrooklynangels) with a comment on level of purchase, and email details to [fundraising@northbrooklynangels.org](mailto:fundraising@northbrooklynangels.org).
 
-### Warm thanks to our Luncheon Committee:
+## Warm thanks to our Luncheon Committee:
 **Luncheon Chair**: Elaine Brodsky, North Brooklyn Chamber • **Luncheon Committee**: Tony Argento, Broadway Stages • Norm Brodsky, Whiskey Helps • Kendra Chiu, North Brooklyn Angels • Edwin L. Christian, IUOE Local 14 • Francis J. Connolly, Jr., Teamsters 817 • Jillian Loughnane, IUOE Local 94 • Ray Macco, IUOE Local 94 • Charles E. Meere III, IATSE Local 52 • Fr. John Merz\*, North Brooklyn Angels • Robin Ottaway, Brooklyn Brewery • Vincent F. Pitta, Pitta LLP • Howard Rothschild, Realty Advisory Board • Neil Sheehan\*, North Brooklyn Angels • Kevin Thompson\*, ExxonMobil
 
 \* *Member of North Brooklyn Angels Board of Directors*
