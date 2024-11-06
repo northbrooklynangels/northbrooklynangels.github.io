@@ -29,3 +29,7 @@ Little Angels is a fledgling new program under North Brooklyn Angels, and we run
 * [**Donate**](/donate) - As a hyper-local non-profit, North Brooklyn Angels runs on the generosity of our neighbors and supporters! Please consider making a donation to support the sustainability of this program. [By navigating our donation page](/donate), you will see "Little Angels" as an option to which you'd like to donate your support!
 * [**Volunteer**](https://docs.google.com/forms/d/e/1FAIpQLSfU1C1D5FKSkLrsyP68neCHSysjsiaHRbKPrAEj9hcArqU3-A/viewform) - We're always looking for community members to help pickup and drop off donations, keep our storefront and inventory in order, and liaise with the community to build awareness and generate donations. Join our growing group of neighbors helping neighbors! 
 * **Stay in Touch** - Stay up to speed on the evolution of Little Angels, hear about our success and learn about new opportunities to engage with the program as it grows. Follow us on Instagram and Facebook!
+
+# [FAQs](/little-angels/faq)
+
+[Please visit this page to see frequently asked questions!](/little-angels/faq)
