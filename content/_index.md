@@ -20,8 +20,6 @@ title: Index
 {{% /rich-carousel-slide %}}
 {{< /rich-carousel >}}
 
-## Subscribe to our newsletter!
+# Subscribe to our newsletter!
 
-Subscribe here for email communications from the Angels! 
-
-{{< newsletter >}} 
+We run a volunteer newsletter that goes out every two weeks! [Subscribe by emailing volunteer@northbrooklynangels.org!](mailto:volunteer@northbrooklynangels.org)

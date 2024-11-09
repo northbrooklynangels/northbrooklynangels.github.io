@@ -29,11 +29,6 @@
       {{ end }}
     {{ end }}
     
-    <!-- If the page has the newsletter shortcode, which requires Mailchimp CSS -->
-    {{ if .HasShortcode "newsletter" }}
-    <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7_dtp.css" rel="stylesheet" type="text/css">
-    {{ end }}
-    
     <!-- Put the main CSS below so CSS properties are overridden correctly -->
     {{ with $webpack.main.css }}
       <link href="{{ relURL . }}" rel="stylesheet">
@@ -101,8 +96,5 @@
         <script src="{{ relURL . }}" async></script>
       {{ end }}
     {{ end }}
-
-    <!-- Newsletter modal -->
-    {{ partialCached "newsletter" . }}
   </body>
 </html>
