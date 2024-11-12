@@ -51,7 +51,7 @@ Here's what we're looking for early in the month of November:
 * **Set up:** Each of our Thanksgiving Day locations could use some TLC with furniture set up and light decorations! Biggest need is the afternoon of **Wednesday, November 27**. 
 * **Thanksgiving Day:** We're still hyper-focused on fundraising and logistics, so those expressing early interest will be placed on a waitlist unless otherwise specified. We strongly encourage signing up to help us with pre-Thanksgiving activities to help earn dibs!
 
-If you're interested in volunteering with us this Thanksgiving season, please email [thanksgiving@northbrooklynangels.org](mailto:thanksgiving@northbrooklynangels.org) indicating your interest. 
+If you're interested in volunteering with us this Thanksgiving season, [take a few minutes and complete our volunteer interest sign up form (via Google).](https://bit.ly/nba24tgiving)
 
 ## Besides volunteering, what other ways can I be involved?
 

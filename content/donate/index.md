@@ -31,6 +31,10 @@ Mail a check payable to:
 
 We’re on Venmo! Our account is [@northbrooklynangels](https://venmo.com/northbrooklynangels)
 
+## Zelle 
+
+We’re now set up to receive donations via Zelle! Our email account for these donations is fundraising@northbrooklynangels.org.
+
 ## Gofundme
 
 Interested in setting up a GoFundMe on our behalf? Look up the Angels with our EIN: 81-4576973​ to link your campaign to our account! Please email us at [fundraising@northbrooklynangels.org](mailto:fundraising@northbrooklynangels.org) for any questions, and we can also help you promote your campaign!
@@ -38,6 +42,14 @@ Interested in setting up a GoFundMe on our behalf? Look up the Angels with our E
 ## Workplace Giving
 
 Workplace giving is a way to make a donation to a charity through your paycheck. Check with your employer! Many employers either have an internal workplace giving program, or use an external service like **Benevity** or **YourCause** to manage employee donations to charities. If your company is part of this program, some donations you contribute to North Brooklyn Angels could be matched by your company. Check with your employee benefits program to find out if you can double your donation! 
+
+## Donor Advised Funds
+
+You can support North Brooklyn Angels by contributing through your existing Donor-Advised Fund (DAF). If you choose to give through a DAF, please let us know so we can express our gratitude and notify you when your gift has been received.
+
+Feel free to contact us anytime to learn more about the impact of your generosity and discover additional ways to support North Brooklyn Angels.
+
+Our legal name is The North Brooklyn Coalition of Neighbors Helping Neighbors, Inc., and our EIN (Federal Tax ID) is 81-4576973.
 
 ## Tribute Gift 
 

@@ -20,4 +20,4 @@ Your contribution will help us provide a warm, welcoming holiday to those who ne
 
 **For corporate/business sponsorships, please email us at [fundraising@northbrooklynangels.org](mailto:fundraising@northbrooklynangels.org)**
 
-For information on volunteering, [please visit our Frequently Asked Questions page](/faq/#do-you-have-volunteer-opportunities-on-and-around-thanksgiving-day), and sign up to receive our bi-weekly newsletter for the most up-to-date information. Simply send an email to [volunteer@northbrooklynangels.org](mailto:volunteer@northbrooklynangels.org) to opt in!
+For information on volunteering this season, [take a few minutes to complete our volunteer interest form (via Google)](https://bit.ly/nba24tgiving), and sign up to receive our bi-weekly newsletter for the most up-to-date information. Simply send an email to [volunteer@northbrooklynangels.org](mailto:volunteer@northbrooklynangels.org) to opt in!
