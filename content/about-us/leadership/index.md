@@ -62,5 +62,3 @@ As VP Creative/Marketing for the East River Ferry, Paul was an integral part of 
 Evan is co-founder of Pythia Public Affairs, a New York-based communications, government and political strategy firm. Prior to founding Pythia Public, Evan spent years in public service as a senior adviser in the New York City Council and at other government offices, and as a communications officer on political campaigns, including Gov. Andrew Cuomo’s successful campaign for attorney general. As a government aide, Evan developed and executed political and communications strategies to pass legislation, change land use, and influence the direction of public resources. During these fights, Evan built relationships in government and communities throughout New York and beyond, and developed a keen understanding of public process–keys to executing successful issue–based and business efforts.
 {{% /profile-entry %}}
 {{< /profile >}}
-
-If you are interested in applying to be a member of our board of directors, please send a letter of interest and resume to [**northbrooklynangels@gmail.com**](mailto:northbrooklynangels@gmail.com)

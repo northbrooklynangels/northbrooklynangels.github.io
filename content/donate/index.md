@@ -2,7 +2,26 @@
 title: Donate
 ---
 
-{{< carousel images="hero1,hero2,hero3,hero4,hero5" >}}
+{{< rich-carousel width="11/12" desktopWidth="9/12" >}}
+{{% rich-carousel-slide image="hero0" %}}
+## [Click here for more info](https://kapecatorce.com/products/north-brooklyn-angels-blend-se)
+{{% /rich-carousel-slide %}}
+{{% rich-carousel-slide image="hero1" %}}
+
+{{% /rich-carousel-slide %}}
+{{% rich-carousel-slide image="hero2" %}}
+
+{{% /rich-carousel-slide %}}
+{{% rich-carousel-slide image="hero3" %}}
+
+{{% /rich-carousel-slide %}}
+{{% rich-carousel-slide image="hero4" %}}
+
+{{% /rich-carousel-slide %}}
+{{% rich-carousel-slide image="hero5" %}}
+
+{{% /rich-carousel-slide %}}
+{{< /rich-carousel >}}
 
 By donating money and sponsoring a meal, you embody our central mission of neighbors helping neighbors. Our grassroots mission is to sustain the ability to serve up to 2,000 meals a week. 
 
@@ -33,7 +52,7 @@ We’re on Venmo! Our account is [@northbrooklynangels](https://venmo.com/northb
 
 ## Zelle 
 
-We’re now set up to receive donations via Zelle! Our email account for these donations is fundraising@northbrooklynangels.org.
+We’re now set up to receive donations via Zelle! Our email account for these donations is [fundraising@northbrooklynangels.org](mailto:fundraising@northbrooklynangels.org). Please email us upon making your Zelle contribution if you’d like a donation acknowledgment letter!
 
 ## Gofundme
 
@@ -68,7 +87,7 @@ Check out our proud wall of recent and past Heavenly Partners! If you’re inter
 <p class="max-w-xl">A near holy grail of partnership! We're so proud to partner with former volunteer, Francesco Tamburriello, in his team's opening of Angels Cafe in Williamsburg on 103 N7th. 40% of the cafe's profits go to North Brooklyn Angels! Learn more by stopping by the cafe or <a href="https://www.yourdailymiracle.com/angels-cafe">visiting their website!</a></p>
 {{< /grid >}}
 
-{{< grid cols=2 lgCols=3 xlCols=4 xxlCols=5 otherClasses="place-items-center gap-8" >}}
+{{< grid cols=2 lgCols=3 xlCols=4 xxlCols=5 otherClasses="place-content-center place-items-center gap-8" >}}
 <a href="https://www.brouwerijlanenyc.com/" class="dark:hidden">{{< img image="brouwerij-lane-light" altText="Brouwerij Lane">}}</a>
 <a href="https://www.brouwerijlanenyc.com/" class="hidden dark:block">{{< img image="brouwerij-lane-dark" altText="Brouwerij Lane">}}</a>
 
@@ -81,4 +100,14 @@ Check out our proud wall of recent and past Heavenly Partners! If you’re inter
 
 <a href="https://www.titosvodka.com/" class="dark:hidden">{{< svg src="titos-handmade-vodka-light" altText="Tito's Handmade Vodka" >}}</a>
 <a href="https://www.titosvodka.com/" class="hidden dark:block">{{< svg src="titos-handmade-vodka-dark" altText="Tito's Handmade Vodka" >}}</a>
+
+<!-- Purely for cosmetics -->
+<div class="hidden 2xl:block"></div>
+
+<a href="https://kapecatorce.com/" class="dark:hidden">{{< img image="kc14-light" altText="Kape Catorce Coffee">}}</a>
+<a href="https://kapecatorce.com/" class="hidden dark:block">{{< img image="kc14-dark" altText="Kape Catorce Coffee">}}</a>
+
+<a href="https://www.bakersdozengreenpoint.com/" class="">{{< img image="bakers-dozen" altText="Baker's Dozen Bagels">}}</a>
+
+<a href="https://www.likealocaltours.com/" class="">{{< img image="like-a-local-tours" altText="Like a Local Tours">}}</a>
 {{< /grid >}}

@@ -39,20 +39,6 @@ For groups larger than 5-6 (max of about 10), we will request a corporate contri
 
 \* November 2024 update: given the demand for volunteering as we approach the holiday season, effective the second week of November, we will require a corporate sponsorship to reserve a slate of slots for corporate groups, of any size, that would like to volunteer with us at our community kitchen.
 
-## Do you have volunteer opportunities on and around Thanksgiving Day?
-
-We sure do! North Brooklyn Angels is grateful to attract so much volunteer interest around this important time. Since the pandemic, we have been able to host a series of activities in the community to provide our neighbors in need a dignified Thanksgiving experience. [You're welcome to learn about it here.](/thanksgiving)
-
-Here's what we're looking for early in the month of November:
-
-* **Pre-holiday community outreach:** Help with community outreach and fundraising to support our ability to provide 1,000 frozen turkeys, pre-Thanksgiving special lunches, and sit-down Thanksgiving Day lunches to our neighbors. If you’re available on the weekends and/or a weekday afternoon, we’d love your help in passing out flyers to encourage local support! Bonus if you’d like to wear our turkey mascot costume!
-* **Photographers:** We're looking for at least three photographers to take pictures of our three Thanksgiving Day locations, one in Greenpoint, Williamsburg, and East Williamsburg.
-* **Spanish- and Polish-speaking volunteers:** If you'd like to volunteer on Thanksgiving Day, please reach out to us!
-* **Set up:** Each of our Thanksgiving Day locations could use some TLC with furniture set up and light decorations! Biggest need is the afternoon of **Wednesday, November 27**. 
-* **Thanksgiving Day:** We're still hyper-focused on fundraising and logistics, so those expressing early interest will be placed on a waitlist unless otherwise specified. We strongly encourage signing up to help us with pre-Thanksgiving activities to help earn dibs!
-
-If you're interested in volunteering with us this Thanksgiving season, [take a few minutes and complete our volunteer interest sign up form (via Google).](https://bit.ly/nba24tgiving)
-
 ## Besides volunteering, what other ways can I be involved?
 
 Our organization runs on volunteers and incredibly lean staffing, so financial sponsorships and donations are essential! You can make a donation [here](/donate). 

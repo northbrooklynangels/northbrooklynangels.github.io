@@ -4,7 +4,7 @@ title: Meals
 
 {{< carousel images="1,2,3,4,5" aspectRatio="16:9" >}}
 
-North Brooklyn Angels aims to cook & serve 1,800 meals per week to neighbors experiencing food insecurity in our community. Each weekday, our Angelmobile fleet (so far, three vehicles!) currently serves, on average, 300 meals, depending on the site and the weather. Volunteers prep and serve all the food served in our community meals. 
+North Brooklyn Angels aims to cook & serve 2,000 meals per week to neighbors experiencing food insecurity in our community. Each weekday, our Angelmobile fleet (so far, three vehicles!) currently serves, on average, 300 meals, depending on the site and the weather. Volunteers prep and serve all the food served in our community meals. 
 
 Meals are available on a first come, first served basis and may all be distributed within 15-20 minutes (give or take) upon arrival, depending on the weather, holiday season, and other variables. Keep an eye out for either our white minivan or our hard-to-miss food trucks.
 
