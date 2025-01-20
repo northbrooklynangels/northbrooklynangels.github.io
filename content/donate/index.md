@@ -84,7 +84,7 @@ Check out our proud wall of recent and past Heavenly Partners! If you’re inter
 
 {{< grid cols=1 otherClasses="place-items-center gap-4" >}}
 <span class="max-w-sm w-60">{{< img image="angels-cafe" altText="Angels Cafe" >}}</span>
-<p class="max-w-xl">A near holy grail of partnership! We're so proud to partner with former volunteer, Francesco Tamburriello, in his team's opening of Angels Cafe in Williamsburg on 103 N7th. A portion of the cafe's profits go to North Brooklyn Angels! Learn more by stopping by the cafe or <a href="https://www.yourdailymiracle.com/angels-cafe">visiting their website!</a></p>
+<p class="max-w-xl">A near holy grail of partnership! We're so proud to partner with former volunteer, Francesco Tamburriello, in his team's opening of Angels Cafe in Williamsburg on 103 N7th. A portion of the cafe's profits go to North Brooklyn Angels! Learn more by stopping by the cafe!</p>
 {{< /grid >}}
 
 {{< flex >}}
