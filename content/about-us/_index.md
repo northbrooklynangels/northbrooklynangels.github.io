@@ -6,6 +6,8 @@ Hey there! We’re North Brooklyn Angels, a volunteer-powered non-profit in Broo
 
 **North Brooklyn Angels (legal name: North Brooklyn Coalition of Neighbors Helping Neighbors, Inc.) is a 501(c)(3) and all donations are tax deductible. EIN 81-4576973​**
 
+**2025 Update**: North Brooklyn Angels is hiring! We're looking for a part-time Administrative and Program Support team member. Interested? [Check out the job description here](https://bit.ly/nba25adminrole). To apply, please email your resume and cover letter—or any questions—to Kendra at [kendra@northbrooklynangels.org](mailto:kendra@northbrooklynangels.org).
+
 # History
 
 North Brooklyn Angels was formed by a group of North Brooklyn residents with varying community organizing, fundraising, and professional backgrounds. In directly witnessing the rapid changes to the community over the years, the organization was founded to help stem the tide of gentrification’s effects on individuals and families. They do this by providing food to where the need is, essentially through a mobile soup kitchen, but also through organizing community leaders, members, and volunteers. 
