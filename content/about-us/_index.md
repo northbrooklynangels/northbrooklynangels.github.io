@@ -4,9 +4,7 @@ title: About Us
 
 Hey there! We’re North Brooklyn Angels, a volunteer-powered non-profit in Brooklyn that has been feeding meals to the community since 2017. The Angels bring food to where the need is, through our mobile soup kitchen (the Angelmobile), which now regularly serves up to  **2,000** hot, healthy meals a week at **nine locations** in North Brooklyn.
 
-**North Brooklyn Angels (legal name: North Brooklyn Coalition of Neighbors Helping Neighbors, Inc.) is a 501(c)(3) and all donations are tax deductible. EIN 81-4576973​**
-
-**2025 Update**: North Brooklyn Angels is hiring! We're looking for a part-time Administrative and Program Support team member. Interested? [Check out the job description here](https://bit.ly/nba25adminrole). To apply, please email your resume and cover letter—or any questions—to Kendra at [kendra@northbrooklynangels.org](mailto:kendra@northbrooklynangels.org).
+**North Brooklyn Angels (legal name: `North Brooklyn Coalition of Neighbors Helping Neighbors, Inc.`) is a 501(c)(3) and all donations are tax deductible. EIN `81-4576973​`**
 
 # History
 

@@ -32,9 +32,7 @@ Meals are available on a first come, first served basis and may all be distribut
   2. **11:45 AM** at 1 Havemeyer Street: A meal is served right outside our Community Kitchen.
 
 * Saturday's Community Meal in Greenpoint
-  1. ~~**11:00 AM** at 155 Milton Street: A meal is served by our partners at Greenpoint Community Kitchen.~~
-
-  \* Please note due to construction at St. John’s, this Saturday distribution has been suspended and will resume late Winter 2024. Keep checking here for updates.
+  1. **11:00 AM** at 155 Milton Street: A meal is served by our partners at Greenpoint Community Kitchen.
 
 * Sunday's Breakfast Sandwiches in Greenpoint
   1. **10:00 AM** at 81 Franklin Street: The truck is parked on the corner of Franklin & Noble Streets. Breakfast bagels are served with coffee. 
@@ -99,12 +97,10 @@ Meals will be served at Iglesia de la Santa Cruz + Bushwick Abbey.
 {{< /map-marker >}}
 
 {{< map-marker lat="40.7295506" long="-73.9552642" title="155 Milton Street">}}
-~~A meal is served by our partners at Greenpoint Community Kitchen.~~
-
-\* Please note due to construction at St. John’s, this Saturday distribution has been suspended and will resume late Winter 2024. Keep checking here for updates.
+A meal is served by our partners at Greenpoint Community Kitchen.
 
 #### Schedule
-* ~~**Saturday** at **11:00 AM**~~
+* **Saturday** at **11:00 AM**
 {{< /map-marker >}}
 
 {{< map-marker lat="40.7285000" long="-73.9576667" title="81 Franklin Street">}}
