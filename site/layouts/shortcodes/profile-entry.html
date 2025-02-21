@@ -10,7 +10,7 @@
 <div class="grid grid-cols-12 gap-x-2 my-2">
     <figure class="col-span-3 sm:col-span-2 md:row-span-2 p-2 pl-0">
         {{ if ne $image "" }}
-            {{ partial "utility/picture-lightbox.html" (dict "context" . "image" $image "altText" $name "command" "fill" "options" $imageOptions "rounded" true "caption" $name) }}
+            {{ partial "utility/picture-lightbox.html" (dict "context" . "image" $image "altText" $name "command" "fill" "options" $imageAlignment "rounded" true "caption" $name) }}
         {{ else }}
             <!-- TODO: Replace this with a hosted placeholder instead -->
             <picture><img src="https://via.placeholder.com/200?text=No+image+supplied" title="No image supplied" class="rounded-md"></picture>
