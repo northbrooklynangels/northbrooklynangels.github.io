@@ -14,6 +14,9 @@
 {{ end }}
   <header>
     <h1>{{ .Title }}</h1>
+    {{ if isset .Params "subtitle" }}
+      <h3>{{ .Params.subtitle }}</h3>
+    {{ end }}
     {{ partial "utility/breadcrumbs.html" . }}
   </header>
   <article>

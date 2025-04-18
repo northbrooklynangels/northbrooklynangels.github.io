@@ -11,8 +11,14 @@
   <header>
     {{ if eq .Params.headerFontFamily "alt" }}
       <h1 class="font-header-alt">{{ .Title }}</h1>
+      {{ if isset .Params "subtitle" }}
+        <h3>{{ .Params.subtitle }}</h3>
+      {{ end }}
     {{ else }}
       <h1>{{ .Title }}</h1>
+      {{ if isset .Params "subtitle" }}
+        <h3>{{ .Params.subtitle }}</h3>
+      {{ end }}
     {{ end }}
     {{ partial "utility/breadcrumbs.html" . }}
 

@@ -202,3 +202,21 @@ docReady(() => {
         }
     });
 });
+
+// Calculate scrollbar-less vw unit. Really thought this was a solved problem already...
+// Taken from here: 
+// https://www.terluinwebdesign.nl/en/css/viewport-relative-fluid-responsive-web-design/#excluding-scrollbar-from-viewport-width-css-100vw-minus-scrollbar-width
+docReady(() => {
+    const scrollbarWidth = window.innerWidth - document.documentElement.clientWidth;
+    if (scrollbarWidth > 0) {
+        document.documentElement.style.setProperty(
+            "--scrollbarWidth",
+            scrollbarWidth + "px"
+        );
+    } else {
+        document.documentElement.style.setProperty(
+            "--scrollbarWidth",
+            "0px"
+        );
+    }
+});
