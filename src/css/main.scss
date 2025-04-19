@@ -396,3 +396,11 @@ input:checked ~ .toggle-dot {
         @apply font-medium;
     }
 }
+
+// Specifically for embedding fullscreen iframes only on mobile devices
+// This requires a custom calc()
+@media (max-width: 740px) {
+    .special-iframe-full-width-on-mobile {
+        width: calc(100vw - (var(--scrollbarWidth)));
+    }
+}

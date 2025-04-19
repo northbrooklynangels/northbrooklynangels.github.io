@@ -22,8 +22,8 @@ Transforming Brooklyn's culinary landscape while maintaining deep community root
 Your generosity directly powers our mobile soup kitchen and food pantry operations. In 2024, supporters like you helped us provide approximately 100,000 nutritious meals to neighbors facing food insecurity. Select your preferred sponsorship level or eJournal ad below to make a meaningful impact in our community.
 
 **[View our 2025 Sponsorship Opportunities Brochure [PDF]](./2025%20Luncheon%20Brochure.pdf)**
-<div class="h-[122rem] mb-4">
-<iframe id="sponsorship-form" class="absolute inset-x-0 h-[122rem]" style="width: calc(100vw - var(--scrollbarWidth))" src="https://airtable.com/embed/appWlnWbZfLQyu5W8/pagoQxux4gGzer7kB/form" frameborder="0" onmousewheel=""></iframe>
+<div class="h-[122rem] sm:h-[97rem] lg:h-[92rem] mb-4">
+<iframe id="sponsorship-form" class="h-[122rem] sm:h-[97rem] lg:h-[92rem] w-dvw sm:w-full absolute inset-x-0 sm:relative special-iframe-full-width-on-mobile" src="https://airtable.com/embed/appWlnWbZfLQyu5W8/pagoQxux4gGzer7kB/form" onmousewheel=""></iframe>
 </div>
 
 # Warm Thanks To Our Dedicated Luncheon Committee
