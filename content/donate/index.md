@@ -4,10 +4,10 @@ title: Donate
 
 {{< rich-carousel width="11/12" desktopWidth="9/12" >}}
 {{% rich-carousel-slide image="hero0" %}}
-## [Click here for more info](https://kapecatorce.com/products/north-brooklyn-angels-blend-se)
+## [2025 Luncheon](/donate)
 {{% /rich-carousel-slide %}}
 {{% rich-carousel-slide image="hero1" %}}
-
+## [Click here for more info](https://kapecatorce.com/products/north-brooklyn-angels-blend-se)
 {{% /rich-carousel-slide %}}
 {{% rich-carousel-slide image="hero2" %}}
 
@@ -81,11 +81,6 @@ Make a donation to North Brooklyn Angels in honor or in memory of a loved one. I
 Cause marketing brings together the efforts of a “for-profit” business and a nonprofit organization for mutual benefit. This special partnership (we’re calling it “Heavenly Partnerships”!) benefits North Brooklyn Angels, enhances customer loyalty, and employee pride and dedication!
 
 Check out our proud wall of recent and past Heavenly Partners! If you’re interested in spearheading a cause marketing campaign with us, email [kendra@northbrooklynangels.org](mailto:kendra@northbrooklynangels.org).
-
-{{< grid cols=1 otherClasses="place-items-center gap-4" >}}
-<span class="max-w-sm w-60">{{< img image="angels-cafe" altText="Angels Cafe" >}}</span>
-<p class="max-w-xl">A near holy grail of partnership! We're so proud to partner with former volunteer, Francesco Tamburriello, in his team's opening of Angels Cafe in Williamsburg on 103 N7th. A portion of the cafe's profits go to North Brooklyn Angels! Learn more by stopping by the cafe!</p>
-{{< /grid >}}
 
 {{< flex >}}
 <a href="https://www.brouwerijlanenyc.com/" class="dark:hidden">{{< img image="brouwerij-lane-light" altText="Brouwerij Lane">}}</a>
