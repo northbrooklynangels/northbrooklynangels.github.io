@@ -4,7 +4,7 @@ title: Donate
 
 {{< rich-carousel width="11/12" desktopWidth="9/12" >}}
 {{% rich-carousel-slide image="hero0" %}}
-## [2025 Luncheon](/donate)
+## [5th Annual Luncheon](/luncheon)
 {{% /rich-carousel-slide %}}
 {{% rich-carousel-slide image="hero1" %}}
 ## [Click here for more info](https://kapecatorce.com/products/north-brooklyn-angels-blend-se)
