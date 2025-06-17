@@ -17,13 +17,14 @@ For 25+ years, championing community initiatives throughout Brooklyn. Their stra
 
 Transforming Brooklyn's culinary landscape while maintaining deep community roots. Heatonist has been a longtime supporter of North Brooklyn Angels, even partially funding the purchase of our second mobile soup kitchen truck to help feed neighbors in need.
 
-# Support Our Mission: Select Your Sponsorship Level
+## North Brooklyn Angels' 2025 Luncheon eJournal
 
-Your generosity directly powers our mobile soup kitchen and food pantry operations. In 2024, supporters like you helped us provide approximately 100,000 nutritious meals to neighbors facing food insecurity. Select your preferred sponsorship level or eJournal ad below to make a meaningful impact in our community.
+Thank you so much to all of the many donors who took a journal page! 
 
-**[View our 2025 Sponsorship Opportunities Brochure [PDF]](./2025%20Luncheon%20Brochure.pdf)**
-<div class="h-[122rem] sm:h-[97rem] lg:h-[92rem] mb-4">
-<iframe id="sponsorship-form" class="h-[122rem] sm:h-[97rem] lg:h-[92rem] w-dvw sm:w-full absolute inset-x-0 sm:relative special-iframe-full-width-on-mobile" src="https://airtable.com/embed/appWlnWbZfLQyu5W8/pagoQxux4gGzer7kB/form" onmousewheel=""></iframe>
+<iframe class="w-full h-svh" src="https://www.canva.com/design/DAGpUVDnHfQ/-V-9FPasFJTTlM0prauJIg/view?embed" allowfullscreen allow="fullscreen" loading="lazy" frameborder="0"></iframe>
+
+<div class="grid grid-cols-1 gap-y-2 mt-2 mb-4">
+    <a href="https://drive.google.com/file/d/1XIpy4X-evHXHpafbow3YTtMIRBEZe1NH/view?usp=sharing" class="col-span-1 w-full text-center text-sm">Download eJournal PDF via Google Drive (warning: over 150MB file!)</a>
 </div>
 
 # Warm Thanks To Our Dedicated Luncheon Committee
