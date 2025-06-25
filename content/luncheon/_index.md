@@ -24,7 +24,7 @@ Thank you so much to all of the many donors who took a journal page!
 <iframe class="w-full h-svh" src="https://www.canva.com/design/DAGpUVDnHfQ/-V-9FPasFJTTlM0prauJIg/view?embed" allowfullscreen allow="fullscreen" loading="lazy" frameborder="0"></iframe>
 
 <div class="grid grid-cols-1 gap-y-2 mt-2 mb-4">
-    <a href="https://drive.google.com/file/d/1XIpy4X-evHXHpafbow3YTtMIRBEZe1NH/view?usp=sharing" class="col-span-1 w-full text-center text-sm">Download eJournal PDF via Google Drive (warning: over 150MB file!)</a>
+    <a href="https://drive.google.com/file/d/1RbVbJAbUrr0ebmrKaZtnlvByd-CqokxF/view?usp=drive_link" class="col-span-1 w-full text-center text-sm">Download eJournal PDF via Google Drive (warning: 150MB file!)</a>
 </div>
 
 # Warm Thanks To Our Dedicated Luncheon Committee
