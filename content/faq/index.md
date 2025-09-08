@@ -7,17 +7,18 @@ toc: true
 
 ## Who can volunteer?
 
-We welcome our community to come and help us in our kitchen, serve meals from our Angelmobile, drive our fleet of mobile soup kitchen vehicles, support our seasonal Angel Babies events, our brand new Little Angels program, and more! Signing up for our bi-weekly newsletter will let you know about our regular weekly shifts as well as micro-but-crucial opportunities for volunteering.
+We welcome our community to come and help us in our kitchen, serve meals from our Angelmobile, drive our fleet of mobile soup kitchen vehicles, support our seasonal Angel Babies events, our brand new Little Angels program, and more! [Signing up for our bi-weekly newsletter](https://dashboard.mailerlite.com/forms/1417392/151682569097709080/share) will let you know about our regular weekly shifts as well as micro-but-crucial opportunities for volunteering.
 
 ## How do I sign up?
 
 The best way to get involved is by signing up for one of our upcoming volunteer shifts. Please definitely sign up so we know how many volunteers to expect to minimize overcrowding!
 
-Everything you'd need to know about available volunteer shifts and times can be found by visiting [our Deed page](https://web.godeed.today/organization/5ba68de87e93fe6c785a6dcd). Attending your shift is important since we often have a waitlist! If you can’t make it to your scheduled shift, just let us know so that we won’t be short staffed.
+Everything you'd need to know about available volunteer shifts and times can be found by [visiting our Deed page](http://bit.ly/nbadeed). Attending your shift is important since we often have a waitlist! If you can't make it to your scheduled shift, just let us know so that we won't be short staffed.
 
-To opt into our bi-weekly newsletter-type email and to have a greater sense of our emerging needs, write to us at [volunteer@northbrooklynangels.org](mailto:volunteer@northbrooklynangels.org) and we will add you to our mailing list! And of course, follow us on [Instagram (@northbrooklynangels)](https://instagram.com/northbrooklynangels) if you're on it.
+[To opt into our bi-weekly newsletter-type email and to have a greater sense of our emerging needs, sign up here!](https://dashboard.mailerlite.com/forms/1417392/151682569097709080/share) And of course, [follow us on Instagram (@northbrooklynangels)](https://instagram.com/northbrooklynangels) if you're on it.
 
 If you are interested in driving our truck, please reach out to us at [volunteer@northbrooklynangels.org](mailto:volunteer@northbrooklynangels.org) and let us know! We are always looking for drivers.
+
 
 ## What opportunities are available to children?
 
@@ -27,17 +28,15 @@ That said, our board is working on building a monthly volunteer opportunity to i
 
 ## Are there opportunities to volunteer besides your weekly lunch shifts?
 
-Yes! Our bi-weekly newsletter will list these opportunities, or check in with us on social media for special opportunities including a Sunday Breakfast Shift, [our seasonal Angel Babies events](/angel-babies), as well as support for other special initiatives. 
+Yes! Our bi-weekly newsletter will list these opportunities, or check in with us on social media for special opportunities including a Sunday Breakfast Shift, [our seasonal Angel Babies events](/angel-babies), as well as support for other special initiatives.
 
-***New!*** We’re starting up a new, exciting program to help North Brooklyn families year round, Little Angels! [Check out our Canva presentation to learn more](https://bit.ly/2024abpresentation) (sign up link is also included in the presentation)!
+Our newest program, **Little Angels**, is now up and running with lots of volunteer opportunities to help North Brooklyn families year round! [Learn more about Little Angels and how to get involved here.](/little-angels)
 
 ## Can I bring a group to volunteer?
 
- We welcome local businesses and sponsors to schedule a group of up to 5-6 to volunteer with us at our community kitchen. Please contact us at [volunteer@northbrooklynangels.org](mailto:volunteer@northbrooklynangels.org) so we can check our calendars. We request about 2 weeks advance notice to make the reservation.
+**Update as of Fall 2025**: We've shifted our focus to prioritize individual local volunteers and support for our existing partners and donors. We are no longer hosting regular corporate volunteer groups or team events at our community kitchen.
 
-For groups larger than 5-6 (max of about 10), we will request a corporate contribution.
-
-\* November 2024 update: given the demand for volunteering as we approach the holiday season, effective the second week of November, we will require a corporate sponsorship to reserve a slate of slots for corporate groups, of any size, that would like to volunteer with us at our community kitchen.
+However, corporate teams are welcome to participate in our **[Angel Babies](/angel-babies) pop-up events**, which happen twice a year (Spring and Fall). We're looking to reignite our upcoming Fall event at the end of October! For Angel Babies corporate volunteering opportunities, please contact us at [volunteer@northbrooklynangels.org](mailto:volunteer@northbrooklynangels.org).
 
 ## Besides volunteering, what other ways can I be involved?
 
@@ -63,9 +62,11 @@ From time-to-time every few months, we do require signatures for our meals and g
 
 ## Do you offer any other services?
 
-Our Angel Babies project is a big volunteer driven giveaway event meant for local, new and expectant families in need of resources. You can get involved by volunteering, donating, hosting a drive or dropping off donations. We have more information here, and our bi-weekly newsletter (sign up by emailing us at [volunteer@northbrooklynangels.org](mailto:volunteer@northbrooklynangels.org)!) will give you timely information regarding Angel Babies events. 
+Our Angel Babies project is a big volunteer driven giveaway event meant for local, new and expectant families in need of resources. You can get involved by volunteering, donating, hosting a drive or dropping off donations. 
 
-***New!*** We’re starting up a new, exciting program to help North Brooklyn families year round, Little Angels! [Check out our Canva presentation to learn more.](https://bit.ly/2024abpresentation) We hope to enroll families beginning January 2025.
+[We have more information here](/angel-babies), and our [bi-weekly newsletter](https://dashboard.mailerlite.com/forms/1417392/151682569097709080/share) will give you timely information regarding Angel Babies events.
+
+Little Angels is our year-round program helping North Brooklyn families with young children! We're actively serving families and have lots of volunteer opportunities available. [Learn more about Little Angels and how to get involved here.](/angel-babies)
 
 ---
 
