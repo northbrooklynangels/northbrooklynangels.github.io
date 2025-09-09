@@ -4,7 +4,7 @@ title: Get Involved
 
 {{< carousel images="1,2,3,4,5" aspectRatio="16:9" >}}
 
-North Brooklyn Angels a the place where newer & long term residents come together in support of helping food and economically insecure neighbors in volunteer projects! 
+North Brooklyn Angels is the place where newer & long term residents come together in support of helping food and economically insecure neighbors in volunteer projects! 
 
 # Volunteer!
 
