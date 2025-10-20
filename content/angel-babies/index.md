@@ -1,5 +1,5 @@
 ---
-title: Angel Babies Project
+title: Angel Babies
 ---
 
 {{< carousel images="hero1,hero2,hero3,hero4,hero5" aspectRatio="18:9" >}}
@@ -10,7 +10,11 @@ Each time a campaign is ignited, for a few weeks, North Brooklyn businesses, sch
 
 # Next Angel Babies Event: October 30, 2025!
 
-We’re incredibly excited to organize our first Angel Babies event of 2025! Volunteers are very much requested! [Please see our flyer for pertinent dates here](./October%202025%20Angel%20Babies%20Flyer.pdf) and share with your neighbors! These volunteer opportunities will be posted on [our Deed page](https://bit.ly/nbadeed) soon, but in the meantime, if you’re interested please feel free to email us at [volunteer@northbrooklynangels.org](mailto:volunteer@northbrooklynangels.org).
+We’re incredibly excited to organize our Fall 2025 Angel Babies event! 
+
+[Our updated map of partners collecting on our behalf can be viewed via Google Maps](http://bit.ly/angelbabiesmap). Please make sure to review each location pin as each site has its own windows and hours of collection. 
+
+Volunteers are **very** much requested! [Please see our flyer for pertinent dates here](./October%202025%20Angel%20Babies%20Flyer.pdf) and share with your neighbors! These volunteer opportunities are now posted on [our Deed page](https://bit.ly/nbadeed) - please sign up there or feel free to email [volunteer@northbrooklynangels.org](mailto:volunteer@northbrooklynangels.org)
 
 
 # New Program: Little Angels

@@ -1,0 +1,9 @@
+{{ $color := .Get "color" | default "" }}
+
+{{ if not (hasPrefix $color "#") }}
+    {{ $color = (print "#" $color) }}
+{{ end }}
+
+<div class="alert mb-4 p-2 rounded-md border-solid border-2 border-[{{ $color }}] bg-[{{ $color }}]/25">
+    {{ .Inner }}
+</div>

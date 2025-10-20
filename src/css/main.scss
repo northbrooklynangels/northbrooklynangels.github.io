@@ -40,6 +40,27 @@ input:checked ~ .toggle-dot {
             font-weight: bold;
         }
     }
+    &.font-header-serif {
+        h1, h2, h3, h4, h5, h6 {
+            font-family: theme("fontFamily.serif");
+            font-weight: bold;
+        }
+    }
+    // Specifically for when rendering in single mode
+    h1, h2, h3, h4, h5, h6 {
+        &.font-header-alt {
+            font-family: theme("fontFamily.headerAlt");
+            font-weight: bold;
+        }
+        &.font-header-serif {
+            font-family: theme("fontFamily.serif");
+            font-weight: bold;
+        }
+    }
+    &.font-body-serif, .font-body-serif {
+        font-family: theme("fontFamily.serif");
+    }
+
     .profile, .post-list {
         h1, h2, h3, h4, h5, h6 {
             @apply mb-0;
@@ -187,6 +208,12 @@ input:checked ~ .toggle-dot {
             }
         }
     }
+}
+
+// Alert tweaks
+
+.alert p:last-child {
+    margin-bottom: 0;
 }
 
 // Donation page tweaks

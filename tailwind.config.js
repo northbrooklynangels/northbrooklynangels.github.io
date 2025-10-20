@@ -21,7 +21,8 @@ module.exports = {
       serif: defaultTheme.fontFamily.serif,
       mono: defaultTheme.fontFamily.mono,
       header: ['"Bebas Neue"', ...defaultTheme.fontFamily.sans],
-      headerAlt: ["Montserrat", ...defaultTheme.fontFamily.sans]
+      headerAlt: ["Montserrat", ...defaultTheme.fontFamily.sans],
+      headerSerif: ["Georgia", ...defaultTheme.fontFamily.serif]
     },
     screens: {
       "sm": "740px",
