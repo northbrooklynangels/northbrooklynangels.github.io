@@ -40,18 +40,18 @@ We also gladly accept donations via **Venmo** ([northbrooklynangels](https://ven
 
 For corporate or business sponsorship opportunities, please email us at [fundraising@northbrooklynangels.org](mailto:fundraising@northbrooklynangels.org)
 
-# *Interested in Volunteering?*
+# Interested in Volunteering?
 
-*We're grateful for the overwhelming community support we receive each year! Due to the popularity of our Thanksgiving volunteer opportunities and the need to balance experienced volunteers with new faces across our venue operations,* ***completing our volunteer interest form adds you to our waitlist.***
+We're grateful for the overwhelming community support we receive each year! Due to the popularity of our Thanksgiving volunteer opportunities and the need to balance experienced volunteers with new faces across our venue operations, **completing our volunteer interest form adds you to our waitlist.**
 
-*This allows us to:*
+This allows us to:
 
-* *Finalize logistics and fundraising before confirming volunteer shifts*
-* *Ensure each location has a strong mix of returning volunteers who know our operations and enthusiastic newcomers*
-* *Contact you with specific opportunities that match your availability and our capacity*
+* Finalize logistics and fundraising before confirming volunteer shifts
+* Ensure each location has a strong mix of returning volunteers who know our operations and enthusiastic newcomers
+* Contact you with specific opportunities that match your availability and our capacity
 
-***Complete our [volunteer interest form via Airtable](http://bit.ly/nbatgiving25)*** *to join the waitlist. We'll be in touch as we confirm details and available spots. Please note that submitting the form does not guarantee a volunteer placement, but we do our best to accommodate as many community members as possible.*
+**Complete our [volunteer interest form via Airtable](http://bit.ly/nbatgiving25)** to join the waitlist. We'll be in touch as we confirm details and available spots. Please note that submitting the form does not guarantee a volunteer placement, but we do our best to accommodate as many community members as possible.
 
-*For updates on volunteer opportunities and other North Brooklyn Angels activities, sign up for our bi-weekly newsletter by emailing [volunteer@northbrooklynangels.org](mailto:volunteer@northbrooklynangels.org).*
+For updates on volunteer opportunities and other North Brooklyn Angels activities, sign up for our bi-weekly newsletter [via Mailerlite](https://bit.ly/subscribevolunteer).
 
-*Together, we're not just feeding our neighbors—we're honoring them. Thank you for being part of our community.*
+Together, we're not just feeding our neighbors - we're honoring them. Thank you for being part of our community.
