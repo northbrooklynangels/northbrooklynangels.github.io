@@ -2,12 +2,9 @@
 title: Donate
 ---
 
-{{< rich-carousel width="11/12" desktopWidth="9/12" >}}
-{{% rich-carousel-slide image="hero0" %}}
-## [5th Annual Luncheon](/luncheon)
-{{% /rich-carousel-slide %}}
+{{< rich-carousel width="11/12" desktopWidth="9/12" aspectRatio="16:9" >}}
 {{% rich-carousel-slide image="hero1" %}}
-## [Click here for more info](https://kapecatorce.com/products/north-brooklyn-angels-blend-se)
+## [Neighbors Giving Thanks 2025](/thanksgiving)
 {{% /rich-carousel-slide %}}
 {{% rich-carousel-slide image="hero2" %}}
 
@@ -21,20 +18,22 @@ title: Donate
 {{% rich-carousel-slide image="hero5" %}}
 
 {{% /rich-carousel-slide %}}
+{{% rich-carousel-slide image="hero6" %}}
+
+{{% /rich-carousel-slide %}}
 {{< /rich-carousel >}}
-
-By donating money and sponsoring a meal, you embody our central mission of neighbors helping neighbors. Our grassroots mission is to sustain the ability to serve up to 2,000 meals a week. 
-
-* $4,000 provides a week of meals to neighbors in need
-* $800 provides a healthy and nutritious lunch for 200
-* $80 provides a week of lunches for a family of four
-* $4 provides a hot and healthy lunch for a neighbor
-
-{{< donate >}}
 
 **Support the North Brooklyn Angels. North Brooklyn Angels (legal name: North Brooklyn Coalition of Neighbors Helping Neighbors, Inc.) is a 501(c)(3) and all donations are tax deductible. EIN 81-4576973​**
 
-It is no surprise as the cost of food and rents continue to soar higher each year that hunger persists in every corner of our neighborhood. The problem of food insecurity isn't just found in our homeless community; it is seniors struggling with fixed incomes & rising medical costs, children from working families that can't put a healthy meal on the table every night, the students who skip multiple meals in order to afford transportation to class, working families that find it hard to feed themselves at the end of the month, your neighbor across the hall or down the street living paycheck to paycheck, and larger pockets of poverty where whole communities in our neighborhood encounter hungry days. The meal gap can be anywhere from a couple meals a month to a daily struggle to eat.
+North Brooklyn Angels has always been here for our neighbors - in ordinary times and extraordinary ones. Our volunteer-powered model quietly expands and contracts as the community needs, built on years of relationships and a belief that showing up matters. Your support helps us remain ready, whatever comes.
+
+By donating, you become part of this promise - helping us sustain a grassroots operation capable of serving up to 2,000 meals a week, with the flexibility to grow when needed.
+
+{{< donate >}}
+
+# Beyond Meals
+
+Our work extends beyond the table. Through [Angel Babies](/angel-babies) (twice-yearly community giveaway events) and [Little Angels](/little-angels) (our year-round gear connection program), we support North Brooklyn families during the early years of parenting - connecting those with resources to those in need. Every donation to North Brooklyn Angels sustains our ability to show up for neighbors in multiple ways.
 
 # Other ways to give
  
