@@ -22,9 +22,11 @@ If you are interested in driving our truck, please reach out to us at [volunteer
 
 ## What opportunities are available to children?
 
-Our policy regarding minors volunteering with us is to have the interested parent volunteer with us a few times first so they have an idea of the layout of the shift and kitchen. With advanced notice, the parent can then volunteer with their children. Given the intensity of the pace at the kitchen and our need to have meals prepared for distribution in a tight timeframe, we have to balance newcomers and minors with veteran volunteers. 
+**Ages 6-13:** Our policy for parents interested in volunteering with their children is to volunteer with us a few times first to become familiar with our kitchen layout and shift flow. Once you're oriented, you can volunteer alongside your child with advance notice. Given the pace of our meal prep and distribution timeline, we need to balance newcomers and younger volunteers with experienced volunteers.
 
-That said, our board is working on building a monthly volunteer opportunity to involve local families and younger children. To learn more, opt into our bi-weekly newsletter by emailing [volunteer@northbrooklynangels.org](mailto:volunteer@northbrooklynangels.org)! We'll make sure you're put on it without a problem!
+**High school students (ages 14-17):** Students can volunteer independently with a signed parental waiver and permission form. To request the form, email [volunteer@northbrooklynangels.org](mailto:volunteer@northbrooklynangels.org). Once we receive the signed form, the student can create a Deed account and sign up for shifts.
+
+Parents who prefer to volunteer alongside their high school-aged children can do so—both parent and student will need to create Deed accounts and sign up for available spots.
 
 ## Are there opportunities to volunteer besides your weekly lunch shifts?
 
@@ -36,7 +38,7 @@ Our newest program, **Little Angels**, is now up and running with lots of volunt
 
 **Update as of Fall 2025**: We've shifted our focus to prioritize individual local volunteers and support for our existing partners and donors. We are no longer hosting regular corporate volunteer groups or team events at our community kitchen.
 
-However, corporate teams are welcome to participate in our **[Angel Babies](/angel-babies) pop-up events**, which happen twice a year (Spring and Fall). We're looking to reignite our upcoming Fall event at the end of October! For Angel Babies corporate volunteering opportunities, please contact us at [volunteer@northbrooklynangels.org](mailto:volunteer@northbrooklynangels.org).
+However, corporate teams are welcome to participate in our **[Angel Babies](/angel-babies) pop-up events**, which happen twice a year (Spring and Fall). We're looking to reignite our Sprint event sometime in May 2026! For Angel Babies corporate volunteering opportunities, please contact us at [volunteer@northbrooklynangels.org](mailto:volunteer@northbrooklynangels.org).
 
 ## Besides volunteering, what other ways can I be involved?
 
@@ -62,11 +64,11 @@ From time-to-time every few months, we do require signatures for our meals and g
 
 ## Do you offer any other services?
 
-Our Angel Babies project is a big volunteer driven giveaway event meant for local, new and expectant families in need of resources. You can get involved by volunteering, donating, hosting a drive or dropping off donations. 
+Yes, in addition to our mobile soup kitchen program, we run two volunteer-driven family support programs:
 
-[We have more information here](/angel-babies), and our [bi-weekly newsletter](https://dashboard.mailerlite.com/forms/1417392/151682569097709080/share) will give you timely information regarding Angel Babies events.
+[**Little Angels**](/little-angels) provides gently used essential infant and toddler gear—including strollers, car seats, high chairs, cribs, and clothing—to North Brooklyn households who are expectant and/or have children up to the age of 4 and live in zip codes 11222, 11211, 11249, or 11206. Families can request specific items through our online form, and we coordinate pickup or delivery. We accept gently used gear donations and always need volunteers to help with intake, sorting, and distribution.
 
-Little Angels is our year-round program helping North Brooklyn families with young children! We're actively serving families and have lots of volunteer opportunities available. [Learn more about Little Angels and how to get involved here.](/angel-babies)
+[**Angel Babies**](/angel-babies) is our volunteer-driven community giveaway event for local new and expectant families in need of resources, held twice a year in the spring and late fall. You can get involved by volunteering, donating, hosting a drive, or dropping off donations. More information is available [here](/angel-babies), and our bi-weekly newsletter provides timely updates about upcoming Angel Babies events.
 
 ---
 

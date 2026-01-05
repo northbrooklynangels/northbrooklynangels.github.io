@@ -36,7 +36,7 @@ Our newest program bridges the gap between North Brooklyn families with resource
 
 However, large corporate teams are welcome to join us at our [**Angel Babies pop-up events**](/angel-babies), which happen twice a year—once in the Spring and once in the Fall. 
 
-We're excited to reignite our upcoming Fall event at the end of October!
+We just had a successful event in October and our next one will be in May 2026!
 
 **For Angel Babies events**: Email [volunteer@northbrooklynangels.org](mailto:volunteer@northbrooklynangels.org)
 
