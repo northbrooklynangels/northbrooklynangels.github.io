@@ -22,4 +22,4 @@ title: Index
 
 # Subscribe to our newsletter!
 
-We run a volunteer newsletter that goes out every two weeks! [Subscribe by emailing volunteer@northbrooklynangels.org!](mailto:volunteer@northbrooklynangels.org)
+We run a volunteer newsletter that goes out every two weeks! [Subscribe here via MailerLite!](http://bit.ly/subscribevolunteer)
