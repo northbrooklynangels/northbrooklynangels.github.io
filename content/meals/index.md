@@ -2,13 +2,15 @@
 title: Meals
 ---
 
-{{< carousel images="1,2,3,4,5" aspectRatio="16:9" >}}
+{{< carousel images="0,1,2,3,4,5" aspectRatio="16:9" >}}
 
 North Brooklyn Angels aims to cook & serve 2,000 meals per week to neighbors experiencing food insecurity in our community. Each weekday, our Angelmobile fleet (so far, three vehicles!) currently serves, on average, 300 meals, depending on the site and the weather. Volunteers prep and serve all the food served in our community meals. 
 
 Meals are available on a first come, first served basis and may all be distributed within 15-20 minutes (give or take) upon arrival, depending on the weather, holiday season, and other variables. Keep an eye out for either our white minivan or our hard-to-miss food trucks.
 
 * Monday In Greenpoint and Williamsburg
+
+  **NOTE FOR FEB 23** - Due to the blizzard warning, all meal service has been suspended on this day. Stay safe, neighbors; we'll see you all soon.
   1. **12:15 PM** at 862 Manhattan Avenue: The truck is parked in front of the steps of the St. Anthony of Padua - St. Alphonsus church at the intersection of Manhattan Avenue and Milton Street.
   2. **12:30 PM** at 195 Maujer Street: The van is parked in front of St. John the Evangelist Lutheran Church, across the street from the Williamsburg Houses.
   3. **11:45 AM** at 1 Havemeyer Street: A meal is served right outside our Community Kitchen.
@@ -47,6 +49,8 @@ Parked right in front of the church.
 #### Schedule
 * **Mondays** at **12:15 PM**
 * **Thursdays** at **12:30 PM**
+
+**NOTE FOR FEB 23** - Due to the blizzard warning, all meal service has been suspended on this day. Stay safe, neighbors; we'll see you all soon.
 {{< /map-marker >}}
 
 {{< map-marker lat="40.7112735" long="-73.9427379" title="195 Maujer Street">}}
@@ -55,6 +59,8 @@ The truck is parked in front of St. John the Evangelist Lutheran Church, across 
 #### Schedule
 * **Mondays** at **12:30 PM**
 * **Wednesdays** at **12:30 PM**
+
+**NOTE FOR FEB 23** - Due to the blizzard warning, all meal service has been suspended on this day. Stay safe, neighbors; we'll see you all soon.
 {{< /map-marker >}}
 
 {{< map-marker lat="40.7068565" long="-73.9576727" title="240 Division Avenue">}}
@@ -73,6 +79,8 @@ A meal is served right outside our Community Kitchen.
 * **Wednesdays** at **11:45 AM**
 * **Thursdays** at **11:45 AM**
 * **Fridays** at **11:45 AM**
+
+**NOTE FOR FEB 23** - Due to the blizzard warning, all meal service has been suspended on this day. Stay safe, neighbors; we'll see you all soon.
 {{< /map-marker >}}
 
 {{< map-marker lat="40.717852" long="-73.938431" title="Cooper Park Houses Residence Council">}}
