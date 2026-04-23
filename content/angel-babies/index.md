@@ -10,7 +10,7 @@ Each time a campaign is ignited, for a few weeks, North Brooklyn businesses, sch
 
 # Next Angel Babies Event: May 21, 2026!
 
-We’re incredibly excited to organize our first Angel Babies event of 2025! Volunteers are very much requested! Please see our flyer for pertinent dates here and share with your neighbors! These volunteer opportunities will be posted [on our Deed page soon](http://bit.ly/nbadeed), but in the meantime, if you’re interested please feel free to email us at [volunteer@northbrooklynangels.org](mailto:volunteer@northbrooklynangels.org).
+We’re incredibly excited to organize our first Angel Babies event of 2025! Volunteers are very much requested! [Please see our flyer for pertinent dates here and share with your neighbors!](./May%202026%20Angel%20Babies%20Poster.pdf) These volunteer opportunities will be posted [on our Deed page soon](http://bit.ly/nbadeed), but in the meantime, if you’re interested please feel free to email us at [volunteer@northbrooklynangels.org](mailto:volunteer@northbrooklynangels.org).
 
 **Please note:** We collect gently used infant/toddler clothing, toys, and books only in the weeks leading up to each Angel Babies event (spring and late fall). If you'd like to donate these items now, email [volunteer@northbrooklynangels.org](mailto:volunteer@northbrooklynangels.org) and we'll connect you with partner organizations that accept donations year-round.
 
