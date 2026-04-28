@@ -4,7 +4,7 @@ title: Donate
 
 {{< rich-carousel width="11/12" desktopWidth="9/12" aspectRatio="16:9" >}}
 {{% rich-carousel-slide image="hero1" %}}
-## [Neighbors Giving Thanks 2025](/thanksgiving)
+## [6th Annual Luncheon](/luncheon)
 {{% /rich-carousel-slide %}}
 {{% rich-carousel-slide image="hero2" %}}
 
