@@ -1,6 +1,6 @@
 --- 
 title: "6th Annual Neighbors Helping Neighbors Luncheon"
-subtitle: "Tuesday, June 16th, 2026"
+subtitle: "Tuesday, June 16th, 2026 11:30am | Ascension Hall, 127 Kent St, Brooklyn"
 headerFontFamily: alt
 ---
 
