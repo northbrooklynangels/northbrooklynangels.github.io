@@ -7,42 +7,45 @@ toc: true
 
 ## Who can volunteer?
 
-We welcome our community to come and help us in our kitchen, serve meals from our Angelmobile, drive our fleet of mobile soup kitchen vehicles, support our seasonal Angel Babies events, our brand new Little Angels program, and more! [Signing up for our bi-weekly newsletter](https://dashboard.mailerlite.com/forms/1417392/151682569097709080/share) will let you know about our regular weekly shifts as well as micro-but-crucial opportunities for volunteering.
+North Brooklyn Angels was built by and for the people of Greenpoint, Williamsburg, East Williamsburg, and Bushwick - and our volunteer community reflects that. If you live or work in North Brooklyn, this is your organization, and we'd love to have you involved.
+
+We welcome volunteers from across the community to get involved - in our kitchen, serving meals from the Angelmobile, supporting Little Angels gear deliveries, staffing our twice-yearly Angel Babies events, and more. Our opportunities span weekly commitments and one-time involvement, so there's a way in for almost anyone. [Visit our Get Involved page](/get-involved) for the full picture, or sign up for our newsletter to stay on top of emerging needs.
 
 ## How do I sign up?
 
-The best way to get involved is by signing up for one of our upcoming volunteer shifts. Please definitely sign up so we know how many volunteers to expect to minimize overcrowding!
+[The easiest way to get started is through Deed](https://bit.ly/nbadeed) - create a free account, search for "North Brooklyn Angels," and browse available shifts.
 
-Everything you'd need to know about available volunteer shifts and times can be found by [visiting our Deed page](http://bit.ly/nbadeed). Attending your shift is important since we often have a waitlist! If you can't make it to your scheduled shift, just let us know so that we won't be short staffed.
+**Please sign up before you come.** Our kitchen operates on a "no surprises" ethos - knowing who to expect helps us run safe, smooth shifts and ensures every volunteer has a meaningful experience. Shifts fill quickly and we often have a waitlist, so signing up in advance also guarantees your spot. If your plans change, a quick note to [volunteer@northbrooklynangels.org](mailto:volunteer@northbrooklynangels.org) lets us open your spot to someone waiting.
 
-[To opt into our bi-weekly newsletter-type email and to have a greater sense of our emerging needs, sign up here!](https://dashboard.mailerlite.com/forms/1417392/151682569097709080/share) And of course, [follow us on Instagram (@northbrooklynangels)](https://instagram.com/northbrooklynangels) if you're on it.
-
-If you are interested in driving our truck, please reach out to us at [volunteer@northbrooklynangels.org](mailto:volunteer@northbrooklynangels.org) and let us know! We are always looking for drivers.
-
+For emerging and flexible opportunities outside of our regular shifts, [visit the flexible volunteer opportunities section on our Get Involved page.](/get-involved#flexible-volunteer-opportunities)
 
 ## What opportunities are available to children?
 
-**Ages 6-13:** Our policy for parents interested in volunteering with their children is to volunteer with us a few times first to become familiar with our kitchen layout and shift flow. Once you're oriented, you can volunteer alongside your child with advance notice. Given the pace of our meal prep and distribution timeline, we need to balance newcomers and younger volunteers with experienced volunteers.
+We do our best to accommodate volunteers of all ages, though our kitchen environment works best with experienced hands. Here's how it works by age group:
 
-**High school students (ages 14-17):** Students can volunteer independently with a signed parental waiver and permission form. To request the form, email [volunteer@northbrooklynangels.org](mailto:volunteer@northbrooklynangels.org). Once we receive the signed form, the student can create a Deed account and sign up for shifts.
+**Children (ages 6–13)** - We ask that a parent or guardian volunteer with us a few times first to get familiar with our kitchen layout and shift flow. Once you're oriented, you're welcome to bring your child along with advance notice. Given the pace of our meal prep, we need to balance newcomers and younger volunteers with experienced volunteers.
 
-Parents who prefer to volunteer alongside their high school-aged children can do so—both parent and student will need to create Deed accounts and sign up for available spots.
+**High school students (ages 14–17)** - Students can volunteer independently with a signed parental waiver. Email [volunteer@northbrooklynangels.org](mailto:volunteer@northbrooklynangels.org) to request the form. Once we receive it, the student can create a Deed account and sign up for shifts. Parents who prefer to volunteer alongside their teen are welcome to do so - both will need Deed accounts and should sign up for available spots separately.
+
+Looking for family-friendly volunteer opportunities in Brooklyn? [Our friends at The Service Collective are a wonderful resource for younger volunteers and family groups.](https://theservicecollective.org/)
 
 ## Are there opportunities to volunteer besides your weekly lunch shifts?
 
-Yes! Our bi-weekly newsletter will list these opportunities, or check in with us on social media for special opportunities including a Sunday Breakfast Shift, [our seasonal Angel Babies events](/angel-babies), as well as support for other special initiatives.
+**Absolutely!** Beyond our regular weekday meal-packing shifts, we have a Sunday breakfast shift, twice-yearly Angel Babies giveaway events, and year-round Little Angels volunteer opportunities including gear pickups, deliveries, and storefront support. 
 
-Our newest program, **Little Angels**, is now up and running with lots of volunteer opportunities to help North Brooklyn families year round! [Learn more about Little Angels and how to get involved here.](/little-angels)
+We also post flexible, as-needed opportunities [on our Get Involved page](/get-involved) as they arise - from supply runs to one-off tasks that keep our operation running. Our newsletter, sent every other Monday, is the best way to hear about these as they come up.
 
 ## Can I bring a group to volunteer?
 
-**Update as of Fall 2025**: We've shifted our focus to prioritize individual local volunteers and support for our existing partners and donors. We are no longer hosting regular corporate volunteer groups or team events at our community kitchen.
+As of Fall 2025, we've shifted our focus to prioritizing individual community volunteers. We are no longer scheduling corporate or group reservations for our Mobile Soup Kitchen shifts, as we want to keep those spots available for local neighbors.
 
-However, corporate teams are welcome to participate in our **[Angel Babies](/angel-babies) pop-up events**, which happen twice a year (Spring and Fall). We're looking to reignite our Sprint event sometime in May 2026! For Angel Babies corporate volunteering opportunities, please contact us at [volunteer@northbrooklynangels.org](mailto:volunteer@northbrooklynangels.org).
+That said, corporate teams are warmly welcome at [our Angel Babies events](/angel-babies), held twice a year in the spring and fall. These are a wonderful way for groups to engage meaningfully with the community. Email [volunteer@northbrooklynangels.org](mailto:volunteer@northbrooklynangels.org) to express interest and we'll be in touch ahead of the next event!
 
 ## Besides volunteering, what other ways can I be involved?
 
-Our organization runs on volunteers and incredibly lean staffing, so financial sponsorships and donations are essential! You can make a donation [here](/donate). 
+We're glad you asked! Financial donations - of any size - go directly to sustaining our programs and are always needed. [You can give at our Donate page.](/donate)
+
+You can also donate gently used infant and toddler gear to Little Angels, spread the word about our programs to neighbors who might need them, or follow us on Instagram and Facebook to share our work with your network. If you're a North Brooklyn business or organization interested in a community partnership, email [fundraising@northbrooklynangels.org](mailto:fundraising@northbrooklynangels.org).
 
 ---
 
@@ -54,21 +57,30 @@ Our organization runs on volunteers and incredibly lean staffing, so financial s
 
 ## Who can get a meal?
 
-Our hot meals are available to anyone who shows up at [our community meal locations during the designated days and times of the week](/meals).
+Our hot meals are available to anyone who shows up [at one of our community meal locations during the designated days and times.](/meals) All distributions take place outdoors, in public spaces - on the street, at a corner, or outside a church or community center. There is no building to enter and no need to give your name.
 
 ## Do we need to show ID or proof of residence?
 
-If you show up, we are happy to offer you a hot meal!  No proof of residence or ID is required. 
+No ID, no proof of residence, and no income verification is ever required to receive a meal. If you show up, we're happy to feed you.
 
-From time-to-time every few months, we do require signatures for our meals and grocery giveaways. All information is kept for counting purposes for our major funders and remains confidential. 
+On occasion, we conduct meal counts for reporting purposes. Any information collected is used solely for counting and remains confidential.
 
 ## Do you offer any other services?
 
 Yes, in addition to our mobile soup kitchen program, we run two volunteer-driven family support programs:
 
-[**Little Angels**](/little-angels) provides gently used essential infant and toddler gear—including strollers, car seats, high chairs, cribs, and clothing—to North Brooklyn households who are expectant and/or have children up to the age of 4 and live in zip codes 11222, 11211, 11249, or 11206. Families can request specific items through our online form, and we coordinate pickup or delivery. We accept gently used gear donations and always need volunteers to help with intake, sorting, and distribution.
+[**Little Angels**](/little-angels) provides gently used essential infant and toddler gear-including strollers, car seats, high chairs, cribs, and clothing-to North Brooklyn households who are expectant and/or have children up to the age of 4 and live in zip codes 11222, 11211, 11249, or 11206. Families can request specific items through our online form, and we coordinate pickup or delivery. We accept gently used gear donations and always need volunteers to help with intake, sorting, and distribution.
 
 [**Angel Babies**](/angel-babies) is our volunteer-driven community giveaway event for local new and expectant families in need of resources, held twice a year in the spring and late fall. You can get involved by volunteering, donating, hosting a drive, or dropping off donations. More information is available [here](/angel-babies), and our bi-weekly newsletter provides timely updates about upcoming Angel Babies events.
+
+Yes, in addition to our Mobile Soup Kitchen, we run three community programs:
+
+[**Little Angels**](/little-angels) provides gently used essential infant and toddler gear - including strollers, car seats, high chairs, and cribs - to North Brooklyn families with children up to age four in zip codes 11222, 11211, 11249, and 11206. Families can request specific items through our online form; we coordinate pickup or delivery. 
+
+[**Angel Babies**](/angel-babies) is our twice-yearly community giveaway event, open to all local new and expectant families. You can get involved by volunteering, donating, or dropping off items. 
+
+**Live Local** is our newest initiative, helping Greenpoint and Williamsburg residents navigate NYC's HousingConnect affordable housing lottery - for free, with support from trained volunteer Housing Ambassadors. (Link coming soon)
+
 
 ---
 
@@ -82,9 +94,10 @@ We do not take regular pantry donations. Donors are better off directing food to
 
 ## Do you take donations of household goods and adult clothing?
 
-Thank you for thinking of us! We do not accept in-kind donations of household goods and adult clothing. From time to time, we will put a “call” out for some supplies for our kitchen, such as collapsible milk crates, and minor kitchen tools. You’re always more than welcome to ask by emailing [fundraising@northbrooklynangels.org](mailto:fundraising@northbrooklynangels.org) just in case! 
+We do not accept donations of household goods or adult clothing, but we're happy to connect you with a local partner who does - just email us at [fundraising@northbrooklynangels.org](mailto:fundraising@northbrooklynangels.org).
 
-North Brooklyn has so many opportunities for donations of adult clothing, so we focus on collecting maternity/infant/children clothing and related supplies on a seasonal basis. So we do not accept adult clothing, but we’d be happy to refer you to a local partner who does! [Just email us](mailto:fundraising@northbrooklynangels.org).
+We do collect maternity, infant, and children's clothing and gear on a seasonal basis through our Little Angels program and Angel Babies events. From time to time we also put out a call for specific kitchen supplies - follow our newsletter or social media to catch those when they come up.
+
 
 ---
 
@@ -93,3 +106,7 @@ North Brooklyn has so many opportunities for donations of adult clothing, so we 
 ## Is North Brooklyn Angels a religious organization?
 
 We get this question from time to time because of our cherished partnerships with local churches! North Brooklyn Angels is a secular non-profit organization that prioritizes working in our community with, and serving individuals of all backgrounds. We partner with local church organizations because of their footprint in the community and because they also graciously host our mobile soup kitchen vehicles and other pop-up events for the community.
+
+## Is North Brooklyn Angels affiliated with any government agency?
+
+No. North Brooklyn Angels is an independent 501(c)(3) nonprofit organization. We partner with city agencies and programs, but we operate independently and are not a government agency or city contractor.

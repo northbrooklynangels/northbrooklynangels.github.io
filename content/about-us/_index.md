@@ -2,26 +2,30 @@
 title: About Us
 ---
 
-Hey there! We’re North Brooklyn Angels, a volunteer-powered non-profit in Brooklyn that has been feeding meals to the community since 2017. The Angels bring food to where the need is, through our mobile soup kitchen (the Angelmobile), which now regularly serves up to  **2,000** hot, healthy meals a week at **nine locations** in North Brooklyn.
+Hey there! We're North Brooklyn Angels, a volunteer-powered nonprofit in Brooklyn feeding our community since 2017. Through our Mobile Soup Kitchen, Little Angels gear program, and our new Live Local affordable housing initiative, we work to keep longtime residents - fed, equipped, and housed - in the neighborhoods they built.
 
 **North Brooklyn Angels (legal name: `North Brooklyn Coalition of Neighbors Helping Neighbors, Inc.`) is a 501(c)(3) and all donations are tax deductible. EIN `81-4576973​`**
 
 # History
 
-North Brooklyn Angels was formed by a group of North Brooklyn residents with varying community organizing, fundraising, and professional backgrounds. In directly witnessing the rapid changes to the community over the years, the organization was founded to help stem the tide of gentrification’s effects on individuals and families. They do this by providing food to where the need is, essentially through a mobile soup kitchen, but also through organizing community leaders, members, and volunteers. 
+North Brooklyn Angels was founded in 2017 by Greenpoint and Williamsburg residents who watched their community transform around them - rising rents, displaced neighbors, longtime families priced out of the neighborhoods they built. Our co-founders brought backgrounds in community organizing, clergy, and fundraising, and a shared conviction that the people best positioned to help were the neighbors themselves.
 
-The organization’s **vision** is based on the idea that North Brooklyn neighborhoods are filled with people - neighbors - who want to work together to fight hunger, food insecurity, and poverty. More importantly, the community is filled with residents of different needs and resources: it seeks to organize those with more resources and energy to cohesively take ownership of the health and welfare of their neighbors. Direct action by neighbors serves as an important resource in building an equitable, diverse, neighborhood.
+We launched with a single mobile soup kitchen running three days a week. Today we serve 2,000 hot meals every week across nine North Brooklyn locations, seven days a week - and we've expanded into baby gear and affordable housing navigation because our neighbors told us those were the next gaps to fill.
+
 
 # Mission & goals 
 
-North Brooklyn Angels’ vision of “neighbors helping neighbors” addresses the needs of the area through multiple approaches. Recognizing the immediate hunger needs of North Brooklyn, the Mobile Soup Kitchen (popularly known as the **Angelmobile**) was developed and introduced to directly serve those experiencing food insecurity. We create a “bus load” of hope, love, and nutrition to serve our needy North Brooklyn neighbors at strategic locations where they can congregate easily. 
+## Mission
+North Brooklyn Angels engages the power of local volunteers to address food insecurity, support growing families, and help longtime residents navigate affordable housing opportunities - so that North Brooklyn remains a community for everyone who built it.
 
-With an initial schedule of 3 days a week, the mobile soup kitchen now provides 2,000 hot meals, 7 days a week, at 9 locations that have demonstrated high need. Presently, food is sourced through a combination of local sources, including donations from the green market and food pantries, the Food Bank, and other food justice nonprofits. Beyond food prep and service, the Angelmobile also has fully-equipped office space that we will eventually offer for Coalition members to provide social support services (ie. legal, housing, healthcare).
+## Vision
+A North Brooklyn where neighbors show up for neighbors - where 900+ volunteers feeding 2,000 meals a week, week after week, is not extraordinary. It's just what a community does.
 
-The organization’s intermediate **goals** are to:
-1. Raise awareness about food insecurity in North Brooklyn neighborhoods
-2. Organize interested neighbors to volunteer their time
-3. Build upon community organizing efforts in addressing food and economic insecurity
+## How we work
+We practice radical accessibility - no ID at the truck, no income check for a gently-used stroller, no fee for housing help. And we practice it through volunteers, not staff. The 900+ neighbors who power our programs each year aren't filling gaps. They are the model. When a community takes ownership of its own wellbeing, that's not charity, but rather solidarity.
+
+What makes this possible isn't a large staff or a big budget. North Brooklyn Angels runs on two full-time staff members, a small team of dedicated part-timers, and the 950+ volunteers who show up week after week. When a community takes ownership of its own wellbeing, the results speak for themselves: 750,000+ meals, 75+ families equipped, and a new affordable housing program built from the ground up.
+
 
 # Leadership
 

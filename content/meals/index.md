@@ -1,12 +1,23 @@
 ---
 title: Meals
+toc: true
 ---
 
 {{< carousel images="1,2,3,4,5" aspectRatio="16:9" >}}
 
-North Brooklyn Angels aims to cook & serve 2,000 meals per week to neighbors experiencing food insecurity in our community. Each weekday, our Angelmobile fleet (so far, three vehicles!) currently serves, on average, 300 meals, depending on the site and the weather. Volunteers prep and serve all the food served in our community meals. 
 
-Meals are available on a first come, first served basis and may all be distributed within 15-20 minutes (give or take) upon arrival, depending on the weather, holiday season, and other variables. Keep an eye out for either our white minivan or our hard-to-miss food trucks.
+Since 2017, our Mobile Soup Kitchen program — the Angelmobile — has brought freshly cooked meals to neighbors across Greenpoint, Williamsburg, East Williamsburg, and Bushwick, serving more than 750,000 meals through fifteen distributions across nine locations, seven days a week. Every meal is free, and no one is ever asked for ID, proof of income, or a reason why they're there.
+
+Food insecurity in North Brooklyn isn't only experienced by people in crisis. It's the older adult on a fixed income, the day laborer waiting for work outside our truck, the student, the working family outpaced by rents that have doubled in a decade. Our volunteers show up for all of them, without question and without judgment — because that's what neighbors do.
+
+For many of our older adult neighbors, the truck is a social anchor and a place to see familiar faces and catch up with the block. This connection is a core part of our mission and something we actively wish to foster.
+
+
+# Before you come
+
+All of our distributions take place outdoors, in public spaces - on the street, at a corner, outside a church or community center. Meals go fast, with most distributions lasting 15–20 minutes, so we recommend arriving on time. Look for our white van or food truck at the address listed for your location. All sites are free, open to everyone, and wheelchair-accessible without ID, income verification, or signups required.
+
+# Meals
 
 * Monday In Greenpoint and Williamsburg
   1. **12:15 PM** at 862 Manhattan Avenue: The truck is parked in front of the steps of the St. Anthony of Padua - St. Alphonsus church at the intersection of Manhattan Avenue and Milton Street.
@@ -109,3 +120,11 @@ The truck is parked on the corner of Franklin and Noble Streets.
 #### Schedule
 * **Sunday** at **10:00 AM**
 {{< /map-marker >}}
+
+---
+
+# Watch Our Story
+
+In December 2025, [our partners at Rethink Food](https://www.rethinkfood.org/) documented the people, volunteers, and mission behind our Mobile Soup Kitchen program. The resulting short film, [Neighbors Helping Neighbors](https://www.jamesbeard.org/stories/james-beard-media-award-nominees-2026), was nominated for a James Beard Media Award - a recognition that belongs as much to the 900+ volunteers who show up week after week as it does to the filmmakers who captured them.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/XHgGmLqFgAc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
