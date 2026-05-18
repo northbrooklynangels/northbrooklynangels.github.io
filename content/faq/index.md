@@ -67,7 +67,7 @@ Yes, in addition to our Mobile Soup Kitchen, we run three community programs:
 
 * [Little Angels](/little-angels) provides gently used essential infant and toddler gear like strollers, car seats, high chairs, and cribs to local families with children up to age five who live in our North Brooklyn catchment (11222, 11211, 11249, and 11206). 
 * [Angel Babies](/angel-babies) is our biannual community giveaway event. With the generous help from local businesses and organizations, we collect donations of all things baby- and child-related from across North Brooklyn and give them away to those who need them. This event is open to all. 
-* Live Local (link coming soon) is our newest initiative, helping Greenpoint and Williamsburg residents navigate NYC’s HousingConnect affordable housing lottery with support from trained volunteer Housing Ambassadors.
+* [Live Local](/live-local) is our newest initiative, helping Greenpoint and Williamsburg residents navigate NYC’s HousingConnect affordable housing lottery with support from trained volunteer Housing Ambassadors.
 
 
 
