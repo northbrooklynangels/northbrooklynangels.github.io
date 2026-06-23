@@ -16,16 +16,14 @@ A tireless advocate for working families, William Lynn has spent more than three
 ### **Elaine Brodsky, Chair, North Brooklyn Chamber**
 A pioneering entrepreneur and civic leader, Elaine Brodsky co-founded CitiStorage, LLC, which grew into the largest independent, privately-owned single-location records storage company in the United States - recognized nationally for its employee-centered culture and her recognition as a 2006 Ernst & Young Entrepreneur of the Year. As Chair of the North Brooklyn Chamber, she continues to champion local business and civic life across North Brooklyn.
 
-# Support Our Mission: Select Your Sponsorship Level
+## North Brooklyn Angels' 2026 Luncheon eJournal
 
-Your generosity directly powers our mobile soup kitchen and food pantry operations. In 2025, supporters like you helped us provide approximately 100,000 nutritious meals to neighbors facing food insecurity. Select your preferred sponsorship level or eJournal ad below to make a meaningful impact in our community.
+Thank you so much to all of the many donors who took a journal page! 
 
-**View our 2026 Sponsorship Opportunities Brochure**
+<iframe class="w-full h-svh" src="https://www.canva.com/design/DAHJkqV7_JQ/K7ov3Sfa00CvEvH6yb5iEw/view?embed" allowfullscreen allow="fullscreen" loading="lazy" frameborder="0"></iframe>
 
-Please take a few minutes to complete our Luncheon donation form below ([or via this link](https://airtable.com/appWlnWbZfLQyu5W8/pagoQxux4gGzer7kB/form)). [A copy of the Luncheon Brochure that lists the sponsorship level's features and benefits can be found HERE](./2026%20Luncheon%20Brochure.pdf). For any questions, please do not hesitate to reach out to us at [fundraising@northbrooklynangels.org](mailto:fundraising@northbrooklynangels.org). Thank you!
-
-<div class="h-[122rem] sm:h-[97rem] lg:h-[92rem] mb-4">
-<iframe id="sponsorship-form" class="h-[122rem] sm:h-[97rem] lg:h-[92rem] w-dvw sm:w-full absolute inset-x-0 sm:relative special-iframe-full-width-on-mobile" src="https://airtable.com/embed/appWlnWbZfLQyu5W8/pagoQxux4gGzer7kB/form" onmousewheel=""></iframe>
+<div class="grid grid-cols-1 gap-y-2 mt-2 mb-4">
+    <a href="https://drive.google.com/file/d/1svBzVaHQ8-rqlnjr7Cojb9zDrYN8ZAyx/view?usp=drive_link" class="col-span-1 w-full text-center text-sm">Download eJournal PDF via Google Drive (warning: over 150MB file!)</a>
 </div>
 
 # Warm Thanks To Our Dedicated Luncheon Committee
