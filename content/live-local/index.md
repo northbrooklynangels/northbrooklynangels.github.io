@@ -11,6 +11,8 @@ New developments in Greenpoint and Williamsburg are legally required to include 
 
 We're here to change that.
 
+[In this linked map and datasheet,](https://bit.ly/livelocalmap) we demystify the North Brooklyn development landscape, explaining why development at this scale is possible and what to expect in the near future.
+
 # How it works
 
 We are training a cohort of North Brooklyn volunteers - in partnership with St. Nicks Alliance and HPD - to sit with neighbors and help them navigate HousingConnect, start to finish. Whether you've never opened an application, have one in progress, or aren't sure where yours stands, we can help you think it through.
