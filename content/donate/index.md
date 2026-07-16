@@ -4,7 +4,7 @@ title: Donate
 
 {{< rich-carousel width="11/12" desktopWidth="9/12" aspectRatio="16:9" >}}
 {{% rich-carousel-slide image="hero1" %}}
-## [6th Annual Luncheon](/luncheon)
+## [Click Here For Tickets](https://bit.ly/2026-chicken-finger-day)
 {{% /rich-carousel-slide %}}
 {{% rich-carousel-slide image="hero2" %}}
 
