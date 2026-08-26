@@ -4,22 +4,28 @@ title: Angel Babies
 
 {{< carousel images="hero1,hero2,hero3,hero4,hero5" aspectRatio="18:9" >}}
 
-Responding to community need and opportunities made possible by local partnerships and volunteer support, Angel Babies elevates our vision of “neighbors helping neighbors” as we mount big volunteer-driven giveaway events to local, new and expectant families who are in need of resources.
+Angel Babies is a biannual event in collaboration with our neighborhood partners to collect and give away all things children: clothes, gear, shoes, books, toys, etc. This massive effort gives local families a way to pass along items they no longer need to others who could use them.
 
-Each time a campaign is ignited, for a few weeks, North Brooklyn businesses, schools, bars, cafes, and large apartment buildings sign on to host donation collections for this incredible giveaway event, netting thousands of Angel Babies donations!
+Our Angel Babies giveaways are open-to-all and are on a first-come, first-served basis. Attendees are admitted in waves to browse the inventory and select items. Everything is free of charge. No pre-registration is required.
 
-# Next Angel Babies Event: May 21, 2026!
+There is a limited amount of gear available (strollers, car seats, etc) and it usually goes quickly. Residents of North Brooklyn (11222, 11211, 11249, and 11206) can enroll with [Little Angels](/little-angels) for assistance with gear items year-round.
 
-We’re incredibly excited to organize our first Angel Babies event of 2026! Volunteers are very much requested! [Please see our flyer for pertinent dates here and share with your neighbors!](./May%202026%20Angel%20Babies%20Poster.pdf) These volunteer opportunities will be posted [on our Deed page soon](http://bit.ly/nbadeed), but in the meantime, if you’re interested please feel free to email us at [volunteer@northbrooklynangels.org](mailto:volunteer@northbrooklynangels.org).
+**Our Next Giveaway: Fall 2026 (TBA)**
 
-**Please note:** We collect gently used infant/toddler clothing, toys, and books only in the weeks leading up to each Angel Babies event (spring and late fall). If you'd like to donate these items now, email [volunteer@northbrooklynangels.org](mailto:volunteer@northbrooklynangels.org) and we'll connect you with partner organizations that accept donations year-round.
+# How You Can Help
 
-# New Program: Little Angels
+## Volunteer
 
-* Showing love to area families facing economic hardship is what the Angel Babies project does, several times a year! Building on the success of our Angel Babies events, North Brooklyn Angels has launched a year-round program connecting families in need with essential baby and toddler gear. **We need your help to make this possible!** [Check out our Little Angels page to learn more!](/little-angels)
+In the week leading up to our events, we mobilize many volunteers to sort the piles of donated goods into easily navigable items for the day of the giveaway. It’s a fun community effort and makes a huge difference to the success of the day!
 
-{{< donate >}}
+**Shifts will be posted on our [Volunteer Portal](https://volunteer.northbrooklynangels.org) once an event date is set.** Angel Babies events are our best opportunity for corporate groups to serve together. If you’re interested in that option, please email us so we can be in touch once event details are finalized.
 
-# Thank You to Our Long Standing Partners
+## Donate
 
-The Brooklyn Hospital Center’s Women, Infants and Children (WIC) Program, Most Holy Trinity - St. Mary Parish and Trinity Human Services, Cooper Park Residents' Council, North Brooklyn Chamber, Eleven33, Parachute Brooklyn, Greenpointers, and dozens of local businesses and buildings who have welcomed collections for this event.
+For a couple weeks prior to a giveaway, several neighborhood partners graciously open their spaces as donation sites. We accept anything related to pregnancy, infancy, and childhood. Think clothes, shoes, jackets, books, toys, etc. Please only donate items in good condition!
+
+**Donation sites will be announced once a date is finalized.**
+
+## Community Partners
+
+Thank you to our longstanding partners: The Brooklyn Hospital Center’s Women, Infants and Children (WIC) Program, Most Holy Trinity - St. Mary Parish and Trinity Human Services, Cooper Park Residents’ Council, North Brooklyn Chamber, Eleven33, Parachute Brooklyn, Greenpointers, and dozens of local businesses and buildings who have welcomed collections for this event.

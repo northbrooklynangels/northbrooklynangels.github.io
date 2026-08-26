@@ -10,7 +10,7 @@ North Brooklyn Angels runs on the energy, commitment, and generosity of our volu
 
 Our meal-packing shifts are the heartbeat of North Brooklyn Angels. Monday through Friday and Sunday, volunteers gather in our kitchen to cook, pack, and distribute hundreds of hot meals across North Brooklyn. Each shift runs 2–3 hours and is a great way to meet fellow community members while making an immediate, tangible impact.
 
-To sign up, [create an account with Deed](http://bit.ly/nbadeed), then search for "North Brooklyn Angels" to browse and register for upcoming shifts. Shifts fill up quickly and we often have a waitlist, so we ask that you sign up in advance and let us know at [volunteer@northbrooklynangels.org](mailto:volunteer@northbrooklynangels.org) if your plans change.
+You can sign up for shifts at [volunteer.northbrooklynangels.org](https://volunteer.northbrooklynangels.org). Shifts fill up quickly and we often have a waitlist, so we ask that you sign up in advance and let us know at [volunteer@northbrooklynangels.org](mailto:volunteer@northbrooklynangels.org) if your plans change.
 
 First time? No experience needed. You'll be paired with a returning volunteer who'll show you the ropes. Minors are welcome to volunteer alongside a parent or guardian who has completed at least a few shifts with us first.
 
@@ -36,7 +36,7 @@ Our newest program is taking shape, and we need the community to help build it. 
 
 We're currently welcoming volunteer Housing Ambassadors, community outreach volunteers, and residents who need help navigating the process.
 
-(Link TBA)
+[Check out Live Local now!](/live-local)
 
 ## Corporate & Group Volunteering
 

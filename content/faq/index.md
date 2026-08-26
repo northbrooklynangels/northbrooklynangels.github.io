@@ -12,9 +12,9 @@ We welcome volunteers from across the community to pitch in at our kitchen, serv
 
 ## How do I sign up?
 
-[The easiest way to get started is through Deed](https://bit.ly/nbadeed): create a free account, search for “North Brooklyn Angels,” and browse available shifts.
+The easiest way to view and sign up for available shifts at [volunteer.northbrooklynangels.org](https://volunteer.northbrooklynangels.org).
 
-Please sign up before you come. Our kitchen operates on a “no surprises” ethos; knowing who to expect helps us run safe, smooth shifts and ensures every volunteer has a meaningful experience. Shifts fill quickly and we often have a waitlist, so signing up in advance also guarantees your spot. If your plans change, a quick note to [volunteer@northbrooklynangels.org](mailto:volunteer@northbrooklynangels.org) lets us open your spot to someone waiting.
+Please sign up before you come. Our kitchen operates on a “no surprises” ethos; knowing who to expect helps us run safe, smooth shifts and ensures every volunteer has a meaningful experience. Shifts fill quickly and we often have a waitlist, so signing up in advance also guarantees your spot. If your plans change, please use the "Cancel Shift" button in your email confirmation, or let us know by reaching out to [volunteer@northbrooklynangels.org](mailto:volunteer@northbrooklynangels.org).
 
 For emerging and flexible opportunities outside of our regular shifts, [see our Get Involved page for more information](/get-involved)!
 
@@ -68,8 +68,6 @@ Yes, in addition to our Mobile Soup Kitchen, we run three community programs:
 * [Little Angels](/little-angels) provides gently used essential infant and toddler gear like strollers, car seats, high chairs, and cribs to local families with children up to age five who live in our North Brooklyn catchment (11222, 11211, 11249, and 11206). 
 * [Angel Babies](/angel-babies) is our biannual community giveaway event. With the generous help from local businesses and organizations, we collect donations of all things baby- and child-related from across North Brooklyn and give them away to those who need them. This event is open to all. 
 * [Live Local](/live-local) is our newest initiative, helping Greenpoint and Williamsburg residents navigate NYC’s HousingConnect affordable housing lottery with support from trained volunteer Housing Ambassadors.
-
-
 
 ---
 
