@@ -1,5 +1,6 @@
 ---
 title: Neighbors Giving Thanks 2026
+draft: true
 layout: campaign
 sections:
   - type: hero
