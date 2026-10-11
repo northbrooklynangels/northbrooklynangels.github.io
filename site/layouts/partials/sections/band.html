@@ -1,0 +1,24 @@
+<!-- A short closing call to action: a heading with buttons beside it (below it on phones).
+       - type: band
+         background: deep     # optional, defaults to deep
+         title: "Neighbors helping neighbors, one table at a time."
+         text: "..."          # optional, inline markdown under the title
+         buttons: [...]       # optional, see partials/campaign/buttons.html
+-->
+{{ $page := .page }}
+{{ $section := .section }}
+
+<section{{ with $section.id }} id="{{ . }}"{{ end }} class="{{ partial "campaign/background.html" ($section.background | default "deep") }} py-12 md:py-14">
+  <div class="campaign-container flex flex-col gap-6 md:flex-row md:items-center md:justify-between">
+    <div class="max-w-3xl">
+      <h2 class="campaign-heading">{{ $section.title }}</h2>
+      {{ with $section.text }}
+        <p class="campaign-prose mt-3">{{ $page.RenderString . }}</p>
+      {{ end }}
+    </div>
+
+    {{ with $section.buttons }}
+      <div class="shrink-0">{{ partial "campaign/buttons.html" . }}</div>
+    {{ end }}
+  </div>
+</section>

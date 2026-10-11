@@ -12,7 +12,13 @@
 {{ $float := .float | default "" | lower }}
 {{ $rounded := .rounded | default "" }}
 {{ $otherClasses := .otherClasses | default "" }}
+{{ $imgClasses := .imgClasses | default "" }}
 {{ $caption := .caption | default false }}
+
+<!-- How wide the image is displayed at each breakpoint, which the browser uses to pick a file from srcset.
+     The default is the full width of the standard page column; pass a narrower value for images that don't span it,
+     e.g. (partial "utility/sizes.html" (dict "columns" 2 "gap" 32)) -->
+{{ $sizes := .sizes | default (partial "utility/sizes.html" dict) }}
 
 <!-- Templates apparently don't have their own scratch context -->
 {{ $scratch := newScratch }}
@@ -41,7 +47,6 @@
         {{ $image := $originalProcessed.Resize (print $res "x") }}
         {{ $scratch.Add "srcsetWebp" (slice (print $imageWebp.RelPermalink " " $res "w")) }}
         {{ $scratch.Add "srcset" (slice (print $image.RelPermalink " " $res "w")) }}
-        {{ $scratch.Add "sizes" (slice (print $res "px")) }}
     {{ end }}
 {{ end }}
 
@@ -55,7 +60,6 @@
     {{ $scratch.Set "fallback" $compressedOriginal }}
     {{ $scratch.Set "srcsetWebp" (slice (print $compressedOriginalWebp.RelPermalink " " $compressedOriginalWebp.Width "w") | append ($scratch.Get "srcsetWebp" | default slice)) }}
     {{ $scratch.Set "srcset" (slice (print $compressedOriginal.RelPermalink " " $compressedOriginal.Width "w") | append ($scratch.Get "srcset" | default slice)) }}
-    {{ $scratch.Set "sizes" (slice (print $compressedOriginal.Width "px") | append ($scratch.Get "sizes" | default slice)) }}
 {{ end }}
 
 <!-- Figure out the float position -->
@@ -80,7 +84,6 @@
 <!-- Render the strings accordingly -->
 {{ $srcsetWebp := delimit ($scratch.Get "srcsetWebp") ", " }}
 {{ $srcset := delimit ($scratch.Get "srcset") ", " }}
-{{ $sizes := delimit ($scratch.Get "sizes") ", " }}
 {{ $fallback := ($scratch.Get "fallback").RelPermalink }}
 {{ $fallbackWidth := ($scratch.Get "fallback").Width }}
 {{ $fallbackHeight := ($scratch.Get "fallback").Height }}
@@ -95,11 +98,11 @@
     {{ end }}
         <source srcset="{{ $srcsetWebp }}" sizes="{{ $sizes }}" type="image/webp" />
         <source srcset="{{ $srcset }}" sizes="{{ $sizes }}" type="{{ $original.MediaType }}" />
+        <!-- otherClasses goes on the <picture>, imgClasses on the <img> itself (for rounding, object-fit, etc.) -->
         {{ if $rounded }}
-            <img srcset="{{ $srcset }}" sizes="{{ $sizes }}" src="{{ $fallback }}" width="{{ $fallbackWidth }}" height="{{ $fallbackHeight }}" {{if ne $altText "" }} title="{{ $altText }}" alt="{{ $altText }}" {{end}} class="rounded-md">
-        {{ else }}
-            <img srcset="{{ $srcset }}" sizes="{{ $sizes }}" src="{{ $fallback }}" width="{{ $fallbackWidth }}" height="{{ $fallbackHeight }}" {{if ne $altText "" }} title="{{ $altText }}" alt="{{ $altText }}" {{end}}>
+            {{ $imgClasses = trim (print "rounded-md " $imgClasses) " " }}
         {{ end }}
+        <img srcset="{{ $srcset }}" sizes="{{ $sizes }}" src="{{ $fallback }}" width="{{ $fallbackWidth }}" height="{{ $fallbackHeight }}" {{if ne $altText "" }} title="{{ $altText }}" alt="{{ $altText }}" {{end}}{{ with $imgClasses }} class="{{ . }}"{{ end }}>
     </picture>
 {{ if $caption }}
     {{ if ne $altText "" }}

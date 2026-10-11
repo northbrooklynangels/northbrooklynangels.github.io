@@ -1,0 +1,29 @@
+<!-- Builds an img `sizes` attribute for something inside the standard page container (`container mx-auto px-6 md:px-16`,
+     used by the header, regular pages, and campaign sections). Returns the string.
+     Takes (dict "columns" <number of columns, default 1> "gap" <gap between them in px, default 0>
+                 "from" <breakpoint in px where the columns start, default 820 (md)>)
+     If the container's breakpoints or padding change, update the widths here -->
+{{ $columns := .columns | default 1 }}
+{{ $gap := .gap | default 0 }}
+{{ $from := .from | default 820 }}
+
+<!-- [breakpoint, content width] pairs, smallest first: the container's max-width minus its padding (48px below md, 128px from md up) -->
+{{ $breakpoints := slice (slice 740 692) (slice 820 692) (slice 1024 896) (slice 1280 1152) (slice 1536 1408) }}
+
+{{ $entries := slice }}
+{{ $previous := 0 }}
+{{ range $breakpoints }}
+  {{ $cols := cond (ge (index . 0) $from) $columns 1 }}
+  {{ $width := div (sub (index . 1) (mul $gap (sub $cols 1))) $cols }}
+  <!-- Skip breakpoints where the width doesn't change -->
+  {{ if ne $width $previous }}
+    {{ $entries = $entries | append (printf "(min-width: %dpx) %dpx" (index . 0) $width) }}
+    {{ $previous = $width }}
+  {{ end }}
+{{ end }}
+
+<!-- Browsers use the first matching entry, so the largest breakpoint goes first. Below 740px, the container is the whole screen -->
+{{ $entries = partial "utility/reverse-slice.html" $entries }}
+{{ $entries = $entries | append "calc(100vw - 3rem)" }}
+
+{{ return delimit $entries ", " }}

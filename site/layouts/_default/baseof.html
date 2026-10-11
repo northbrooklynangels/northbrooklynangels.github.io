@@ -34,13 +34,6 @@
       <link href="{{ relURL . }}" rel="stylesheet">
     {{ end }}
 
-    <!-- Development only -->
-    {{ if hugo.IsServer }}
-      <link rel="preconnect" href="https://fonts.googleapis.com">
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-      <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    {{ end }}
-
     <link rel="icon" type="image/svg+xml" href="/favicon.svg">
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="alternate icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -66,7 +59,8 @@
 
   <body class="dark:bg-gray-900 dark:text-gray-200 flex flex-col min-h-screen">
     {{ partialCached "header.html" . }}
-    <main class="flex-grow">
+    <!-- Spacing between the header/footer and the page; layouts with full-width sections override this to sit flush -->
+    <main class="flex-grow {{ block "mainClasses" . }}pt-4 pb-6{{ end }}">
       {{ block "main" . }}{{ end }}
     </main>
     {{ partialCached "footer.html" . }}

@@ -1,0 +1,24 @@
+<!-- Heading on the left, copy and buttons on the right. Stacks on phones.
+       - type: split
+         title: "Lend a hand"
+         markdown: |          # optional
+           Thanksgiving is our most popular volunteer week...
+         buttons: [...]       # optional, see partials/campaign/buttons.html
+-->
+{{ $page := .page }}
+{{ $section := .section }}
+
+<section{{ with $section.id }} id="{{ . }}"{{ end }} class="{{ partial "campaign/background.html" $section.background }} py-12 md:py-16">
+  <div class="campaign-container grid gap-6 md:grid-cols-3 md:gap-10">
+    <h2 class="campaign-heading">{{ $section.title }}</h2>
+
+    <div class="md:col-span-2">
+      {{ with $section.markdown }}
+        <div class="campaign-prose">{{ $page.RenderString (dict "display" "block") . }}</div>
+      {{ end }}
+      {{ with $section.buttons }}
+        <div class="mt-6">{{ partial "campaign/buttons.html" . }}</div>
+      {{ end }}
+    </div>
+  </div>
+</section>

@@ -1,0 +1,20 @@
+<!-- Prose section. Renders the section's `markdown` field if it has one, otherwise the page body.
+       - type: content
+         background: default      # optional, see partials/campaign/background.html
+         markdown: |              # optional
+           Some **markdown** here
+-->
+{{ $page := .page }}
+{{ $section := .section }}
+
+<section{{ with $section.id }} id="{{ . }}"{{ end }} class="{{ partial "campaign/background.html" $section.background }} py-12 md:py-16">
+  <div class="campaign-container">
+    <div class="campaign-prose max-w-3xl">
+      {{ with $section.markdown }}
+        {{ $page.RenderString (dict "display" "block") . }}
+      {{ else }}
+        {{ $page.Content }}
+      {{ end }}
+    </div>
+  </div>
+</section>

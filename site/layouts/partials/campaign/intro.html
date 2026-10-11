@@ -1,0 +1,20 @@
+<!-- The optional heading block at the top of a section. Takes (dict "page" <page> "section" <section>) and reads:
+       tagline: a handwritten-style line above the title
+       title: the section heading
+       markdown: intro copy under the title -->
+{{ $page := .page }}
+{{ $section := .section }}
+
+{{ if or $section.tagline $section.title $section.markdown }}
+<div class="mb-8 md:mb-10">
+  {{ with $section.tagline }}
+    <p class="font-script text-2xl md:text-3xl text-campaign-accent mb-1">{{ . }}</p>
+  {{ end }}
+  {{ with $section.title }}
+    <h2 class="campaign-heading">{{ . }}</h2>
+  {{ end }}
+  {{ with $section.markdown }}
+    <div class="campaign-prose max-w-3xl mt-4">{{ $page.RenderString (dict "display" "block") . }}</div>
+  {{ end }}
+</div>
+{{ end }}

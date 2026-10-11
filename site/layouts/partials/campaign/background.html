@@ -1,0 +1,18 @@
+<!-- Turns a section's `background` name into classes. The names are roles rather than colors, since dark mode changes them.
+     The classes are written out in full so Tailwind can find them. The deep band gets campaign-inverse, which turns headings and links white -->
+{{ $backgrounds := dict
+  "default" "bg-campaign-surface"
+  "warm" "bg-campaign-surface-warm"
+  "cool" "bg-campaign-surface-cool"
+  "bright" "bg-campaign-surface-bright text-campaign-heading"
+  "deep" "bg-campaign-surface-deep text-white campaign-inverse"
+}}
+
+{{ $name := . | default "default" }}
+{{ $classes := index $backgrounds $name }}
+
+{{ if not $classes }}
+  {{ errorf "Invalid campaign section background %q: must be one of default, warm, cool, bright, or deep" $name }}
+{{ end }}
+
+{{ return $classes }}

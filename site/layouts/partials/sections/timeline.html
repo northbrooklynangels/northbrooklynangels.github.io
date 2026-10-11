@@ -1,0 +1,45 @@
+<!-- A run of dated steps joined by a line: across the page from lg up, down the left side below that.
+       - type: timeline
+         background: warm            # optional
+         title: "The week at a glance"   # optional, plus tagline and markdown, see partials/campaign/intro.html
+         items:
+           - date: "Friday, Nov 20"
+             title: "Turkey distribution"
+             text: "1,000 frozen turkeys..."   # optional, inline markdown
+             highlight: true                   # optional, marks the step in rust instead of teal
+-->
+{{ $page := .page }}
+{{ $section := .section }}
+
+<section{{ with $section.id }} id="{{ . }}"{{ end }} class="{{ partial "campaign/background.html" $section.background }} py-12 md:py-16">
+  <div class="campaign-container">
+    {{ partial "campaign/intro.html" . }}
+
+    <ol class="grid lg:grid-flow-col lg:auto-cols-fr">
+      {{ range $section.items }}
+        {{ $dot := cond (.highlight | default false) "bg-campaign-accent" "bg-campaign-accent-cool" }}
+        {{ $date := cond (.highlight | default false) "text-campaign-accent" "text-campaign-accent-cool" }}
+
+        <li class="group flex gap-4 lg:block">
+          <!-- The dot, and the line running to the next step. On phones the line runs down, and stops at the last step -->
+          <div class="flex flex-col items-center lg:flex-row" aria-hidden="true">
+            <span class="h-7 w-7 shrink-0 rounded-full {{ $dot }}"></span>
+            <span class="w-0.5 flex-1 bg-campaign-heading/15 group-last:hidden lg:h-0.5 lg:w-auto lg:group-last:block"></span>
+          </div>
+
+          <div class="pb-8 lg:pb-0 lg:pt-5 lg:pr-6">
+            {{ with .date }}
+              <p class="campaign-eyebrow {{ $date }} mb-1">{{ . }}</p>
+            {{ end }}
+            {{ with .title }}
+              <h3 class="font-display font-bold text-campaign-heading text-xl leading-tight">{{ . }}</h3>
+            {{ end }}
+            {{ with .text }}
+              <p class="campaign-prose text-sm mt-1">{{ $page.RenderString . }}</p>
+            {{ end }}
+          </div>
+        </li>
+      {{ end }}
+    </ol>
+  </div>
+</section>

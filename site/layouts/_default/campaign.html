@@ -1,0 +1,41 @@
+{{ define "title" }}
+  {{ if ne .Title "" }}
+    {{ .Title }} &ndash; {{ .Site.Title }}
+  {{ else }}
+    {{ .Site.Title }}
+  {{ end }}
+{{ end }}
+
+{{/* Sections are full-width, so drop baseof's padding and sit flush against the header and footer.
+     Two Go template gotchas here:
+       - This has to be a template comment, since any HTML outside of a define stops Hugo from using baseof.html
+       - An empty define doesn't override a block's default content, so this needs at least one class */}}
+{{ define "mainClasses" }}bg-campaign-surface{{ end }}
+
+{{ define "main" }}
+<!-- Pages opt in with `layout: campaign` and list their sections in front matter:
+       sections:
+         - type: content
+           background: warm
+     Each section renders partials/sections/<type>.html, which receives (dict "page" <page> "section" <the section's front matter>).
+     Without a `sections` list, the page body is rendered as a single content section.
+
+     Section types: hero, stats, content, timeline, cards, donate, split, band. Each partial's header comment lists its fields.
+     Every section also takes:
+       background: default, warm, cool, bright, or deep (partials/campaign/background.html)
+       id: an anchor, so buttons can link to it with "#id"
+     See content/campaign-test/_index.md for a full example. -->
+<div class="campaign">
+  {{ $sections := .Params.sections | default (slice (dict "type" "content")) }}
+
+  {{ range $sections }}
+    {{ $partial := printf "sections/%s.html" (.type | default "") }}
+
+    {{ if not (templates.Exists (printf "partials/%s" $partial)) }}
+      {{ errorf "Invalid campaign section on %s: no partial for section type %q" $.RelPermalink .type }}
+    {{ end }}
+
+    {{ partial $partial (dict "page" $ "section" .) }}
+  {{ end }}
+</div>
+{{ end }}

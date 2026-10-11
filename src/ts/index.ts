@@ -2,6 +2,16 @@ import MicroModal from "micromodal";
 
 import docReady from "./docready";
 
+// Self-hosted fonts (Bebas Neue is loaded in icons.scss)
+import "@fontsource-variable/montserrat";
+// Campaign layout fonts. These are best guesses from the Thanksgiving mockup; swap them here and in tailwind.config.js if they're wrong
+import "@fontsource-variable/fraunces";
+import "@fontsource/poppins/400.css";
+import "@fontsource/poppins/500.css";
+import "@fontsource/poppins/600.css";
+import "@fontsource/poppins/700.css";
+import "@fontsource-variable/caveat";
+
 import "../css/main.scss";
 
 docReady(() => {
@@ -200,6 +210,33 @@ docReady(() => {
                 dropdown.classList.add("hidden");
             }
         }
+    });
+});
+
+// Copy buttons (site/layouts/partials/sections/donate.html). The button's text flips to a status message for a couple of seconds
+docReady(() => {
+    document.querySelectorAll<HTMLButtonElement>("button[data-copy]").forEach(button => {
+        const originalLabel = button.innerHTML;
+        let resetTimer: number;
+
+        const showStatus = (status: string) => {
+            button.textContent = status;
+            window.clearTimeout(resetTimer);
+            resetTimer = window.setTimeout(() => { button.innerHTML = originalLabel; }, 2000);
+        };
+
+        button.addEventListener("click", () => {
+            // The clipboard API only exists on HTTPS (and localhost)
+            if (!navigator.clipboard) {
+                showStatus("Couldn't copy");
+                return;
+            }
+
+            navigator.clipboard.writeText(button.dataset.copy).then(
+                () => showStatus("Copied!"),
+                () => showStatus("Couldn't copy")
+            );
+        });
     });
 });
 

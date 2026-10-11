@@ -1,0 +1,52 @@
+<!-- Two-column opening section: title and buttons on the left, a captioned image on the right. Stacks below lg, where the columns get too narrow.
+       - type: hero
+         eyebrow: "7th annual · November 20 to 26, 2026"   # optional
+         title: "Neighbors Giving Thanks 2026"             # optional, defaults to the page title
+         text: "One week. Four North Brooklyn neighborhoods..."   # optional, inline markdown
+         buttons: [...]                                    # optional, see partials/campaign/buttons.html
+         footnote: "[Want to lend a hand?](#volunteer)"    # optional, inline markdown under the buttons
+         image: hero                                       # optional, an image in the page's folder
+         alt: "Volunteers serving dinner"                  # describes the image for screen readers
+         caption: "A Neighbors Giving Thanks Community Table"   # optional
+-->
+{{ $page := .page }}
+{{ $section := .section }}
+
+<section{{ with $section.id }} id="{{ . }}"{{ end }} class="{{ partial "campaign/background.html" $section.background }} py-10 md:py-16">
+  <div class="campaign-container grid items-center gap-10 lg:grid-cols-2">
+    <div>
+      {{ with $section.eyebrow }}
+        <p class="campaign-eyebrow text-campaign-accent-cool mb-4">{{ . }}</p>
+      {{ end }}
+
+      <h1 class="campaign-title">{{ $section.title | default $page.Title }}</h1>
+
+      {{ with $section.text }}
+        <p class="campaign-prose text-lg mt-5">{{ $page.RenderString . }}</p>
+      {{ end }}
+
+      {{ with $section.buttons }}
+        <div class="mt-7">{{ partial "campaign/buttons.html" . }}</div>
+      {{ end }}
+
+      {{ with $section.footnote }}
+        <p class="campaign-prose text-sm mt-5">{{ $page.RenderString . }}</p>
+      {{ end }}
+    </div>
+
+    {{ with $section.image }}
+      <figure>
+        {{ partial "campaign/image.html" (dict
+          "page" $page
+          "image" .
+          "alt" $section.alt
+          "class" "rounded-2xl shadow-sm"
+          "sizes" (partial "utility/sizes.html" (dict "columns" 2 "gap" 40 "from" 1024))
+        ) }}
+        {{ with $section.caption }}
+          <figcaption class="text-xs text-campaign-text/70 mt-2">{{ . }}</figcaption>
+        {{ end }}
+      </figure>
+    {{ end }}
+  </div>
+</section>

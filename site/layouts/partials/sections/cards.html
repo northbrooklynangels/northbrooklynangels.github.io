@@ -1,0 +1,47 @@
+<!-- Image-topped cards, one per row on phones and two per row on larger screens.
+       - type: cards
+         title: "Two ways to celebrate"   # optional, plus tagline and markdown, see partials/campaign/intro.html
+         items:
+           - eyebrow: "Friday, Nov 20"    # optional
+             title: "Take it home"
+             text: "A frozen turkey..."   # optional, inline markdown
+             image: take-it-home          # optional, an image in the page's folder. Cropped to 16:9
+             alt: "Neighbors holding turkeys"
+-->
+{{ $page := .page }}
+{{ $section := .section }}
+
+<section{{ with $section.id }} id="{{ . }}"{{ end }} class="{{ partial "campaign/background.html" $section.background }} py-12 md:py-16">
+  <div class="campaign-container">
+    {{ partial "campaign/intro.html" . }}
+
+    <div class="grid gap-6 md:grid-cols-2 md:gap-8">
+      {{ range $section.items }}
+        {{ $card := . }}
+        <article class="campaign-light overflow-hidden rounded-2xl border border-campaign-heading/10 bg-campaign-card text-campaign-text shadow-sm">
+          {{ with .image }}
+            {{ partial "campaign/image.html" (dict
+              "page" $page
+              "image" .
+              "alt" $card.alt
+              "ratio" "16:9"
+              "sizes" (partial "utility/sizes.html" (dict "columns" 2 "gap" 32))
+            ) }}
+          {{ end }}
+
+          <div class="p-6">
+            {{ with .eyebrow }}
+              <p class="campaign-eyebrow text-campaign-accent mb-2">{{ . }}</p>
+            {{ end }}
+            {{ with .title }}
+              <h3 class="font-display font-bold text-campaign-heading text-2xl leading-tight">{{ . }}</h3>
+            {{ end }}
+            {{ with .text }}
+              <p class="campaign-prose mt-2">{{ $page.RenderString . }}</p>
+            {{ end }}
+          </div>
+        </article>
+      {{ end }}
+    </div>
+  </div>
+</section>

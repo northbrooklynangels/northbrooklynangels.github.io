@@ -1,0 +1,35 @@
+<!-- Renders one of the page's images through utility/picture.html.
+     Takes (dict "page" <page> "image" <name> "alt" <alt text> "sizes" <sizes attribute> "class" <classes for the img>
+                 "ratio" <optional, e.g. "16:9">)
+     With a ratio, the image is cropped to it around the center. It's never scaled up, so the crop stays within the original -->
+{{ $command := "" }}
+{{ $options := "" }}
+
+{{ with .ratio }}
+  {{ $parts := split . ":" }}
+  {{ $ratioW := float (index $parts 0) }}
+  {{ $ratioH := float (index $parts 1) }}
+
+  {{ with $.page.Resources.GetMatch (printf "*%s*" $.image) }}
+    {{ $width := math.Min .Width 1600 }}
+    {{ $height := div (mul $width $ratioH) $ratioW }}
+    {{ if gt $height .Height }}
+      {{ $height = .Height }}
+      {{ $width = div (mul $height $ratioW) $ratioH }}
+    {{ end }}
+
+    {{ $command = "fill" }}
+    {{ $options = printf "%dx%d Center" (int $width) (int $height) }}
+  {{ end }}
+{{ end }}
+
+{{ partial "utility/picture.html" (dict
+  "context" .page
+  "image" .image
+  "altText" (.alt | default "")
+  "command" $command
+  "options" $options
+  "sizes" .sizes
+  "otherClasses" "block"
+  "imgClasses" (print "w-full " (.class | default ""))
+) }}

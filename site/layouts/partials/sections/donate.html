@@ -1,0 +1,67 @@
+<!-- Donation section: intro, the donation form, other ways to give, and a closing note.
+       - type: donate
+         id: give                      # optional, so buttons elsewhere can link to "#give"
+         background: cool              # optional, defaults to cool
+         tagline / title / markdown    # optional, see partials/campaign/intro.html
+         bloomerang: https://secure.qgiv.com/for/thanksgivc/embed/96030/   # optional, the form's embed URL (the data-embed
+                                       # value in Bloomerang's embed code)
+         paypal: 7U2VHV5D85K6J         # optional, a PayPal hosted button ID. Shown as a button when there's no Bloomerang form
+         methods:                      # optional, other ways to give
+           - label: Venmo
+             value: "@northbrooklynangels"
+             href: https://venmo.com/northbrooklynangels   # optional, makes the value a link
+             copy: true                                    # optional, adds a Copy button
+         note: "Giving on behalf of a business?..."        # optional, markdown under everything else
+-->
+{{ $page := .page }}
+{{ $section := .section }}
+
+<section{{ with $section.id }} id="{{ . }}"{{ end }} class="{{ partial "campaign/background.html" ($section.background | default "cool") }} py-12 md:py-16">
+  <div class="campaign-container">
+    {{ partial "campaign/intro.html" . }}
+
+    {{ with $section.bloomerang }}
+      <!-- Bloomerang's embed code, built from the URL. Its forms are hosted by Qgiv, which Bloomerang owns -->
+      {{ $embedID := index (findRESubmatch `/embed/(\d+)` .) 0 1 | default "" }}
+      {{ if not $embedID }}
+        {{ errorf "Invalid Bloomerang embed URL %q on %s: expected something like https://secure.qgiv.com/for/<form>/embed/<number>/" . $page.RelPermalink }}
+      {{ end }}
+
+      <div class="qgiv-embed-container" data-qgiv-embed="true" data-embed-id="{{ $embedID }}" data-embed="{{ . }}" data-width="630"></div>
+      <!-- Bloomerang's loader, as provided. It skips loading if the page already has it -->
+      <script>(function(w, d, s, id){var js, fjs = d.getElementsByTagName(s)[0];if (d.getElementById(id)) return;js = d.createElement(s); js.id = id;js.src = "https://secure.qgiv.com/resources/core/js/embed.js";fjs.parentNode.insertBefore(js, fjs);})(window, document, 'script', 'qgiv-embedjs');</script>
+    {{ else }}
+      {{ with $section.paypal }}
+        {{ partial "campaign/buttons.html" (slice (dict "label" "Donate with PayPal" "href" (printf "https://www.paypal.com/donate?hosted_button_id=%s" .))) }}
+      {{ end }}
+    {{ end }}
+
+    {{ with $section.methods }}
+      <dl class="mt-10 grid gap-6 border-y border-campaign-heading/10 py-6 md:grid-cols-2 lg:grid-cols-[repeat(3,auto)] lg:justify-between">
+        {{ range . }}
+          <div>
+            <dt class="campaign-eyebrow text-campaign-accent mb-1">{{ .label }}</dt>
+            <dd class="flex flex-wrap items-center gap-x-3 gap-y-1 text-sm font-semibold text-campaign-heading [overflow-wrap:anywhere]">
+              {{ if .href }}
+                <a href="{{ .href }}" class="hover:underline">{{ .value }}</a>
+              {{ else }}
+                <span>{{ .value }}</span>
+              {{ end }}
+
+              {{ if .copy }}
+                <!-- Wired up in src/ts/index.ts -->
+                <button type="button" aria-live="polite" data-copy="{{ .value }}" class="rounded-full border border-campaign-link/40 px-2.5 py-0.5 text-xs font-medium text-campaign-link hover:bg-campaign-link/10">
+                  Copy<span class="sr-only"> {{ .label }}</span>
+                </button>
+              {{ end }}
+            </dd>
+          </div>
+        {{ end }}
+      </dl>
+    {{ end }}
+
+    {{ with $section.note }}
+      <div class="campaign-prose text-sm mt-6">{{ $page.RenderString (dict "display" "block") . }}</div>
+    {{ end }}
+  </div>
+</section>
