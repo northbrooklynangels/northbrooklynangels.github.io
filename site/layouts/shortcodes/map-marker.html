@@ -1,35 +1,20 @@
-<!-- The more I think about this, the stupider it becomes. God help whoever has to maintain this code (likely me). -->
-<!-- Bring everything into variables so we don't have to worry abouut them later -->
+{{- /* Declares a marker for the map on this page. Renders an inert <template> that src/ts/map.ts reads once the map has loaded. */ -}}
 {{- $lat := .Get "lat" | default "" -}}
 {{- $long := .Get "long" | default "" -}}
 {{- $address := .Get "address" | default "" -}}
-{{- $title := .Get "title" | markdownify | default "" -}}
+{{- $title := .Get "title" | default "" -}}
 
-<!-- Next, evaluate what we're searching for. Lat/long takes priority over address, since we need to geocode those -->
-{{ $latLongRegex := `^-?\d+(\.\d+)?$` }}
-{{ $location := "" }}
-{{ if and $lat $long }}
-    {{ if and (eq (len (findRE $latLongRegex $lat)) 0) (eq (len (findRE $latLongRegex $long)) 0) }}
-        {{ errorf (print "Invalid map marker command: Lat " $lat " and long " $long " are malformed") }}
-    {{ end }}
-{{ else if $address }}
-    {{ warnf "Please consider changing this address to a latitude/longitude pair instead, as addresses will need to be looked up in Google Maps (and count against usage quotas)." }}
-{{ end }}
+{{- $coordRegex := `^-?\d+(\.\d+)?$` -}}
+{{- if and $lat $long -}}
+    {{- if not (and (findRE $coordRegex $lat) (findRE $coordRegex $long)) -}}
+        {{- errorf "Invalid map marker %q: lat %q and long %q must be numbers" $title $lat $long -}}
+    {{- end -}}
+{{- else if $address -}}
+    {{- warnf "Map marker %q uses an address, which is geocoded in the browser through Google Maps (and counts against usage quotas). Consider using lat/long instead." $title -}}
+{{- else -}}
+    {{- errorf "Map marker %q needs either lat and long, or an address" $title -}}
+{{- end -}}
 
-<!-- Now for the stupid bit -->
-<!-- Pass these values into a JS script, then once the document is ready, fire off events in the document namespace so the map script can add them appropriately -->
-<script>
-    document.addEventListener("mapReady", () => {
-        let markerAddEvent = new CustomEvent("markerAdd", {
-            detail: {
-                lat: Number({{- $lat -}}),
-                long: Number({{- $long -}}),
-                address: {{- $address -}},
-                title: {{- $title | markdownify -}},
-                description: {{- .Inner | markdownify -}}
-            }
-        });
-
-        document.dispatchEvent(markerAddEvent);
-    });
-</script>
+<template class="map-marker" data-title="{{ $title }}" data-lat="{{ $lat }}" data-long="{{ $long }}" data-address="{{ $address }}">
+    {{- .Inner | markdownify -}}
+</template>

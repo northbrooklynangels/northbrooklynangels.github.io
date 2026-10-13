@@ -1,57 +1,109 @@
 ---
-title: Neighbors Giving Thanks 2025
-headerFontFamily: serif
-bodyFontFamily: serif
+title: Neighbors Giving Thanks 2026
+layout: campaign
+sections:
+  - type: hero
+    eyebrow: "7th annual · November 20 to 26, 2026"
+    text: "One week. Four North Brooklyn neighborhoods. 1,000 turkeys and 600 meals served restaurant-style, all made possible by neighbors."
+    buttons:
+      - label: "Give a turkey dinner: $50"
+        href: "#give"
+      - label: "Give $25"
+        href: "#give"
+        style: outline
+    footnote: "[Want to lend a hand? Join the volunteer waitlist](#volunteer)"
+    image: community-table
+    alt: "Neighbors sharing dinner at orange-covered tables in a church hall"
+    caption: "A Neighbors Giving Thanks Community Table"
+
+  - type: stats
+    items:
+      - value: "1,000"
+        label: "turkeys for families who cook at home"
+      - value: "600"
+        label: "meals served restaurant-style"
+      - value: "4"
+        label: "North Brooklyn neighborhoods"
+      - value: "100+"
+        label: "local volunteers"
+
+  - type: content
+
+  - type: timeline
+    background: warm
+    title: "The week at a glance"
+    items:
+      - date: "Friday, Nov 20"
+        title: "Turkey distribution"
+        text: "1,000 frozen turkeys, plus pantry staples, for families who can cook at home."
+        highlight: true
+      - date: "Tuesday, Nov 24"
+        title: "Bushwick"
+        text: "Community Table"
+      - date: "Wednesday, Nov 25"
+        title: "East Williamsburg"
+        text: "Community Table"
+      - date: "Thanksgiving, Nov 26"
+        title: "Williamsburg & Greenpoint"
+        text: "Community Tables"
+
+  - type: cards
+    title: "Two ways to celebrate, one goal: dignity for all"
+    markdown: |
+      Our neighbors' needs are different. Some have a kitchen and love to cook but can't stretch the budget for a turkey. Others don't have a place to cook, live alone, or simply want to spend the holiday in good company. So we offer both, because choice itself is a form of dignity.
+    items:
+      - eyebrow: "Friday, Nov 20"
+        title: "Take it home"
+        text: "A frozen turkey and pantry staples, so families can cook their own Thanksgiving their own way."
+        image: take-it-home
+        alt: "Neighbors holding the frozen turkeys they picked up"
+      - eyebrow: "Nov 24 to 26"
+        title: "Pull up a chair"
+        text: "All year, our meals are hot and to-go. At Thanksgiving, we open our doors, set the tables, and our volunteers serve neighbors restaurant-style. Prefer to celebrate at home? Freshly packed meals are available for pickup."
+        image: community-table
+        alt: "Volunteers serving neighbors at a Community Table"
+
+  - type: donate
+    id: give
+    tagline: "We hope you have a big appetite to help!"
+    title: "Every Angel counts"
+    markdown: "Every gift, at any amount, goes toward a neighbor's holiday."
+    bloomerang: https://secure.qgiv.com/for/thanksgivc/embed/96030/
+    methods:
+      - label: Venmo
+        value: "@northbrooklynangels"
+        href: https://venmo.com/northbrooklynangels
+        copy: true
+      - label: Zelle
+        value: fundraising@northbrooklynangels.org
+        copy: true
+      - label: Mail a check
+        value: "127 Kent Street, Brooklyn, NY 11222"
+    note: "Giving on behalf of a business, or thinking about a larger gift? We'd love to talk. Email [fundraising@northbrooklynangels.org](mailto:fundraising@northbrooklynangels.org)."
+
+  - type: split
+    id: volunteer
+    title: "Lend a hand"
+    markdown: |
+      Thanksgiving is our most popular volunteer week of the year, and we’re so grateful for that. To keep every site running smoothly, we pair returning volunteers who know our operations with new faces, and we confirm shifts once logistics and fundraising are set.
+      
+      Volunteer sign-ups for Neighbors Giving Thanks will open closer to the holiday. When they do, we’ll post them here on this page and share them in our bi-weekly newsletter. Sign up for the newsletter to be among the first to know. We work hard to make room for as many neighbors as we can.
+    buttons:
+      - label: "Get our bi-weekly newsletter"
+        href: https://bit.ly/subscribevolunteer
+        style: secondary
+
+  - type: band
+    title: "Neighbors helping neighbors, one table at a time."
+    buttons:
+      - label: "Donate"
+        href: "#give"
 ---
 
-{{< carousel images="carousel1,carousel2,carousel3,carousel4,carousel5" aspectRatio="16:9" >}}
+For the seventh year, North Brooklyn Angels is bringing neighbors together for Neighbors Giving Thanks: a week of turkeys, shared tables, and more than 100 local volunteers making sure everyone in Bushwick, East Williamsburg, Williamsburg, and Greenpoint can celebrate Thanksgiving with joy and dignity, whatever their means.
 
-Since 2020, North Brooklyn Angels has hosted **Neighbors Giving Thanks**, a volunteer-driven, multi-day event that brings together over 100 local volunteers to ensure our neighbors in Bushwick, Greenpoint, and Williamsburg experience a joyous and dignified Thanksgiving, regardless of means or circumstances.
+## Turkeys cost a lot more this year. Our commitment hasn't changed.
 
-{{% alert color="#FFCD00" %}}
-**The affordability crisis in New York City continues to impact our neighbors.** As grocery costs remain high and many families struggle to make ends meet, a dignified Thanksgiving shouldn't be a luxury. Whether it's a turkey to prepare at home or a warm, restaurant-style meal served with care, every neighbor deserves to gather and give thanks.
-{{% /alert %}}
+Grocery bills are still stretching our neighbors thin, and turkey prices have climbed steeply since last Thanksgiving. We're not scaling back. We're holding the line at 1,000 turkeys, because a family's holiday table shouldn't depend on the price of poultry. That promise only holds with your help.
 
-# We need your support to make this happen again in 2025! 
-
-With sustained high costs for food and turkeys, your donation will make a real difference in our community. Please consider giving and spreading the word to keep our "neighbors helping neighbors" motto alive.
-
-# What We're Planning for November 2025:
-
-* **1,000 frozen turkeys** distributed to local families who have the means to cook at home but need support affording a holiday meal
-* **Over 1,000 holiday meals** prepared and distributed at our regular community locations from Monday through Wednesday before Thanksgiving
-* **Almost 600 sit-down, restaurant-style Thanksgiving meals** served at four North Brooklyn locations, creating safe, welcoming spaces where neighbors can celebrate together—with pickup options available for those who prefer freshly packaged meals
-
-# Two Ways to Celebrate, One Goal: Dignity for All
-
-We recognize that our neighbors have different needs and circumstances. Some have kitchens and the ability to cook but can't afford a turkey. Others may not have cooking facilities, live alone, or simply want the experience of a communal celebration. That's why we offer both options—because choice itself is a form of dignity.
-
-{{% alert color="#8B4513" %}}
-**Your contribution helps provide a warm, welcoming holiday to those who need it most.**
-
-Donate online today via Paypal listed below, or by check addressed to 127 Kent Street, Brooklyn, NY 11222. 
-
-We also gladly accept donations via **Venmo** ([northbrooklynangels](https://venmo.com/northbrooklynangels)) and **Zelle** (fundraising@northbrooklynangels.org).
-
-{{< donate id="7U2VHV5D85K6J" >}}
-{{% /alert %}}
-
-# Corporate & Business Sponsorships
-
-For corporate or business sponsorship opportunities, please email us at [fundraising@northbrooklynangels.org](mailto:fundraising@northbrooklynangels.org)
-
-# Interested in Volunteering?
-
-We're grateful for the overwhelming community support we receive each year! Due to the popularity of our Thanksgiving volunteer opportunities and the need to balance experienced volunteers with new faces across our venue operations, **completing our volunteer interest form adds you to our waitlist.**
-
-This allows us to:
-
-* Finalize logistics and fundraising before confirming volunteer shifts
-* Ensure each location has a strong mix of returning volunteers who know our operations and enthusiastic newcomers
-* Contact you with specific opportunities that match your availability and our capacity
-
-**Complete our [volunteer interest form via Airtable](http://bit.ly/nbatgiving25)** to join the waitlist. We'll be in touch as we confirm details and available spots. Please note that submitting the form does not guarantee a volunteer placement, but we do our best to accommodate as many community members as possible.
-
-For updates on volunteer opportunities and other North Brooklyn Angels activities, sign up for our bi-weekly newsletter [via Mailerlite](https://bit.ly/subscribevolunteer).
-
-Together, we're not just feeding our neighbors - we're honoring them. Thank you for being part of our community.
+**That's why every gift counts this year, whether it's $25 or $250.**

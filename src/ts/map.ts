@@ -5,76 +5,68 @@ const loader = new Loader({
     version: "weekly"
 });
 
-let map: google.maps.Map;
-let geocode: (request: google.maps.GeocoderRequest) => Promise<google.maps.GeocoderResult[]>;
-const markers: google.maps.Marker[] = [];
-const infoWindows: google.maps.InfoWindow[] = [];
+// Markers are declared in the page as <template class="map-marker"> elements (see the map-marker shortcode)
+async function resolveLocation(template: HTMLTemplateElement): Promise<google.maps.LatLng> {
+    const { lat, long, address } = template.dataset;
 
-loader.load().then(async () => {
-    map = new google.maps.Map(document.getElementById("map") as HTMLElement, {
+    if (lat && long) {
+        return new google.maps.LatLng(Number(lat), Number(long));
+    }
+    if (address) {
+        const { results } = await new google.maps.Geocoder().geocode({ address });
+        return results[0].geometry.location;
+    }
+    throw new Error(`No location information supplied for marker "${template.dataset.title}"`);
+}
+
+function buildInfoContent(template: HTMLTemplateElement, position: google.maps.LatLng): HTMLElement {
+    const content = document.createElement("div");
+
+    const heading = document.createElement("h4");
+    heading.textContent = template.dataset.title ?? "";
+    content.append(heading);
+
+    if (template.content.textContent?.trim()) {
+        content.append(template.content.cloneNode(true));
+    } else {
+        const coords = document.createElement("p");
+        coords.textContent = `${position.lat()} ${position.lng()}`;
+        content.append(coords);
+    }
+
+    return content;
+}
+
+async function init(): Promise<void> {
+    await loader.load();
+
+    const map = new google.maps.Map(document.getElementById("map") as HTMLElement, {
         zoom: 13,
         center: new google.maps.LatLng(40.7224852, -73.9459952)
     });
-    
-    geocode = (request: google.maps.GeocoderRequest): Promise<google.maps.GeocoderResult[]> => {
-        return new Promise((resolve, reject) => {
-            const geocoder = new google.maps.Geocoder();
-    
-            geocoder.geocode(request, (results, status) => {
-                if (status === "OK") {
-                    resolve(results);
-                } else {
-                    reject(status);
-                }
-            })
-        })
-    };
 
-    // Dispatch that the map option is ready to go, so the marker scripts can send their information as needed
+    // One shared window, so opening a marker closes the previous one
+    const infoWindow = new google.maps.InfoWindow();
 
-    let mapReadyEvent = new CustomEvent("mapReady");
+    const templates = document.querySelectorAll<HTMLTemplateElement>("template.map-marker");
+    for (const template of templates) {
+        const position = await resolveLocation(template);
 
-    document.dispatchEvent(mapReadyEvent);
-});
-
-document.addEventListener("markerAdd", async (e: CustomEvent<{
-    lat: number, 
-    long: number, 
-    address: string,
-    title: string,
-    description: string
-}>) => {
-    // Check to see whether we need to do a geocode 
-    let location: google.maps.LatLng;
-    if (e.detail.address) {
-        location = (await geocode({address: e.detail.address}))[0].geometry.location;
-        console.log(e.detail.title, location.lat(), location.lng());
-    } else if (e.detail.lat && e.detail.long) {
-        location = new google.maps.LatLng({lat: e.detail.lat, lng: e.detail.long});
-    } else {
-        throw new Error("No location information supplied!");
-    }
-
-    const marker = new google.maps.Marker({
-        position: location,
-        map,
-        title: e.detail.title !== "" ? e.detail.title : undefined
-    });
-
-    let infoWindow: google.maps.InfoWindow;
-    if (e.detail.description !== "") {
-        infoWindow = new google.maps.InfoWindow({
-            content: `<h4>${e.detail.title}</h4><p>${e.detail.description}<p>`
+        const marker = new google.maps.Marker({
+            position,
+            map,
+            title: template.dataset.title || undefined
         });
-    } else {
-        infoWindow = new google.maps.InfoWindow({
-            content: `<h4>${e.detail.title}</h4><p>${e.detail.lat} ${e.detail.long}</p>`
+
+        marker.addListener("click", () => {
+            infoWindow.setContent(buildInfoContent(template, position));
+            infoWindow.open(map, marker);
         });
     }
-    marker.addListener("click", () => {
-        infoWindow.open(map, marker);
-    });
+}
 
-    markers.push();
-    infoWindows.push();
-});
+if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", init);
+} else {
+    init();
+}
