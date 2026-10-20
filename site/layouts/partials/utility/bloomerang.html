@@ -1,0 +1,13 @@
+{{- /* Bloomerang's embed code, built from the form's embed URL (the data-embed value in Bloomerang's embed code).
+     Its forms are hosted by Qgiv, which Bloomerang owns.
+       partial "utility/bloomerang.html" (dict "url" "https://secure.qgiv.com/for/<form>/embed/<number>/" "page" .Page)
+*/ -}}
+{{ $url := .url }}
+{{ $embedID := index (findRESubmatch `/embed/(\d+)` $url) 0 1 | default "" }}
+{{ if not $embedID }}
+  {{ errorf "Invalid Bloomerang embed URL %q on %s: expected something like https://secure.qgiv.com/for/<form>/embed/<number>/" $url .page.RelPermalink }}
+{{ end }}
+
+<div class="qgiv-embed-container" data-qgiv-embed="true" data-embed-id="{{ $embedID }}" data-embed="{{ $url }}" data-width="630"></div>
+<!-- Bloomerang's loader, as provided. It skips loading if the page already has it -->
+<script>(function(w, d, s, id){var js, fjs = d.getElementsByTagName(s)[0];if (d.getElementById(id)) return;js = d.createElement(s); js.id = id;js.src = "https://secure.qgiv.com/resources/core/js/embed.js";fjs.parentNode.insertBefore(js, fjs);})(window, document, 'script', 'qgiv-embedjs');</script>

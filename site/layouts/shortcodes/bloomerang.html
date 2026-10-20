@@ -1,0 +1,3 @@
+{{- /* Embeds a Bloomerang donation form: {{< bloomerang "https://secure.qgiv.com/for/<form>/embed/<number>/" >}} */ -}}
+{{- $url := cond .IsNamedParams (.Get "url") (.Get 0) | default "" -}}
+{{- partial "utility/bloomerang.html" (dict "url" $url "page" .Page) -}}

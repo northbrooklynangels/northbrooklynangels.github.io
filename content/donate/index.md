@@ -4,7 +4,6 @@ title: Donate
 
 {{< rich-carousel width="11/12" desktopWidth="9/12" aspectRatio="16:9" >}}
 {{% rich-carousel-slide image="hero1" %}}
-## [Click Here For Tickets](https://bit.ly/2026-chicken-finger-day)
 {{% /rich-carousel-slide %}}
 {{% rich-carousel-slide image="hero2" %}}
 
@@ -23,25 +22,42 @@ title: Donate
 {{% /rich-carousel-slide %}}
 {{< /rich-carousel >}}
 
-North Brooklyn Angels has shown up for our neighbors since 2017, through a pandemic, an affordability crisis, and everything in between. We started with a single mobile soup kitchen running three days a week. Today, steady donor support has helped us grow into something none of us fully imagined at the start: 2,000 free hot meals a week across fifteen distributions, a year-round baby gear program that has served 75+ North Brooklyn families since launching in 2025, and a brand new affordable housing navigation initiative helping longtime residents stay in the neighborhoods they built.
+North Brooklyn Angels has shown up for our neighbors since 2017, through a pandemic, an affordability crisis, and everything in between. What began as a single mobile soup kitchen running three days a week now serves 2,000 free hot meals a week, brings baby gear to families across North Brooklyn, and helps longtime residents stay in the neighborhoods they built. All of it runs on the support of neighbors like you.
 
-That growth doesn't happen without infrastructure: a fleet of vehicles that runs seven days a week, commercial kitchen facilities, food purchasing, insurance, supplies, and the small but dedicated paid team that coordinates it all. Some of our food comes from partners who share our mission. Our gear comes from neighbors giving back to neighbors. And our 950+ annual volunteers give their time, their energy, and their care to this community in ways that can't be quantified. But the operation that makes all of it move, reliably, every single day, rain or shine, runs on the support of donors like you.
+{{< bloomerang "https://secure.qgiv.com/for/northbrooklynangels/embed/94943/" >}}
 
 **North Brooklyn Angels (legal name: North Brooklyn Coalition of Neighbors Helping Neighbors, Inc.) is a 501(c)(3) nonprofit. EIN 81-4576973. All donations are tax-deductible to the extent allowed by law.**
 
-{{< donate >}}
-
 # What your gift supports
 
-Your donation supports all three of our programs:
+Choose a program on the form above, or let your gift go where it's needed most.
 
-* Mobile Soup Kitchen - 2,000 free hot meals every week, 15 distributions across 9 locations, seven days a week.
-* Little Angels - Essential baby and toddler gear, delivered to the doors of 75 North Brooklyn families and counting.
-* Live Local - Free, neighbor-to-neighbor help navigating NYC's affordable housing lottery, keeping Greenpoint and Williamsburg residents in the neighborhoods they built.
+* **Mobile Soup Kitchen**: 2,000 free hot meals every week, 15 distributions across 9 locations, seven days a week.
+* **Little Angels**: Essential baby and toddler gear, delivered to the doors of 75+ North Brooklyn families and counting.
+* **Live Local**: Free, neighbor-to-neighbor help navigating NYC's affordable housing lottery, keeping Greenpoint and Williamsburg residents in the neighborhoods they built.
 
-Every donation to North Brooklyn Angels supports all three.
+# Behind Every Meal
+
+Behind all of it is the work you don't see: a fleet of vehicles that runs seven days a week, commercial kitchen facilities, food purchasing, insurance, supplies, and the small but dedicated paid team that coordinates it all. Some of our food comes from partners who share our mission. Our gear comes from neighbors giving back to neighbors. And our 950+ annual volunteers give their time, their energy, and their care in ways that can't be quantified. But the operation that keeps it all moving, every single day, rain or shine, runs on the support of donors like you.
 
 # Other ways to give
+
+## Ask Your Employer to Match
+
+Many of our volunteers have doubled their gifts by checking with their employers. Companies that use giving platforms like Benevity or YourCause often match donations, and some also give when you volunteer. Search for North Brooklyn Angels on your company's giving portal, or ask your HR or benefits team.
+
+## Host a Fundraiser
+
+Neighbors and volunteers have raised money for us with a night at a neighborhood bar and a mimosa stand on marathon day. If you'd like to host your own, email [fundraising@northbrooklynangels.org](mailto:fundraising@northbrooklynangels.org) and we'll help you plan and promote it. For an online fundraiser, search for North Brooklyn Angels on GoFundMe using EIN `81-4576973` so your campaign links directly to our account.
+
+## Donor-Advised Fund
+
+You can recommend a grant to North Brooklyn Angels through your DAF. Please let us know at [fundraising@northbrooklynangels.org](mailto:fundraising@northbrooklynangels.org) so we can acknowledge your gift when it arrives.
+
+## Give in Honor or Memory
+
+Check "Dedicate this gift" on the form above to give in honor or memory of someone you love. If you'd like us to send a card, email the name and mailing address to [fundraising@northbrooklynangels.org](mailto:fundraising@northbrooklynangels.org).
+
 
 ## By mail
 
@@ -57,17 +73,9 @@ Mail a check payable to:
 ## Zelle
 Send to [fundraising@northbrooklynangels.org](mailto:fundraising@northbrooklynangels.org) and email us if you'd like a donation acknowledgment letter.
 
-## Workplace giving
-Many employers match charitable donations through programs like Benevity or YourCause. Check with your HR or benefits team, as you may be able to double your gift.
+## PayPal
 
-## Donor-Advised Fund
-You can recommend a grant to North Brooklyn Angels through your DAF. Please let us know at [fundraising@northbrooklynangels.org](mailto:fundraising@northbrooklynangels.org) so we can acknowledge your gift when it arrives.
-
-## Tribute gift
-Give in honor or memory of someone you love. Note the tribute details and a mailing address in your payment memo, or email [fundraising@northbrooklynangels.org](mailto:fundraising@northbrooklynangels.org) and we'll send a card.
-
-## Start a GoFundMe
-Interested in fundraising on our behalf? Search for North Brooklyn Angels using EIN 81-4576973 to link your campaign directly to our account. Email [fundraising@northbrooklynangels.org](mailto:fundraising@northbrooklynangels.org) and we'll help you promote it.
+Prefer PayPal? [You can still give through PayPal here](https://www.paypal.com/donate?hosted_button_id=EJGTLDMP9PCC2).
 
 ---
 

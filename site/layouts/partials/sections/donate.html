@@ -21,15 +21,7 @@
     {{ partial "campaign/intro.html" . }}
 
     {{ with $section.bloomerang }}
-      <!-- Bloomerang's embed code, built from the URL. Its forms are hosted by Qgiv, which Bloomerang owns -->
-      {{ $embedID := index (findRESubmatch `/embed/(\d+)` .) 0 1 | default "" }}
-      {{ if not $embedID }}
-        {{ errorf "Invalid Bloomerang embed URL %q on %s: expected something like https://secure.qgiv.com/for/<form>/embed/<number>/" . $page.RelPermalink }}
-      {{ end }}
-
-      <div class="qgiv-embed-container" data-qgiv-embed="true" data-embed-id="{{ $embedID }}" data-embed="{{ . }}" data-width="630"></div>
-      <!-- Bloomerang's loader, as provided. It skips loading if the page already has it -->
-      <script>(function(w, d, s, id){var js, fjs = d.getElementsByTagName(s)[0];if (d.getElementById(id)) return;js = d.createElement(s); js.id = id;js.src = "https://secure.qgiv.com/resources/core/js/embed.js";fjs.parentNode.insertBefore(js, fjs);})(window, document, 'script', 'qgiv-embedjs');</script>
+      {{ partial "utility/bloomerang.html" (dict "url" . "page" $page) }}
     {{ else }}
       {{ with $section.paypal }}
         {{ partial "campaign/buttons.html" (slice (dict "label" "Donate with PayPal" "href" (printf "https://www.paypal.com/donate?hosted_button_id=%s" .))) }}
