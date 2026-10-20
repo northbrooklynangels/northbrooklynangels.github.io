@@ -4,6 +4,7 @@ title: Donate
 
 {{< rich-carousel width="11/12" desktopWidth="9/12" aspectRatio="16:9" >}}
 {{% rich-carousel-slide image="hero1" %}}
+## [Give for Thanksgiving](/thanksgiving)
 {{% /rich-carousel-slide %}}
 {{% rich-carousel-slide image="hero2" %}}
 
@@ -24,22 +25,11 @@ title: Donate
 
 North Brooklyn Angels has shown up for our neighbors since 2017, through a pandemic, an affordability crisis, and everything in between. What began as a single mobile soup kitchen running three days a week now serves 2,000 free hot meals a week, brings baby gear to families across North Brooklyn, and helps longtime residents stay in the neighborhoods they built. All of it runs on the support of neighbors like you.
 
+{{< grid cols=1 lgCols=2 otherClasses="lg:grid-cols-2 gap-8" >}}
+{{% grid-column %}}
 {{< bloomerang "https://secure.qgiv.com/for/northbrooklynangels/embed/94943/" >}}
-
-**North Brooklyn Angels (legal name: North Brooklyn Coalition of Neighbors Helping Neighbors, Inc.) is a 501(c)(3) nonprofit. EIN 81-4576973. All donations are tax-deductible to the extent allowed by law.**
-
-# What your gift supports
-
-Choose a program on the form above, or let your gift go where it's needed most.
-
-* **Mobile Soup Kitchen**: 2,000 free hot meals every week, 15 distributions across 9 locations, seven days a week.
-* **Little Angels**: Essential baby and toddler gear, delivered to the doors of 75+ North Brooklyn families and counting.
-* **Live Local**: Free, neighbor-to-neighbor help navigating NYC's affordable housing lottery, keeping Greenpoint and Williamsburg residents in the neighborhoods they built.
-
-# Behind Every Meal
-
-Behind all of it is the work you don't see: a fleet of vehicles that runs seven days a week, commercial kitchen facilities, food purchasing, insurance, supplies, and the small but dedicated paid team that coordinates it all. Some of our food comes from partners who share our mission. Our gear comes from neighbors giving back to neighbors. And our 950+ annual volunteers give their time, their energy, and their care in ways that can't be quantified. But the operation that keeps it all moving, every single day, rain or shine, runs on the support of donors like you.
-
+{{% /grid-column %}}
+{{% grid-column %}}
 # Other ways to give
 
 ## Ask Your Employer to Match
@@ -56,7 +46,7 @@ You can recommend a grant to North Brooklyn Angels through your DAF. Please let 
 
 ## Give in Honor or Memory
 
-Check "Dedicate this gift" on the form above to give in honor or memory of someone you love. If you'd like us to send a card, email the name and mailing address to [fundraising@northbrooklynangels.org](mailto:fundraising@northbrooklynangels.org).
+Check "Dedicate this gift" on the form to give in honor or memory of someone you love. If you'd like us to send a card, email the name and mailing address to [fundraising@northbrooklynangels.org](mailto:fundraising@northbrooklynangels.org).
 
 
 ## By mail
@@ -76,6 +66,22 @@ Send to [fundraising@northbrooklynangels.org](mailto:fundraising@northbrooklynan
 ## PayPal
 
 Prefer PayPal? [You can still give through PayPal here](https://www.paypal.com/donate?hosted_button_id=EJGTLDMP9PCC2).
+{{% /grid-column %}}
+{{< /grid >}}
+
+**North Brooklyn Angels (legal name: North Brooklyn Coalition of Neighbors Helping Neighbors, Inc.) is a 501(c)(3) nonprofit. EIN 81-4576973. All donations are tax-deductible to the extent allowed by law.**
+
+# What your gift supports
+
+Choose a program on the form above, or let your gift go where it's needed most.
+
+* **Mobile Soup Kitchen**: 2,000 free hot meals every week, 15 distributions across 9 locations, seven days a week.
+* **Little Angels**: Essential baby and toddler gear, delivered to the doors of 75+ North Brooklyn families and counting.
+* **Live Local**: Free, neighbor-to-neighbor help navigating NYC's affordable housing lottery, keeping Greenpoint and Williamsburg residents in the neighborhoods they built.
+
+# Behind Every Meal
+
+Behind all of it is the work you don't see: a fleet of vehicles that runs seven days a week, commercial kitchen facilities, food purchasing, insurance, supplies, and the small but dedicated paid team that coordinates it all. Some of our food comes from partners who share our mission. Our gear comes from neighbors giving back to neighbors. And our 950+ annual volunteers give their time, their energy, and their care in ways that can't be quantified. But the operation that keeps it all moving, every single day, rain or shine, runs on the support of donors like you.
 
 ---
 
