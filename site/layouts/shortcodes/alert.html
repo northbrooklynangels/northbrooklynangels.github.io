@@ -5,5 +5,5 @@
 
 {{- /* Colors are applied inline; Tailwind can't generate classes from values built at Hugo build time. */ -}}
 <div class="alert flow-root mb-4 p-4 rounded-md border-solid border-2" style="border-color: {{ $color }}; background-color: color-mix(in srgb, {{ $color }} 25%, transparent);">
-    {{ .Inner | markdownify }}
+    {{ .Inner }}
 </div>

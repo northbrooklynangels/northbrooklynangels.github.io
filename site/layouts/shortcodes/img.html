@@ -1,8 +1,11 @@
-<!-- It's ridiculous that I can't reuse shortcodes in other shortcodes, so into a partial it goes -->
-<div class="mb-4">
-{{ if .IsNamedParams }}
-    {{ partial "utility/picture.html" (dict "context" . "image" (.Get "image") "altText" (.Get "altText") "command" (.Get "command") "options" (.Get "options") "float" (.Get "float") "caption" (.Get "caption") "otherClasses" (.Get "otherClasses")) }}
-{{ else }}
-    {{ partial "utility/picture.html" (dict "context" . "image" (.Get 0) "altText" (.Get 1) "command" (.Get 2) "options" (.Get 3) "float" (.Get 4) "caption" (.Get 5) "otherClasses" (.Get 6)) }}
-{{ end }}
-</div>
+{{- /* It's ridiculous that I can't reuse shortcodes in other shortcodes, so into a partial it goes */ -}}
+{{- $html := "" -}}
+{{- if .IsNamedParams -}}
+    {{- $html = partial "utility/picture.html" (dict "context" . "image" (.Get "image") "altText" (.Get "altText") "command" (.Get "command") "options" (.Get "options") "float" (.Get "float") "caption" (.Get "caption") "otherClasses" (.Get "otherClasses")) -}}
+{{- else -}}
+    {{- $html = partial "utility/picture.html" (dict "context" . "image" (.Get 0) "altText" (.Get 1) "command" (.Get 2) "options" (.Get 3) "float" (.Get 4) "caption" (.Get 5) "otherClasses" (.Get 6)) -}}
+{{- end -}}
+{{- /* Collapse to a single line: when used inside percent-delimited shortcodes (e.g. alert) the output is re-parsed as Markdown, where indentation and blank lines would turn this HTML into a code block. */ -}}
+{{- $html = $html | replaceRE `(?s)<!--.*?-->` "" | replaceRE `\s+` " " -}}
+{{- $html = trim $html " " -}}
+<div class="mb-4">{{ $html | safeHTML }}</div>

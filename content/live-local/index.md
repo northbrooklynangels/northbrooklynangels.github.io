@@ -3,12 +3,12 @@ title: Live Local
 toc: true
 ---
 
-{{< alert color="fa8128" >}}
+{{% alert color="fa8128" %}}
 **Kingsland Commons Housing Lottery is open!**
 
 The NYC Department of Housing Preservation and Development has opened the affordable housing lottery at a new complex at [89 Maspeth Avenue](https://www.google.com/maps/search/89+Maspeth+Avenue) in North Brooklyn! From now until **Wednesday, November 25th**, residents that live within Community Board 1 (Greenpoint and Williamsburg) are actively encouraged to apply. 20% of the available units are reserved for longtime neighborhood residents, and North Brooklyn Angels wants to help your chances.
 
-[If possible, please include the attached photo of the building at this point of the web page.]
+{{< img image="KingslandCommons" altText="Kingsland Commons" >}}
 
 To enter - [sign up for a NYC Housing Connect account here](https://housingconnect.nyc.gov/PublicWeb/), and [apply for the Kingsland Commons affordable housing lottery here](https://housingconnect.nyc.gov/PublicWeb/details/7718)!
 
@@ -26,8 +26,7 @@ St. Nick's Alliance
 
 Email [LiveLocal@northbrooklynangels.org](mailto:LiveLocal@northbrooklynangels.org) for additional assistance or questions!
 
-{{< /alert >}}
-
+{{% /alert %}}
 
 *Free help navigating NYC's affordable housing lottery - from your neighbors.*
 

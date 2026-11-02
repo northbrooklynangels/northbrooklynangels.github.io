@@ -7,7 +7,7 @@
       {{ end }}
     </title>
     
-    {{ $webpack := .Site.Data.webpack }}
+    {{ $webpack := hugo.Data.webpack }}
     <!-- If a page uses a carousel, which requires Swiper -->
     {{ if or (.HasShortcode "carousel") (.HasShortcode "rich-carousel") }}
       {{ with $webpack.swiper.css }}
