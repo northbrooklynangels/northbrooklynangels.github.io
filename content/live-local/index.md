@@ -3,6 +3,32 @@ title: Live Local
 toc: true
 ---
 
+{{< alert color="fa8128" >}}
+**Kingsland Commons Housing Lottery is open!**
+
+The NYC Department of Housing Preservation and Development has opened the affordable housing lottery at a new complex at [89 Maspeth Avenue](https://www.google.com/maps/search/89+Maspeth+Avenue) in North Brooklyn! From now until **Wednesday, November 25th**, residents that live within Community Board 1 (Greenpoint and Williamsburg) are actively encouraged to apply. 20% of the available units are reserved for longtime neighborhood residents, and North Brooklyn Angels wants to help your chances.
+
+[If possible, please include the attached photo of the building at this point of the web page.]
+
+To enter - [sign up for a NYC Housing Connect account here](https://housingconnect.nyc.gov/PublicWeb/), and [apply for the Kingsland Commons affordable housing lottery here](https://housingconnect.nyc.gov/PublicWeb/details/7718)!
+
+For in-person assistance to sign up, there are two community meetings you can attend:
+
+**Monday, November 9 at 6:30 PM**  
+St. Nick's Alliance  
+[120 Jackson Street](https://www.google.com/maps/search/120+Jackson+Street+Brooklyn,+NY+11211)  
+[Brooklyn, NY 11211](https://www.google.com/maps/search/120+Jackson+Street+Brooklyn,+NY+11211)
+
+**Monday, November 16 at 6:30 PM**  
+St. Nick's Alliance  
+[120 Jackson Street](https://www.google.com/maps/search/120+Jackson+Street+Brooklyn,+NY+11211)  
+[Brooklyn, NY 11211](https://www.google.com/maps/search/120+Jackson+Street+Brooklyn,+NY+11211)
+
+Email [LiveLocal@northbrooklynangels.org](mailto:LiveLocal@northbrooklynangels.org) for additional assistance or questions!
+
+{{< /alert >}}
+
+
 *Free help navigating NYC's affordable housing lottery - from your neighbors.*
 
 North Brooklyn Angels was founded as a community-driven response to the pressures gentrification has placed on our neighbors - and those pressures haven't let up. The same forces are still at work, touching our volunteers, the people who live on these blocks, the ones who have called this neighborhood home for years. Live Local is how we're showing up for them: neighbor-to-neighbor support for one of the most consequential and unnecessarily complicated things a New Yorker can navigate.
