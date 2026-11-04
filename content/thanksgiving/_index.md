@@ -11,7 +11,7 @@ sections:
       - label: "Give $25"
         href: "#give"
         style: outline
-    footnote: "[Want to lend a hand? Join the volunteer waitlist](#volunteer)"
+    footnote: "[Want to lend a hand? Join the volunteer waitlist](https://airtable.com/appZfMIQKzDk3o1G6/pagyWRuPocHHsZm88/form)"
     image: community-table
     alt: "Neighbors sharing dinner at orange-covered tables in a church hall"
     caption: "A Neighbors Giving Thanks Community Table"
@@ -87,8 +87,10 @@ sections:
     markdown: |
       Thanksgiving is our most popular volunteer week of the year, and we’re so grateful for that. To keep every site running smoothly, we pair returning volunteers who know our operations with new faces, and we confirm shifts once logistics and fundraising are set.
       
-      Volunteer sign-ups for Neighbors Giving Thanks will open closer to the holiday. When they do, we’ll post them here on this page and share them in our bi-weekly newsletter. Sign up for the newsletter to be among the first to know. We work hard to make room for as many neighbors as we can.
+      Volunteer sign-ups are now open! We work hard to make room for as many neighbors as we can.
     buttons:
+      - label: "Sign up to volunteer"
+        href: https://airtable.com/appZfMIQKzDk3o1G6/pagyWRuPocHHsZm88/form
       - label: "Get our bi-weekly newsletter"
         href: https://bit.ly/subscribevolunteer
         style: secondary
