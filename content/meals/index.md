@@ -5,13 +5,11 @@ toc: true
 
 {{< carousel images="1,2,3,4,5" aspectRatio="16:9" >}}
 
-
 Since 2017, our Mobile Soup Kitchen program — the Angelmobile — has brought freshly cooked meals to neighbors across Greenpoint, Williamsburg, East Williamsburg, and Bushwick, serving more than 750,000 meals through fifteen distributions across nine locations, seven days a week. Every meal is free, and no one is ever asked for ID, proof of income, or a reason why they're there.
 
 Food insecurity in North Brooklyn isn't only experienced by people in crisis. It's the older adult on a fixed income, the day laborer waiting for work outside our truck, the student, the working family outpaced by rents that have doubled in a decade. Our volunteers show up for all of them, without question and without judgment — because that's what neighbors do.
 
 For many of our older adult neighbors, the truck is a social anchor and a place to see familiar faces and catch up with the block. This connection is a core part of our mission and something we actively wish to foster.
-
 
 # Before you come
 
@@ -19,34 +17,33 @@ All of our distributions take place outdoors, in public spaces - on the street, 
 
 # Meals
 
+Every week, North Brooklyn Angels serves free hot meals to go at 16 distributions across Greenpoint, Williamsburg, and Bushwick, including three breakfasts.
+
+* All weekdays (Monday to Friday)
+  * **11:45 AM** at [1 Havemeyer Street](https://www.google.com/maps/place/1+Havemeyer+St,+Brooklyn,+NY+11211/@40.7161208,-73.9529152,17z/): A meal is served right outside our Community Kitchen.
+
 * Monday In Greenpoint and Williamsburg
-  1. **12:15 PM** at 862 Manhattan Avenue: The truck is parked in front of the steps of the St. Anthony of Padua - St. Alphonsus church at the intersection of Manhattan Avenue and Milton Street.
-  2. **12:30 PM** at 195 Maujer Street: The van is parked in front of St. John the Evangelist Lutheran Church, across the street from the Williamsburg Houses.
-  3. **11:45 AM** at 1 Havemeyer Street: A meal is served right outside our Community Kitchen.
+  1. **12:15 PM** at [862 Manhattan Avenue](https://www.google.com/maps/place/862+Manhattan+Ave,+Brooklyn,+NY+11222/@40.7293905,-73.9536244,17z/): The truck is parked in front of the steps of the St. Anthony of Padua - St. Alphonsus church at the intersection of Manhattan Avenue and Milton Street.
+  2. **12:30 PM** at [195 Maujer Street](https://www.google.com/maps/place/195+Maujer+St,+Brooklyn,+NY+11206/@40.711237,-73.9427317,17z/): The van is parked in front of St. John the Evangelist Lutheran Church, across the street from the Williamsburg Houses.
 
-* Tuesday on the Southside and in Bushwick
-  1. **12:30 PM** at 240 Division Avenue: The van is parked across the street from the Williamsburgh Library on the Division Avenue Overpass, between Marcy Avenue & Rodney Street.
-  2. **12:00 PM** at 176 St. Nicholas Ave: The truck is parked outside our partners at Iglesia de la Santa Cruz + Bushwick Abbey.
-  3. **11:45 AM** at 1 Havemeyer Street: A meal is served right outside our Community Kitchen.
+* Tuesday in Greenpoint, on the Southside, and in Bushwick
+  1. **8:30 AM Breakfast** at [862 Manhattan Avenue](https://www.google.com/maps/place/862+Manhattan+Ave,+Brooklyn,+NY+11222/@40.7293905,-73.9536244,17z/): Hot egg and cream cheese sandwiches and coffee are served in front of St. Anthony of Padua - St. Alphonsus church at the intersection of Manhattan Avenue and Milton Street.
+  2. **12:00 PM** at [176 St. Nicholas Avenue](https://www.google.com/maps/place/176+St+Nicholas+Ave,+Brooklyn,+NY+11237/@40.7041055,-73.9189272,17z/): The truck is parked outside our partners at Iglesia de la Santa Cruz + Bushwick Abbey.
+  3. **12:30 PM** at [240 Division Avenue](https://www.google.com/maps/place/240+Division+Ave,+Brooklyn,+NY+11211/@40.7069193,-73.9575676,17z/): The van is parked across the street from the Williamsburgh Library on the Division Avenue Overpass, between Marcy Avenue & Rodney Street.
 
-* Wednesday in East Williamsburg and Bushwick
-  1. **12:30 PM** at 195 Maujer Street: The truck is parked in front of St. John the Evangelist Lutheran Church, across the street from the Williamsburg Houses.
-  2. **11:45 AM** at 1 Havemeyer Street: A meal is served right outside our Community Kitchen.
+* Wednesday in Williamsburg, East Williamsburg and Bushwick
+  1. **9:45 AM** at [484 Union Avenue](https://www.google.com/maps/place/484+Union+Ave,+Brooklyn,+NY+11211/@40.7149712,-73.9514538,17z/): Hot egg and cream cheese sandwiches and coffee are served right outside Union Pool, hosted by our partners at Union Pool Food Pantry.
+  2. **12:30 PM** at [195 Maujer Street](https://www.google.com/maps/place/195+Maujer+St,+Brooklyn,+NY+11206/@40.711237,-73.9427317,17z/): The truck is parked in front of St. John the Evangelist Lutheran Church, across the street from the Williamsburg Houses.
 
 * Thursday in East Williamsburg and Greenpoint
-  1. **12:30 PM** at Cooper Park Houses Residence Council: The van is parked in front of the playground at the intersection of Jackson Street and Debevoise Avenue.
-  2. **12:30 PM** at 862 Manhattan Avenue: The truck is parked in front of the steps of the St. Anthony of Padua - St. Alphonsus church at the intersection of Manhattan Avenue and Milton Street.
-  3. **11:45 AM** at 1 Havemeyer Street: A meal is served right outside our Community Kitchen.
+  1. **12:30 PM** at [Cooper Park Houses Residence Council](https://www.google.com/maps/place/45-29+Debevoise+Ave,+Brooklyn,+NY+11211/@40.7174372,-73.9394463,18z/): The van is parked in front of the playground at the intersection of Jackson Street and Debevoise Avenue.
+  2. **12:30 PM** at [862 Manhattan Avenue](https://www.google.com/maps/place/862+Manhattan+Ave,+Brooklyn,+NY+11222/@40.7293905,-73.9536244,17z/): The truck is parked in front of the steps of the St. Anthony of Padua - St. Alphonsus church at the intersection of Manhattan Avenue and Milton Street.
 
 * Friday in Bushwick and the Northside
-  1. **12:30 PM** at 138 Montrose Ave: The truck is parked in front of Most Holy Trinity Church.
-  2. **11:45 AM** at 1 Havemeyer Street: A meal is served right outside our Community Kitchen.
-
-* Saturday's Community Meal in Greenpoint
-  1. **11:00 AM** at 155 Milton Street: A meal is served by our partners at Greenpoint Community Kitchen.
+  * **12:30 PM** at [138 Montrose Avenue](https://www.google.com/maps/place/138+Montrose+Ave,+Brooklyn,+NY+11206/@40.7068878,-73.9435191,17.29z/): The truck is parked in front of Most Holy Trinity Church.
 
 * Sunday's Breakfast Sandwiches in Greenpoint
-  1. **10:00 AM** at 81 Franklin Street: The truck is parked on the corner of Franklin & Noble Streets. Breakfast bagels are served with coffee. 
+  * **10:00 AM** at [81 Franklin Street](https://www.google.com/maps/place/95-81+Franklin+St,+Brooklyn,+NY+11222/@40.7288266,-73.9580678,19z/): The truck is parked on the corner of Franklin & Noble Streets. Breakfast bagels are served with coffee. 
 
 In addition to the meals listed above, we also deliver meals to seniors at home on Mondays, Wednesdays, and Fridays. 
 
@@ -57,6 +54,7 @@ Parked right in front of the church.
 
 #### Schedule
 * **Mondays** at **12:15 PM**
+* **Tuesdays** at **8:30 AM**
 * **Thursdays** at **12:30 PM**
 {{< /map-marker >}}
 
@@ -86,7 +84,7 @@ A meal is served right outside our Community Kitchen.
 * **Fridays** at **11:45 AM**
 {{< /map-marker >}}
 
-{{< map-marker lat="40.717852" long="-73.938431" title="Cooper Park Houses Residence Council">}}
+{{< map-marker lat="40.7174372" long="-73.9394463" title="Cooper Park Houses Residence Council">}}
 The truck is parked in front of the playground at the intersection of Jackson Street and Debevoise Avenue.
 
 #### Schedule
@@ -107,18 +105,18 @@ Meals will be served at Iglesia de la Santa Cruz + Bushwick Abbey.
 * **Tuesday** at **12:00 PM**
 {{< /map-marker >}}
 
-{{< map-marker lat="40.7295506" long="-73.9552642" title="155 Milton Street">}}
-A meal is served by our partners at Greenpoint Community Kitchen.
-
-#### Schedule
-* **Saturday** at **11:00 AM**
-{{< /map-marker >}}
-
 {{< map-marker lat="40.7285000" long="-73.9576667" title="81 Franklin Street">}}
 The truck is parked on the corner of Franklin and Noble Streets.
 
 #### Schedule
 * **Sunday** at **10:00 AM**
+{{< /map-marker >}}
+
+{{< map-marker lat="40.7149712" long="-73.9514538" title="484 Union Avenue">}}
+The truck is parked right outside Union Pool.
+
+#### Schedule
+* **Wednesday** at **9:15 AM**
 {{< /map-marker >}}
 
 ---
